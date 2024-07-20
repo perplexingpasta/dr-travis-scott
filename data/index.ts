@@ -302,14 +302,36 @@ export const cosmeticServices = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/images/git.svg",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/images/twit.svg",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/images/link.svg",
+  },
+];
+export const emblaImages = [
+  {
+    id: 1,
+    img: "/hero-carousel-images/img1.jpg",
+  },
+  {
+    id: 2,
+    img: "/hero-carousel-images/img2.jpg",
+  },
+  {
+    id: 3,
+    img: "/hero-carousel-images/img3.jpg",
+  },
+  {
+    id: 4,
+    img: "/hero-carousel-images/img4.jpg",
+  },
+  {
+    id: 5,
+    img: "/hero-carousel-images/img5.jpg",
   },
 ];

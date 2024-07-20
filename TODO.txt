@@ -1,4 +1,6 @@
-top contact above navbar
-embla carousel for hero
+top contact above navbar ✅
+embla carousel for hero ✅
+
+dark gradient over embla for better visibility
 
 aceternity layout for gallery
