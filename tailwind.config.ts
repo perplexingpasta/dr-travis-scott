@@ -8,6 +8,41 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        lexend: ["Lexend", "Helvetica", "Arial", "sans-serif"],
+        lexendDeca: ["LexendDeca", "Helvetica", "Arial", "sans-serif"],
+      },
+      fontWeight: {
+        thin: "100",
+        extralight: "200",
+        light: "300",
+        normal: "400",
+        medium: "500",
+        semibold: "600",
+        bold: "700",
+        extrabold: "800",
+        black: "900",
+      },
+      colors: {
+        black: {
+          DEFAULT: "#000",
+          100: "#000319",
+          200: "rgba(17, 25, 40, 0.75)",
+          300: "rgba(255, 255, 255, 0.125)",
+        },
+        blue: {
+          "100": "#E4ECFF",
+        },
+        "coral-red": "#FF6452",
+        "slate-gray": "#6D6D6D",
+        "pale-blue": "#F5F6FF",
+        "white-400": "rgba(255, 255, 255, 0.80)",
+      },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -15,6 +50,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["light"],
+  },
 };
 export default config;
