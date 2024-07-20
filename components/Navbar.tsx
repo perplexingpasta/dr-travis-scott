@@ -4,7 +4,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <nav>
-      <div className="navbar w-full bg-base-100">
+      <div className="navbar w-full mt-8 bg-base-100">
         <div className="flex-1">
           <Link href="/" className="btn btn-ghost text-xl">
             Dr. Travis Scott
