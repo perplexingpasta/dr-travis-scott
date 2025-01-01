@@ -1,4 +1,4 @@
-// "use client";
+"use client";
 import React from "react";
 // import NavbarNextUI from "@/components/Navbar2";
 import dynamic from "next/dynamic";

@@ -19,10 +19,10 @@ const EmblaCarousel = () => {
         <div className="embla__slide">
           <Image
             width={1920}
-            height={720}
+            height={1080}
             src={src}
             alt=""
-            className="max-h-[50rem] w-full bg-black-100 object-cover"
+            className="max-h-[50rem] w-4/5 mx-auto mb-24 bg-black-100 object-cover"
           />
         </div>
       </>
