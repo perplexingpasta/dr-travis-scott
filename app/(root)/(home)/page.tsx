@@ -13,7 +13,7 @@ const page = () => {
     <>
       {/* <Header /> */}
       <div className="relative mx-auto flex flex-col items-center justify-center overflow-clip bg-white">
-        <nav className="w-full max-w-7xl px-5 sm:px-10">{/* <Navbar /> */}</nav>
+        {/* <nav className="w-full max-w-7xl px-5 sm:px-10"><Navbar /></nav> */}
         {/* <Hero /> */}
         <About />
         {/* <BeforeAfter /> */}

@@ -1,10 +1,10 @@
 export const navItems = [
   { name: "Home", link: "/" },
-  { name: "Profile", link: "/about-us" },
-  { name: "Services", link: "/#services" },
-  { name: "Why Us", link: "/#testimonials" },
-  { name: "Pricing", link: "/pricing" },
-  { name: "Contact", link: "/contact-us" },
+  { name: "Services", link: "/services" },
+  { name: "Why Us", link: "/why-us" },
+  { name: "About", link: "/about" },
+  { name: "Visit", link: "/visit" },
+  // { name: "Pricing", link: "/pricing" },
 ];
 
 export const footerItemsCol3 = [

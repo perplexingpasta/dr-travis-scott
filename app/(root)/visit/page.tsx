@@ -5,16 +5,16 @@ import React from "react";
 
 export const metadata: Metadata = {
   title: "Visit Us - Dr. Travis Scott",
-  description: "MD Dermatologist based in Chicago, IL.",
+  description: "MD Dermatologist based in Chicago, IL",
 };
 
 const page = () => {
   return (
     <>
-      <header id="contact" className="pt-7 md:pt-20">
+      <header id="visit" className="mt-32 md:mt-44">
         <h1 className="heading relative block">Visit Us</h1>
-        <h2 className="relative mb-7 items-center justify-center py-4 text-center text-lg font-light text-black-100 md:mb-16">
-          Feel free to reach out!
+        <h2 className="relative mx-auto mb-7 max-w-[70%] items-center justify-center py-2 text-center font-light text-black-100 md:mb-16 md:max-w-full md:py-4 md:text-lg">
+          Feel free to reach out! lorem20
         </h2>
       </header>
 

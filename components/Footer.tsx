@@ -36,7 +36,7 @@ const Footer = () => {
               Dr. Travis Scott
             </h1>
             <p className="text-white-200 mt-1 text-sm md:mt-3">
-              MD Dermatologist based in Chicago, IL.
+              MD Dermatologist based in Chicago, IL
             </p>
 
             <div className="pb-12 pt-5 md:pt-12">

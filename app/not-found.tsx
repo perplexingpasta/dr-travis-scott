@@ -1,7 +1,7 @@
 import React from "react";
 import { HomeIcon, ArrowRightIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
-import Navbar from "@/components/Navbar";
+// import Navbar from "@/components/Navbar";
 
 const PageNotFound = () => {
   return (
@@ -32,7 +32,7 @@ const PageNotFound = () => {
               <HomeIcon className="-ml-5 mr-4 mt-4 md:mr-7 lg:mr-7" />
             </div>
             <div className="btns btn mt-6 rounded-full bg-slate-200 text-black-100 transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-300 hover:text-white md:my-6">
-              <Link href="/contact-us">report issue</Link>
+              <Link href="/visit">report issue</Link>
               <ArrowRightIcon className="-ml-7 mr-4 mt-4 md:mr-6 lg:mr-7" />
             </div>
           </div>

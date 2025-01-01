@@ -19,9 +19,11 @@
     "embla-carousel-autoplay": "^8.1.7",
     "embla-carousel-react": "^8.1.7",
     "framer-motion": "^11.3.28",
+    "hamburger-react": "^2.5.2",
     "next": "^14.2.22",
     "react": "^18",
     "react-dom": "^18",
+    "react-use": "^17.6.0",
     "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
