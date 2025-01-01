@@ -11,6 +11,7 @@ const config: Config = {
       fontFamily: {
         lexend: ["Lexend", "Helvetica", "Arial", "sans-serif"],
         lexendDeca: ["LexendDeca", "Helvetica", "Arial", "sans-serif"],
+        halyard: ["Halyard-Text", "Helvetica", "Arial", "sans-serif"],
       },
       fontWeight: {
         thin: "100",
