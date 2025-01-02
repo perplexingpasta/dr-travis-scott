@@ -91,7 +91,7 @@ const Footer = () => {
                           key={dir.label}
                           className="mb-2 cursor-pointer text-sm leading-normal text-red-300 transition-all hover:text-red-400 md:text-base"
                         >
-                          <a href={dir.href}>{dir.label}</a>
+                          <Link href={dir.href}>{dir.label}</Link>
                         </div>
                       ))}
                     </li>
@@ -111,7 +111,7 @@ const Footer = () => {
                       className="mt-1 cursor-pointer text-sm leading-normal text-slate-200 transition-all hover:scale-110 hover:text-red-300 md:mt-3 md:text-base"
                       key={item.label}
                     >
-                      <a href={item.href}>{item.label}</a>
+                      <Link href={item.href}>{item.label}</Link>
                     </li>
                   ))}
                 </ul>

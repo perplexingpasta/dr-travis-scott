@@ -1,7 +1,18 @@
 top contact above navbar ✅
 embla carousel for hero ✅
 
+why us page ✅
+replace call us button with get directions button in visit ✅
+
+add google maps of all the hospitals in visit page
+home page
+404 fix
+perspective cards from aceternity
+go through aceternity
+low res img
 gsap
+performance optimization
+travis violet & michelle red-300
 
 dark gradient over embla for better visibility
 aceternity layout for gallery

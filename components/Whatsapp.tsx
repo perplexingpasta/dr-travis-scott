@@ -1,7 +1,9 @@
+import Link from "next/link";
+
 const Whatsapp = () => {
   return (
     <div>
-      <a
+      <Link
         href="https://wa.me/916362840780"
         className="whatsapp_float"
         target="_blank"
@@ -12,7 +14,7 @@ const Whatsapp = () => {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           transform="rotate(0)"
-          className="w-4/6 mx-auto md:pt-[0.65rem] pt-[0.4rem] pl-[0.1rem] md:pl-[0.2rem]"
+          className="mx-auto w-4/6 pl-[0.1rem] pt-[0.4rem] md:pl-[0.2rem] md:pt-[0.65rem]"
         >
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
           <g
@@ -32,7 +34,7 @@ const Whatsapp = () => {
             ></path>{" "}
           </g>
         </svg>
-      </a>
+      </Link>
     </div>
   );
 };

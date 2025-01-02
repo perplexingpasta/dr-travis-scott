@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -14,7 +15,7 @@ const page = () => {
       <header id="visit" className="mt-32 md:mt-44">
         <h1 className="heading relative block">Visit Us</h1>
         <h2 className="relative mx-auto mb-7 max-w-[70%] items-center justify-center py-2 text-center font-light text-black-100 md:mb-16 md:max-w-full md:py-4 md:text-lg">
-          Feel free to reach out! lorem20
+          Feel free to reach out!
         </h2>
       </header>
 
@@ -35,9 +36,10 @@ const page = () => {
         <section className="max-w-[90vw] self-center lg:w-1/2 lg:max-w-[100vw]">
           {/* LOCATION */}
           <section className="relative mb-5 flex items-start text-2xl md:mb-9 md:tracking-wide">
-            <img
+            <Image
               src="/images/location-black.svg"
               width={40}
+              height={40}
               alt=""
               className="inline-block w-8 md:w-[40px]"
             />
@@ -47,8 +49,9 @@ const page = () => {
             >
               <div className="ml-4 text-lg hover:text-red-400 md:space-y-1 md:text-2xl">
                 {/* <p> */}
-                36 Old No 9, 5th Avenue, <br /> 11th Main Rd, 4th T Block East,{" "}
-                <br /> Lincoln, Chicago <br /> Illinois <br />
+                <strong>Dr. Agarwal&apos;s Skincare</strong>, <br /> 36 Old No
+                9, 5th Avenue, <br /> 11th Main Rd, 4th T Block East, <br />{" "}
+                Chicago, Illinois <br />
                 {/* </p> */}
               </div>
             </Link>
@@ -56,9 +59,10 @@ const page = () => {
 
           {/* CALL */}
           <section className="relative mb-5 flex items-start text-2xl tracking-wide md:mb-9">
-            <img
+            <Image
               src="/images/call-black.svg"
               width={35}
+              height={35}
               alt=""
               className="inline-block w-8 md:w-[35px]"
             />
@@ -82,9 +86,10 @@ const page = () => {
 
           {/* WHATSAPP */}
           <section className="relative mb-5 flex items-start text-2xl tracking-wide md:mb-9">
-            <img
+            <Image
               src="/images/whatsapp-black.svg"
               width={35}
+              height={35}
               alt=""
               className="inline-block w-8 md:w-[35px]"
             />
@@ -101,9 +106,10 @@ const page = () => {
 
           {/* EMAIL */}
           <section className="relative mb-5 flex items-start text-2xl tracking-wide md:mb-9">
-            <img
+            <Image
               src="/images/email-black.svg"
               width={35}
+              height={35}
               alt=""
               className="inline-block w-8 md:w-[35px]"
             />
@@ -116,9 +122,10 @@ const page = () => {
 
           {/* CLINIC HOURS */}
           <section className="relative flex items-start text-2xl tracking-wide">
-            <img
+            <Image
               src="/images/time.svg"
               width={35}
+              height={35}
               alt=""
               className="inline-block w-8 md:w-[35px]"
             />
@@ -134,9 +141,10 @@ const page = () => {
 
           {/* WEBSITE */}
           {/* <section className="relative mb-5 md:mb-9 text-2xl tracking-wide flex items-start">
-            <img
+            <Image
               src="/images/globe-black.svg"
               width={32}
+              height={32}
               alt=""
               className="inline-block  w-7 md:w-[32px]"
             />
@@ -149,9 +157,10 @@ const page = () => {
 
           {/* GSTIN */}
           {/* <section className="relative mb-5 md:mb-9 text-2xl tracking-wide flex items-start">
-            <img
+            <Image
               src="/images/document-black.svg"
               width={35}
+              height={35}
               alt=""
               className="inline-block  w-7 md:w-[35px]"
             />
@@ -163,10 +172,12 @@ const page = () => {
           <div>
             <Link
               className="btn mt-10 bg-red-300"
-              href="tel:555-779-4407"
+              // href="tel:555-779-4407"
+              href="https://maps.google.com/maps/dir//Terun+Pizza+448+California+Ave+Palo+Alto,+CA+94306+United+States/@37.4259205,-122.1454743,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x808fbae5f33774b5:0x6dd7ef2d054587e3"
+              target="_blank"
               rel="noopener"
             >
-              Call Us
+              Get Directions
             </Link>
           </div>
         </section>

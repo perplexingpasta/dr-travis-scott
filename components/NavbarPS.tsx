@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { NavbarMobile } from "./NavbarMobile";
+import Link from "next/link";
 
 const NavbarPS = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,7 +26,7 @@ const NavbarPS = () => {
       </div>
 
       {/* Container */}
-      <div className="relative hidden z-10 mx-auto md:flex items-center justify-between bg-white px-4 md:px-24 py-5">
+      <div className="relative z-10 mx-auto hidden items-center justify-between bg-white px-4 py-5 md:flex md:px-24">
         <div>
           <h1 className="text-lg font-bold md:text-2xl">Dr. Travis Scott</h1>
           <p className="text-sm md:text-base">MBBS, DDV</p>
@@ -38,38 +39,37 @@ const NavbarPS = () => {
         >
           <ul className="flex space-x-6 font-medium">
             <li>
-              <a href="/" className="text-lg">
+              <Link href="/" className="text-lg">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/services" className="text-lg">
+              <Link href="/services" className="text-lg">
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/why-us" className="text-lg">
+              <Link href="/why-us" className="text-lg">
                 Why Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about" className="text-lg">
+              <Link href="/about" className="text-lg">
                 About
-              </a>
+              </Link>
             </li>
-            {/* <li><a href="/why-us" className="text-lg">Why Us</a></li> */}
             <li>
-              <a href="/visit" className="text-lg">
+              <Link href="/visit" className="text-lg">
                 Visit
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="tel:01274222811"
                 className="rounded-xl bg-red-300 p-3 text-lg hover:bg-red-400 hover:text-white"
               >
                 Call Now
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
