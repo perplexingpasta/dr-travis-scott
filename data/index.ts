@@ -204,3 +204,114 @@ export const emblaImages = [
     img: "/hero-carousel-images/img5.jpg",
   },
 ];
+
+export const servicesAAT = [
+  {
+    imgSrc: "/images/botox.webp",
+    imgAlt: "Botox and Fillers",
+    title: "Botox and Fillers",
+    description: "Wrinkle reduction, volume restoration, facial contouring.",
+  },
+  {
+    imgSrc: "/images/chemical-peels.jpg",
+    imgAlt: "Chemical Peels",
+    title: "Chemical Peels",
+    description: "Skin rejuvenation, acne scar treatment, pigmentation correction.",
+  },
+  {
+    imgSrc: "/images/laser.jpeg",
+    imgAlt: "Laser Treatments",
+    title: "Laser Treatments",
+    description: "Treating skin pigmentation, fine lines, scars, and hair removal.",
+  },
+  {
+    imgSrc: "/images/prp-therapy.jpg",
+    imgAlt: "PRP Therapy",
+    title: "PRP Therapy",
+    description: "Skin rejuvenation, hair growth stimulation.",
+  },
+  {
+    imgSrc: "/images/microdermabrasion.jpg",
+    imgAlt: "Microdermabrasion",
+    title: "Microdermabrasion",
+    description: "Skin exfoliation, texture improvement.",
+  },
+  {
+    imgSrc: "/images/microneedling.jpg",
+    imgAlt: "Micro-needling",
+    title: "Micro-needling",
+    description: "Collagen induction, scar treatment, and skin rejuvenation.",
+  },
+]; 
+
+export const servicesHRT = [
+  {
+    imgSrc: "/images/hair2.jpg",
+    imgAlt: "Hair Transplantation",
+    title: "Hair Transplantation",
+    description: "Treating baldness and hair thinning.",
+  },
+  {
+    imgSrc: "/images/prp-therapy.jpg",
+    imgAlt: "PRP Therapy",
+    title: "PRP Therapy",
+    description: "Stimulating hair growth in thinning or bald areas.",
+  }
+]; 
+
+export const servicesSLR = [
+  {
+    imgSrc: "/images/tattoo.jpg",
+    imgAlt: "Tattoos Removal",
+    title: "Tattoos Removal",
+    description: "Removal of unwanted tattoos.",
+  },
+  {
+    imgSrc: "/images/cryotherapy.jpg",
+    imgAlt: "Cryotherapy",
+    title: "Cryotherapy",
+    description: "Removal of warts and precancerous lesions.",
+  },
+  {
+    imgSrc: "/images/sclerotherapy.jpg",
+    imgAlt: "Sclerotherapy",
+    title: "Sclerotherapy",
+    description: "Treating varicose and spider veins.",
+  },
+  {
+    imgSrc: "/images/electrosurgery.jpg",
+    imgAlt: "Electrosurgery",
+    title: "Electrosurgery",
+    description: "Removal of benign skin lesions.",
+  },
+]; 
+
+export const servicesPST = [
+  {
+    imgSrc: "/images/chemical-peels.jpg",
+    imgAlt: "Service 1",
+    title: "Chemical Peels",
+    description: "Improving skin texture and pigmentation.",
+  },
+  {
+    imgSrc: "/images/laser.jpeg",
+    imgAlt: "Service 2",
+    title: "Laser Treatments",
+    description: "Treating pigmentation, scars, and skin texture.",
+  },
+  {
+    imgSrc: "/images/microdermabrasion.jpg",
+    imgAlt: "Dermabrasion",
+    title: "Dermabrasion",
+    description: "Treating deeper scars and skin imperfections.",
+  },
+]; 
+
+export const servicesSCT = [
+  {
+    imgSrc: "/images/mohs.jpg",
+    imgAlt: "Mohs Micrographic Surgery",
+    title: "Mohs Micrographic Surgery",
+    description: "Removal of skin cancer, preserving healthy tissue.",
+  },
+]; 
