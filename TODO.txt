@@ -10,20 +10,17 @@ go through aceternity ✅
 3d card effect for all services ✅
 compare for before/after in why-us ✅
 
+real people images in about carousel ✅
+different images in google reviews pfp ✅
+md view fix everywhere ✅
+
 home page
-low res img
-real people images in about carousel
-different images in google reviews pfp
-visit page maps are slow
-md view fix everywhere
+make it indian
 inter or open sans instead of lexenddeca
 replace daisyui buttons w acternity buttons;
 uninstall daisyui
 
 gsap
-make it indian
 website metadata & favicon
 performance optimization
 travis violet & michelle red-300 & sofia for muslims?
-dark gradient over embla for better visibility
-aceternity layout for gallery

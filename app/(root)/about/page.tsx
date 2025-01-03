@@ -73,11 +73,9 @@ const page = () => {
         </section>
 
         <section className="relative mt-44 hidden md:block">
-          {/* <div className="mx-auto max-w-[85vw] lg:mx-20 lg:w-1/2 lg:max-w-[40vw]"> */}
           <h1 className="mb-12 mt-10 text-center text-2xl font-semibold md:text-3xl lg:mt-0">
             Meet Our Staff!
           </h1>
-          {/* </div> */}
           <EmblaCarousel />
         </section>
       </main>

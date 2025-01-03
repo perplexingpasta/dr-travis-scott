@@ -80,52 +80,52 @@ const page = () => {
               Incredible skin transformation of patients after our help.
             </p>
           </div>
-          <div className="mx-auto flex max-w-[80%] flex-col justify-between font-lexendDeca md:flex-row">
-            <div className="mt-6 md:mt-0">
+          <div className="mx-auto flex max-w-[80%] flex-col justify-between font-lexendDeca lg:flex-row">
+            <div className="mt-6 lg:mt-0">
               <Compare
                 firstImage="/before-after/1before.png"
                 secondImage="/before-after/1after.png"
                 firstImageClassName="object-cover object-left-top"
                 secondImageClassname="object-cover object-left-top"
-                className="mx-auto h-[250px] w-[250px] lg:h-[450px] lg:w-[450px]"
+                className="mx-auto h-[250px] w-[250px] md:h-[400px] md:w-[400px] lg:h-[450px] lg:w-[450px]"
                 slideMode="hover"
               />
-              <p className="mt-1 text-center text-sm font-semibold md:mt-4 md:text-base">
+              <p className="mt-1 text-center text-sm font-semibold md:mt-4 md:text-lg">
                 Cellow Park Jung
               </p>
-              <p className="text-center text-sm md:text-base">
+              <p className="text-center text-sm md:text-lg">
                 Severe acne treated in 2 months
               </p>
             </div>
-            <div className="mt-6 md:mt-0">
+            <div className="mt-6 lg:mt-0">
               <Compare
                 firstImage="/before-after/2before.png"
                 secondImage="/before-after/2after.png"
                 firstImageClassName="object-cover object-left-top"
                 secondImageClassname="object-cover object-left-top"
-                className="mx-auto h-[250px] w-[250px] lg:h-[450px] lg:w-[450px]"
+                className="mx-auto h-[250px] w-[250px] md:h-[400px] md:w-[400px] lg:h-[450px] lg:w-[450px]"
                 slideMode="hover"
               />
-              <p className="mt-1 text-center text-sm font-semibold md:mt-4 md:text-base">
+              <p className="mt-1 text-center text-sm font-semibold md:mt-4 md:text-lg">
                 Shea McFayden
               </p>
-              <p className="text-center text-sm md:text-base">
+              <p className="text-center text-sm md:text-lg">
                 Old age wrinkles treated in 3 months
               </p>
             </div>
-            <div className="mt-6 md:mt-0">
+            <div className="mt-6 lg:mt-0">
               <Compare
                 firstImage="/before-after/3before.png"
                 secondImage="/before-after/3after.png"
                 firstImageClassName="object-cover object-left-top"
                 secondImageClassname="object-cover object-left-top"
-                className="mx-auto h-[250px] w-[250px] lg:h-[450px] lg:w-[450px]"
+                className="mx-auto h-[250px] w-[250px] md:h-[400px] md:w-[400px] lg:h-[450px] lg:w-[450px]"
                 slideMode="hover"
               />
-              <p className="mt-1 text-center text-sm font-semibold md:mt-4 md:text-base">
+              <p className="mt-1 text-center text-sm font-semibold md:mt-4 md:text-lg">
                 Olivia Jane
               </p>
-              <p className="text-center text-sm md:text-base">
+              <p className="text-center text-sm md:text-lg">
                 Extreme Face Pigmentation treated in 2 months
               </p>
             </div>
@@ -133,8 +133,8 @@ const page = () => {
         </section>
 
         {/* GOOGLE REVIEWS CAROUSEL */}
-        <section className="md:mt-32">
-          <div className="mt-16 text-center text-2xl font-semibold md:-mb-10 md:ml-[5%] md:mt-0 md:text-left md:text-3xl">
+        <section className="lg:mt-32">
+          <div className="mt-16 text-center text-2xl font-semibold md:ml-[5%] md:text-left md:text-3xl lg:-mb-10 lg:mt-0">
             <p>Google Reviews</p>
             <p className="mx-auto max-w-[80%] text-base font-light md:max-w-full md:text-xl">
               Some genuine google reviews.
@@ -144,14 +144,14 @@ const page = () => {
         </section>
 
         {/* LONG REVIEW */}
-        <section className="md:mt-12">
+        <section className="lg:mt-12">
           <div className="mb-5 mt-8 text-center text-2xl font-semibold md:mb-10 md:ml-[5%] md:mt-0 md:text-left md:text-3xl">
             <p>Success Stories</p>
             <p className="mx-auto max-w-[80%] text-base font-light md:max-w-full md:text-xl">
               Case studies of patients in their own words.
             </p>
           </div>
-          <div className="mx-auto mb-24 max-w-[90%] font-lexendDeca md:grid md:grid-cols-3 md:place-items-start md:gap-x-16">
+          <div className="mx-auto mb-24 max-w-[90%] font-lexendDeca lg:grid lg:grid-cols-3 lg:place-items-start lg:gap-x-16">
             <div className="mx-auto rounded-3xl bg-red-200 p-10 text-sm md:mt-12 md:text-base">
               <p>
                 We saw Dr. Agarwal for my persistent skin issues, and I am so
@@ -189,7 +189,7 @@ const page = () => {
                 </span>
               </p>
             </div>
-            <div className="mx-auto mt-10 rounded-3xl bg-red-200 p-10 text-sm md:mt-0 md:text-base">
+            <div className="mx-auto mt-10 rounded-3xl bg-red-200 p-10 text-sm md:text-base lg:mt-0">
               <p>
                 I visited Dr. Agarwal for a consultation about my sensitive
                 skin, which had been reacting to various skincare products,

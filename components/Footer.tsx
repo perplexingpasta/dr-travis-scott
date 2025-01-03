@@ -26,12 +26,11 @@ const Footer = () => {
 
   return (
     <div className="relative mx-auto flex max-w-7xl flex-col items-center justify-center overflow-clip px-5 text-white sm:px-10">
-      <div
-        className="relative w-full pb-12 font-lexendDeca lg:mt-12"
-        id="contact"
-      >
-        <div className="flex flex-col md:flex-1 md:flex-row">
-          <div className="mt-16 md:mr-40 md:mt-40">
+      <div className="relative w-full pb-12 font-lexendDeca lg:mt-12">
+        {/* ALL 3 TOP SECTIONS */}
+        <div className="flex flex-col md:flex-1 lg:flex-row">
+          {/* LEFT SECTION */}
+          <div className="mt-16 md:mr-40 lg:mt-40">
             <h1 className="text-xl font-bold md:text-3xl lg:max-w-[45vw]">
               Dr. Travis Scott
             </h1>
@@ -62,8 +61,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* <br className="block md:hidden" />
-        <br className="block md:hidden" /> */}
+          {/* MIDDLE & RIGHT SECTION */}
           <div className="flex flex-1 flex-wrap justify-start gap-10 md:justify-around">
             {footerItemsCol2.map((section) => (
               <div key={section.bigTitle} className="max-w-md">
@@ -120,12 +118,13 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="relative z-50 mt-16 flex flex-col items-center justify-between md:flex-row">
+        {/* COPYRIGHT, HANDCODED & SOCIAL ICONS */}
+        <div className="relative z-50 mt-16 flex flex-col items-center justify-between lg:flex-row">
           <p className="text-sm font-light md:text-base md:font-normal">
             Copyright © 2024 Dr. Travis Scott
           </p>
 
-          <p className="mt-2 text-sm font-light md:mt-0 md:text-base md:font-normal">
+          <p className="mt-2 text-sm font-light md:text-base md:font-normal lg:mt-0">
             Hand-coded by{" "}
             <Link
               href="https://www.celesteconsulting.in/"
@@ -137,7 +136,7 @@ const Footer = () => {
             </Link>
           </p>
 
-          <div className="flex items-center gap-6 pt-5 md:gap-3 md:pt-0">
+          <div className="flex items-center gap-6 pt-5 md:gap-3 lg:pt-0">
             {socialMedia.map((profile) => (
               <div
                 key={profile.id}

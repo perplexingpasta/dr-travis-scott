@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const EmblaCarousel = () => {
   const autoplayOptions = {
-    delay: 7000, //delay timer in milliseconds, actually does work
+    delay: 5000, //delay timer in milliseconds, actually does work
   };
   const [emblaRef] = useEmblaCarousel({ loop: true }, [
     Autoplay(autoplayOptions),

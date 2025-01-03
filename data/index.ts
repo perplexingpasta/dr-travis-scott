@@ -183,25 +183,25 @@ export const socialMedia = [
   },
 ];
 export const emblaImages = [
-  // {
-  //   id: 1,
-  //   img: "/hero-carousel-images/img1.jpg",
-  // },
+  {
+    id: 1,
+    img: "/staff/staff1.jpg",
+  },
   {
     id: 2,
-    img: "/hero-carousel-images/img2.jpg",
+    img: "/staff/staff2.jpg",
   },
   {
     id: 3,
-    img: "/hero-carousel-images/img3.jpg",
+    img: "/staff/staff3.jpg",
   },
   {
     id: 4,
-    img: "/hero-carousel-images/img4.jpg",
+    img: "/staff/staff4.jpg",
   },
   {
     id: 5,
-    img: "/hero-carousel-images/img5.jpg",
+    img: "/staff/staff5.jpg",
   },
 ];
 
@@ -318,70 +318,70 @@ export const servicesSCT = [
 
 export const testimonials = [
   {
-    img: "/images/profile.svg",
+    img: "/pfp/female/19.jpg",
     quote:
       "Dr. Agarwal's treatment for my acne has been life-changing. My skin has cleared up significantly, and I feel much more confident now.",
     name: "Aarushi Patel ",
     date: "1 year ago",
   },
   {
-    img: "/images/profile.svg",
+    img: "/pfp/male/51.jpg",
     quote:
       "I am extremely happy with the results of my treatment. Dr. Agarwal is very knowledgeable and made sure I understood everything about my skin condition.",
     name: "Ravi Kumar",
     date: "1 year ago",
   },
   {
-    img: "/images/profile.svg",
+    img: "/pfp/female/22.jpg",
     quote:
       "Dr. Agarwal is very professional, and the results speak for themselves. I’ve seen remarkable improvement in my skin, and I couldn’t be more satisfied.",
     name: "Sneha Desai",
     date: "1 year ago",
   },
   {
-    img: "/images/profile.svg",
+    img: "/pfp/male/48.jpg",
     quote:
       "After struggling with eczema for years, Dr. Agarwal’s treatment has made a world of difference. My skin is now smooth and clear. I truly appreciate his approach.",
     name: "Manish Reddy",
     date: "1 year ago",
   },
   {
-    img: "/images/profile.svg",
+    img: "/pfp/male/41.jpg",
     quote:
       "I visited Dr. Agarwal for my acne scars, and within just a few sessions, I started seeing incredible improvement. He is both skilled and caring.",
     name: "Vikram Shah",
     date: "1 year ago",
   },
   {
-    img: "/images/profile.svg",
+    img: "/pfp/female/54.jpg",
     quote:
       "I’ve been to several dermatologists, but Dr. Agarwal’s expertise and treatment plan really worked wonders for my skin. It’s healthier and brighter now.",
     name: "Ananya Verma",
     date: "1 year ago",
   },
   {
-    img: "/images/profile.svg",
+    img: "/pfp/female/37.jpg",
     quote:
       "Dr. Agarwal has helped me regain my confidence. His acne treatment was effective, and the results were visible within weeks. Highly recommended!",
     name: "Priya Singh",
     date: "1 year ago",
   },
   {
-    img: "/images/profile.svg",
+    img: "/pfp/male/22.jpg",
     quote:
       "Fantastic doctor! Dr. Agarwal is thorough, attentive, and professional. My skin has never been better, and I can’t thank him enough.",
     name: "Karthik Nair",
     date: "9 months ago",
   },
   {
-    img: "/images/profile.svg",
+    img: "/pfp/female/87.jpg",
     quote:
       "Dr. Agarwal’s approach to treating my skin was personalized and effective. He listened to my concerns and delivered great results in a short time.",
     name: "Rekha Sharma",
     date: "5 months ago",
   },
   {
-    img: "/images/profile.svg",
+    img: "/pfp/male/6.jpg",
     quote:
       "After visiting Dr. Agarwal for my pigmentation treatment, I noticed a significant improvement. The doctor is so kind, and the treatment was absolutely worth it.",
     name: "Rohit Gupta",
