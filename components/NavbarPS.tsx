@@ -26,7 +26,7 @@ const NavbarPS = () => {
       </div>
 
       {/* Container */}
-      <div className="relative z-10 mx-auto hidden items-center justify-between bg-white px-4 py-5 md:flex md:px-24">
+      <div className="relative z-10 mx-auto hidden items-center justify-between bg-white px-4 py-5 lg:flex md:px-24">
         <div>
           <h1 className="text-lg font-bold md:text-2xl">Dr. Travis Scott</h1>
           <p className="text-sm md:text-base">MBBS, DDV</p>
@@ -85,7 +85,7 @@ const NavbarPS = () => {
           <span className="my-1 block h-0.5 w-6 bg-black"></span>
         </button>
       </div>
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <NavbarMobile />
       </div>
     </div>

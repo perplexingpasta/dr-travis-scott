@@ -11,8 +11,9 @@ const config: Config = {
       fontFamily: {
         lexend: ["Lexend", "Helvetica", "Arial", "sans-serif"],
         lexendDeca: ["LexendDeca", "Helvetica", "Arial", "sans-serif"],
-        halyard: ["Halyard-Text", "Helvetica", "Arial", "sans-serif"],
         poppins: ["Poppins", "Helvetica", "Arial", "sans-serif"],
+        inter: ["Inter", "Helvetica", "Arial", "sans-serif"],
+        opensans: ["OpenSans", "Helvetica", "Arial", "sans-serif"],
       },
       fontWeight: {
         thin: "100",

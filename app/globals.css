@@ -332,13 +332,6 @@
 
 /* FONTS CSS */
 @font-face {
-  font-family: "Halyard-Text";
-  src: url("/fonts/Halyard-Text.ttf") format("truetype");
-  font-weight: 100 900;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "Lexend";
   src: url("/fonts/Lexend-Variable.ttf") format("truetype");
   font-weight: 100 900;
@@ -348,6 +341,20 @@
 @font-face {
   font-family: "LexendDeca";
   src: url("/fonts/LexendDeca-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("/fonts/OpenSans-Variable.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal;
 }

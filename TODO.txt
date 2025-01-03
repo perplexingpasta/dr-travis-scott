@@ -3,16 +3,27 @@ embla carousel for hero ✅
 
 why us page ✅
 replace call us button with get directions button in visit ✅
+404 fix ✅
+add google maps of all the hospitals in visit page ✅
 
-add google maps of all the hospitals in visit page
+go through aceternity ✅
+3d card effect for all services ✅
+compare for before/after in why-us ✅
+
 home page
-404 fix
-perspective cards from aceternity
-go through aceternity
 low res img
-gsap
-performance optimization
-travis violet & michelle red-300
+real people images in about carousel
+different images in google reviews pfp
+visit page maps are slow
+md view fix everywhere
+inter or open sans instead of lexenddeca
+replace daisyui buttons w acternity buttons;
+uninstall daisyui
 
+gsap
+make it indian
+website metadata & favicon
+performance optimization
+travis violet & michelle red-300 & sofia for muslims?
 dark gradient over embla for better visibility
 aceternity layout for gallery

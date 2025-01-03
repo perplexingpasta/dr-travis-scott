@@ -1,5 +1,6 @@
 import React from "react";
 import ServiceCard from "../../../components/ui/ServiceCard";
+import Service3dCard from "../../../components/ui/Service3dCard";
 import {
   servicesAAT,
   servicesHRT,
@@ -25,7 +26,94 @@ const page = () => {
         </h2>
       </header>
       <main className="mb-12">
-        <div className="container mx-auto px-4 py-8">
+        <section className="container mx-auto px-4 py-8">
+          <h1 className="-mt-16 mb-24 text-center text-xl font-semibold md:text-left md:text-3xl lg:mb-32 lg:mt-0">
+            Aesthetic & Anti-Aging Treatments
+          </h1>
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 md:gap-10 lg:grid-cols-4">
+            {servicesAAT.map((service, index) => (
+              <Service3dCard
+                key={index}
+                imgSrc={service.imgSrc}
+                imgAlt={service.imgAlt}
+                title={service.title}
+                description={service.description}
+              />
+            ))}
+          </div>
+        </section>
+
+        <section className="container mx-auto px-4 py-8">
+          <h1 className="-mt-16 mb-24 text-center text-xl font-semibold md:text-left md:text-3xl lg:mb-32 lg:mt-0">
+            Hair Restoration & Treatment
+          </h1>
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 md:gap-10 lg:grid-cols-4">
+            {servicesHRT.map((service, index) => (
+              <Service3dCard
+                key={index}
+                imgSrc={service.imgSrc}
+                imgAlt={service.imgAlt}
+                title={service.title}
+                description={service.description}
+              />
+            ))}
+          </div>
+        </section>
+
+        <section className="container mx-auto px-4 py-8">
+          <h1 className="-mt-16 mb-24 text-center text-xl font-semibold md:text-left md:text-3xl lg:mb-32 lg:mt-0">
+            Skin Lesion Removal
+          </h1>
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 md:gap-10 lg:grid-cols-4">
+            {servicesSLR.map((service, index) => (
+              <Service3dCard
+                key={index}
+                imgSrc={service.imgSrc}
+                imgAlt={service.imgAlt}
+                title={service.title}
+                description={service.description}
+              />
+            ))}
+          </div>
+        </section>
+
+        <section className="container mx-auto px-4 py-8">
+          <h1 className="-mt-16 mb-24 text-center text-xl font-semibold md:text-left md:text-3xl lg:mb-32 lg:mt-0">
+            Pigmentation & Scar Treatment
+          </h1>
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 md:gap-10 lg:grid-cols-4">
+            {servicesPST.map((service, index) => (
+              <Service3dCard
+                key={index}
+                imgSrc={service.imgSrc}
+                imgAlt={service.imgAlt}
+                title={service.title}
+                description={service.description}
+              />
+            ))}
+          </div>
+        </section>
+
+        <section className="container mx-auto px-4 py-8">
+          <h1 className="-mt-16 mb-24 text-center text-xl font-semibold md:text-left md:text-3xl lg:mb-32 lg:mt-0">
+            Skin Cancer Treatment
+          </h1>
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 md:gap-10 lg:grid-cols-4">
+            {servicesSCT.map((service, index) => (
+              <Service3dCard
+                key={index}
+                imgSrc={service.imgSrc}
+                imgAlt={service.imgAlt}
+                title={service.title}
+                description={service.description}
+              />
+            ))}
+          </div>
+        </section>
+
+        {/* OLDER NON-3D SERVICES */}
+        {/* <main className="mb-12">
+        <section className="container mx-auto px-4 py-8">
           <h1 className="mb-5 text-xl font-semibold md:text-3xl">
             Aesthetic & Anti-Aging Treatments
           </h1>
@@ -40,9 +128,9 @@ const page = () => {
               />
             ))}
           </div>
-        </div>
+        </section>
 
-        <div className="container mx-auto mt-5 px-4 py-8 md:mt-10">
+        <section className="container mx-auto mt-5 px-4 py-8 md:mt-10">
           <h1 className="mb-5 text-xl font-semibold md:text-3xl">
             Hair Restoration & Treatment
           </h1>
@@ -57,9 +145,9 @@ const page = () => {
               />
             ))}
           </div>
-        </div>
+        </section>
 
-        <div className="container mx-auto mt-5 px-4 py-8 md:mt-10">
+        <section className="container mx-auto mt-5 px-4 py-8 md:mt-10">
           <h1 className="mb-5 text-xl font-semibold md:text-3xl">
             Skin Lesion Removal
           </h1>
@@ -74,9 +162,9 @@ const page = () => {
               />
             ))}
           </div>
-        </div>
+        </section>
 
-        <div className="container mx-auto mt-5 px-4 py-8 md:mt-10">
+        <section className="container mx-auto mt-5 px-4 py-8 md:mt-10">
           <h1 className="mb-5 text-xl font-semibold md:text-3xl">
             Pigmentation & Scar Treatment
           </h1>
@@ -91,9 +179,9 @@ const page = () => {
               />
             ))}
           </div>
-        </div>
+        </section>
 
-        <div className="container mx-auto mt-5 px-4 py-8 md:mt-10">
+        <section className="container mx-auto mt-5 px-4 py-8 md:mt-10">
           <h1 className="mb-5 text-xl font-semibold md:text-3xl">
             Skin Cancer Treatment
           </h1>
@@ -108,7 +196,8 @@ const page = () => {
               />
             ))}
           </div>
-        </div>
+        </section>
+       </main> */}
       </main>
     </>
   );

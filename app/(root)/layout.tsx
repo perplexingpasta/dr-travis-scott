@@ -21,7 +21,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
          <nav className="w-full"><NavbarPS /></nav>
           {children}
           <DynamicWhatsapp />
-          <footer className="bg-black-100 px-5 sm:px-10">
+          <footer className="bg-[#1f1f1f] px-5 sm:px-10">
             <DynamicFooter />
           </footer>
         </div>

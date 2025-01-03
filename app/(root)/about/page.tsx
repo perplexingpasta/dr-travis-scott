@@ -71,20 +71,6 @@ const page = () => {
             />
           </div>
         </section>
-        {/* SERVICES */}
-        {/* <section className="lg:max-w-[40vw] max-w-[85vw] mx-auto lg:mx-20 mb-20">
-          <h1 className="font-semibold text-2xl md:text-3xl mb-3">
-            Our Services
-          </h1>
-          <ul className="md:text-lg space-y-3">
-            <li>✦ Advisory</li>
-            <li>✦ Industry Networking</li>
-            <li>✦ Mentoring</li>
-            <li>✦ Liasoning Office</li>
-            <li>✦ Product Promotion</li>
-            <li>✦ Investment</li>
-          </ul>
-        </section> */}
 
         <section className="relative mt-44 hidden md:block">
           {/* <div className="mx-auto max-w-[85vw] lg:mx-20 lg:w-1/2 lg:max-w-[40vw]"> */}

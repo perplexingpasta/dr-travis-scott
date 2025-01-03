@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import GoogleReviewsCarousel from "@/components/ui/GoogleReviewsCarousel";
+import { Compare } from "@/components/ui/compare";
 
 const page = () => {
   return (
@@ -12,7 +13,7 @@ const page = () => {
       <main>
         {/* WHY CHOOSE US */}
         <section>
-          <div className="mx-auto mb-24 max-w-[90%] md:mb-32 md:text-xl">
+          <div className="mx-auto mb-24 max-w-[90%] font-lexendDeca md:mb-32 md:max-w-[75%] md:text-xl">
             <p>
               Located in Rewari, Dr. Priyanka Singla&apos;s Sai Skin Clinic
               offers over 10 years of specialized dermatological expertise. We
@@ -23,7 +24,7 @@ const page = () => {
               allergies, hyperpigmentation, warts and corns, laser procedures
               for aesthetic concerns, etc.
             </p>
-            <div className="mt-6 flex flex-row md:ml-5 md:mt-8">
+            <div className="mt-6 flex max-w-[85%] flex-row md:ml-5 md:mt-8">
               <Image
                 src="/images/whyus1.png"
                 width={50}
@@ -31,7 +32,7 @@ const page = () => {
                 alt=""
                 className="h-12"
               />
-              <div className="ml-2 md:ml-4">
+              <div className="ml-4 text-sm md:text-base">
                 <p className="font-semibold">
                   Best In Dermatology and Cosmetology
                 </p>
@@ -40,7 +41,7 @@ const page = () => {
                 </p>
               </div>
             </div>
-            <div className="mt-6 flex flex-row md:ml-5 md:mt-8">
+            <div className="mt-6 flex max-w-[85%] flex-row md:ml-5 md:mt-8">
               <Image
                 src="/images/whyus2.png"
                 width={50}
@@ -48,12 +49,12 @@ const page = () => {
                 alt=""
                 className="h-12"
               />
-              <div className="ml-2 md:ml-4">
+              <div className="ml-4 text-sm md:text-base">
                 <p className="font-semibold">Effective Treatments</p>
                 <p>Evidence based and proven treatments & procedures</p>
               </div>
             </div>
-            <div className="mt-6 flex flex-row md:ml-5 md:mt-8">
+            <div className="mt-6 flex max-w-[85%] flex-row md:ml-5 md:mt-8">
               <Image
                 src="/images/whyus3.png"
                 width={50}
@@ -61,7 +62,7 @@ const page = () => {
                 alt=""
                 className="h-12"
               />
-              <div className="ml-2 md:ml-4">
+              <div className="ml-4 text-sm md:text-base">
                 <p className="font-semibold">Trained Staff</p>
                 <p>
                   Fully trained & friendly staff to attend to all your needs
@@ -71,17 +72,74 @@ const page = () => {
           </div>
         </section>
 
-        {/* GOOGLE REVIEWS CAROUSEL */}
+        {/* BEFORE & AFTER */}
         <section>
+          <div className="mt-16 text-center text-2xl font-semibold md:mb-10 md:ml-[5%] md:mt-0 md:text-left md:text-3xl">
+            <p>Before & After</p>
+            <p className="mx-auto max-w-[80%] text-base font-light md:max-w-full md:text-xl">
+              Incredible skin transformation of patients after our help.
+            </p>
+          </div>
+          <div className="mx-auto flex max-w-[80%] flex-col justify-between font-lexendDeca md:flex-row">
+            <div className="mt-6 md:mt-0">
+              <Compare
+                firstImage="/before-after/1before.png"
+                secondImage="/before-after/1after.png"
+                firstImageClassName="object-cover object-left-top"
+                secondImageClassname="object-cover object-left-top"
+                className="mx-auto h-[250px] w-[250px] lg:h-[450px] lg:w-[450px]"
+                slideMode="hover"
+              />
+              <p className="mt-1 text-center text-sm font-semibold md:mt-4 md:text-base">
+                Cellow Park Jung
+              </p>
+              <p className="text-center text-sm md:text-base">
+                Severe acne treated in 2 months
+              </p>
+            </div>
+            <div className="mt-6 md:mt-0">
+              <Compare
+                firstImage="/before-after/2before.png"
+                secondImage="/before-after/2after.png"
+                firstImageClassName="object-cover object-left-top"
+                secondImageClassname="object-cover object-left-top"
+                className="mx-auto h-[250px] w-[250px] lg:h-[450px] lg:w-[450px]"
+                slideMode="hover"
+              />
+              <p className="mt-1 text-center text-sm font-semibold md:mt-4 md:text-base">
+                Shea McFayden
+              </p>
+              <p className="text-center text-sm md:text-base">
+                Old age wrinkles treated in 3 months
+              </p>
+            </div>
+            <div className="mt-6 md:mt-0">
+              <Compare
+                firstImage="/before-after/3before.png"
+                secondImage="/before-after/3after.png"
+                firstImageClassName="object-cover object-left-top"
+                secondImageClassname="object-cover object-left-top"
+                className="mx-auto h-[250px] w-[250px] lg:h-[450px] lg:w-[450px]"
+                slideMode="hover"
+              />
+              <p className="mt-1 text-center text-sm font-semibold md:mt-4 md:text-base">
+                Olivia Jane
+              </p>
+              <p className="text-center text-sm md:text-base">
+                Extreme Face Pigmentation treated in 2 months
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* GOOGLE REVIEWS CAROUSEL */}
+        <section className="md:mt-32">
           <div className="mt-16 text-center text-2xl font-semibold md:-mb-10 md:ml-[5%] md:mt-0 md:text-left md:text-3xl">
             <p>Google Reviews</p>
-            <p className="text-lg font-light md:text-xl">
+            <p className="mx-auto max-w-[80%] text-base font-light md:max-w-full md:text-xl">
               Some genuine google reviews.
             </p>
           </div>
-          {/* <h2 className="mx-auto max-w-[70%] items-center justify-center py-2 font-light md:max-w-full md:py-4 md:text-lg">
-            Here are some stories from our amazing patients in their own words!
-          </h2> */}
           <GoogleReviewsCarousel />
         </section>
 
@@ -89,7 +147,7 @@ const page = () => {
         <section className="md:mt-12">
           <div className="mb-5 mt-8 text-center text-2xl font-semibold md:mb-10 md:ml-[5%] md:mt-0 md:text-left md:text-3xl">
             <p>Success Stories</p>
-            <p className="mx-auto max-w-[80%] text-lg font-light md:mx-0 md:max-w-full md:text-xl">
+            <p className="mx-auto max-w-[80%] text-base font-light md:max-w-full md:text-xl">
               Case studies of patients in their own words.
             </p>
           </div>
