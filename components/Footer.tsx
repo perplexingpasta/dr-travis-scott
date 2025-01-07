@@ -125,7 +125,7 @@ const Footer = () => {
           </p>
 
           <p className="mt-2 text-sm font-light md:text-base md:font-normal lg:mt-0">
-            Hand-coded by{" "}
+            Designed by{" "}
             <Link
               href="https://www.celesteconsulting.in/"
               className="!cursor-pointer hover:text-indigo-300"

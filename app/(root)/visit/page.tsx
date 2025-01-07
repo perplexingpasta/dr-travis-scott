@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { Metadata } from "next";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -8,6 +9,10 @@ export const metadata: Metadata = {
   title: "Visit Us - Dr. Travis Scott",
   description: "MD Dermatologist based in Chicago, IL",
 };
+
+const DynamicFAQs = dynamic(() => import("@/components/PricingFAQ"), {
+  ssr: false,
+});
 
 const page = () => {
   return (
@@ -20,6 +25,7 @@ const page = () => {
       </header>
 
       <main className="font-lexendDeca">
+        {/* CLINIC */}
         <section className="mb-20 flex w-full flex-col lg:flex-row">
           <div className="flex items-center justify-center align-middle lg:w-1/2">
             {/* <div className="h-[500px] pb-10 md:h-[650px] lg:h-[600px]"> */}
@@ -132,7 +138,7 @@ const page = () => {
               />
               <div className="ml-4 text-lg md:text-2xl">
                 Clinic Hours
-                <div className="text-base text-slate-700 md:text-xl">
+                <div className="text-lg opacity-75 md:text-2xl">
                   <p>Monday to Friday: 9:00 AM - 5:00 PM</p>
                   <p>Saturday: 10:00 AM - 2:00 PM</p>
                   <p>Sunday: Closed</p>
@@ -184,6 +190,7 @@ const page = () => {
           </div>
         </section>
 
+        {/* HOSPITALS */}
         <section className="mx-auto flex w-full max-w-[95%] flex-col md:mt-32 lg:flex-row">
           {/* HOSPITAL 1 */}
           <div className="mb-20 flex flex-col lg:w-1/2 lg:flex-row">
@@ -361,6 +368,11 @@ const page = () => {
             </div>
           </div>
         </section>
+
+        {/* FAQs */}
+        {/* <section>
+          <DynamicFAQs />
+        </section> */}
       </main>
     </>
   );

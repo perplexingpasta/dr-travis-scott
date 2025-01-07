@@ -15,6 +15,12 @@ different images in google reviews pfp ✅
 md view fix everywhere ✅
 
 home page
+embla carousel for homepage hero
+semantic html in travis; decrease visit us text size in homepage
+replace lexend w poppins after importing all poppins variant
+make before/after section in why us smaller in pc view
+dynamic imports for below the fold elements
+faq in visit us page
 make it indian
 inter or open sans instead of lexenddeca
 replace daisyui buttons w acternity buttons;
@@ -24,3 +30,20 @@ gsap
 website metadata & favicon
 performance optimization
 travis violet & michelle red-300 & sofia for muslims?
+
+
+
+CMS Keywords:
+dermatologist
+dermatologist near me
+best dermatologist in delhi
+skin doctor in delhi
+best skin doctor in delhi
+skincare specialist in delhi
+dr. varun agarwal
+MD dermatology
+over 12 years of experience
+more than 25000 satisfied patients
+celebrity dermatologist
+skin problems
+acne, hair loss, hair fall, wrinkles

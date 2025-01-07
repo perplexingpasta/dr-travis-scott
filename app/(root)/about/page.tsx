@@ -20,45 +20,35 @@ const page = () => {
         <section className="mb-10 flex w-full flex-col-reverse md:mb-20 lg:flex-row">
           <div className="mx-auto max-w-[85vw] lg:mx-20 lg:w-1/2 lg:max-w-[40vw]">
             <h1 className="mb-3 mt-10 text-2xl font-semibold md:text-3xl lg:mt-0">
-              Dr. Travis Scott
+              Dr. Varun Agarwal
             </h1>
-            <p className="font-lexendDeca md:text-lg">
-              Dr. Travis Scott is a distinguished figure in the Indian
-              Construction Industry with over 38 years of extensive experience
-              in handling the Construction & Development of Highways, Bridges,
-              Railways, Mega Buildings & Townships.
+            <p className="font-poppins md:text-lg">
+              Dr. Varun Agarwal is a renowned dermatologist in Delhi with over
+              12 years of experience in treating a wide range of skin problems.
+              Known as one of the best dermatologists in Delhi, he offers
+              personalized, effective treatments for conditions like acne, hair
+              loss, hair fall, and wrinkles.
+              <br />
+              His clinic is a trusted destination for those seeking expert care
+              and solutions for their skin concerns. <br />
+              <br />
+              With an MD in Dermatology, Dr. Agarwal has treated over 25,000
+              satisfied patients, making him a go-to skin doctor in Delhi. He
+              specializes in both medical and cosmetic dermatology, using the
+              latest technology and advanced techniques to deliver the best
+              results. As a celebrity dermatologist, his expertise is sought
+              after by individuals from all walks of life, but his compassionate
+              approach ensures that every patient receives individualized care.{" "}
               <br />
               <br />
-              He has been at the helm of numerous iconic projects across the
-              country, including vast townships spread over acres in Hyderabad,
-              Vijayawada & Nagpur and is associated with various BoT / EPC
-              Highway Projects & has produced more than 5000 lane kilometres
-              since 1999. He is a member of the 1986 batch & earned a bachelor’s
-              degree in civil engineering from the Manipal Institute of
-              Technology.
-              <br />
-              <br />
-              Sanjay posseses niche experience in the Infrastructure Sector in
-              India & SE Asia & has acclaimed many accolades during his
-              illustrious journey with IRCON & IJM Group of Companies.
-              <br />
-              <br />
-              In April 2024, he relinquished the executive life from IJM &
-              Company retained him as Director & Advisor to mentor future
-              leaders & share rich expertise. Being at the helm of operations,
-              he had the opportunity to network with top Industry Leaders around
-              the globe & authorities alike & now he is available to share his
-              rich experiences with Industry mates & Companies who need niche
-              advice & networking services as a NEW phase of professional
-              journey with continued focus building platforms together that
-              create broad opportunities.
-              <br />
-              <br />
-              His strong belief: “Ethics are paramount & Essence of Success”
-              always preaches that teamwork is able to fill in leadership gaps &
-              eventually leads to effective communication & produces
-              collaborators with whom people want to work, thus creating
-              Effective Leaders.
+              Dr. Agarwal is known as a leading skincare specialist in Delhi,
+              combining his vast experience with cutting-edge treatments to
+              restore and enhance skin health. Whether you&apos;re struggling
+              with acne, experiencing hair loss, or concerned about signs of
+              aging, his clinic provides comprehensive care tailored to your
+              needs. When searching for a dermatologist near me, Dr. Varun
+              Agarwal&apos;s name stands out for his proven track record and
+              dedication to achieving visible, lasting results.
             </p>
           </div>
           <div className="flex justify-around lg:w-1/2">
