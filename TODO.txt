@@ -19,10 +19,11 @@ embla carousel for homepage hero
 semantic html in travis; decrease visit us text size in homepage
 replace lexend w poppins after importing all poppins variant
 make before/after section in why us smaller in pc view
+write much more content for the dermats website w keywords and make it thorough
 dynamic imports for below the fold elements
 faq in visit us page
 make it indian
-inter or open sans instead of lexenddeca
+logos inside buttons including on not found page
 replace daisyui buttons w acternity buttons;
 uninstall daisyui
 

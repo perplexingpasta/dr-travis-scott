@@ -27,7 +27,7 @@ const page = () => {
 
         {/* STATS */}
         <section>
-          <div className="bg-red-300 w-full mx-auto">d</div>
+          <div className="mx-auto w-full bg-red-300">d</div>
         </section>
 
         {/* ABOUT THE DOCTOR */}
@@ -168,14 +168,42 @@ const page = () => {
                 </div>
               </div>
               <div>
-                <Link
+                {/* OLD DAISYUI BUTTON */}
+                {/* <Link
                   className="btn mx-auto mt-5 flex max-w-[30%] justify-center bg-red-300"
                   href="tel:555-779-4407"
                   target="_blank"
                   rel="noopener"
                 >
                   Call Now
+                </Link> */}
+
+                {/* BUTTON 1 - LIT UP BORDERS*/}
+                <Link
+                  className="mx-auto mt-5 flex justify-center"
+                  href="tel:555-779-4407"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <button className="relative p-[3px]">
+                    <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-red-300 to-red-400" />
+                    <div className="group relative rounded-md bg-transparent px-8 py-2 text-white transition duration-200 hover:bg-white hover:text-black active:bg-red-400 active:text-white">
+                      Call Now
+                    </div>
+                  </button>
                 </Link>
+
+                {/* BUTTON 2 - INVERT */}
+                {/* <Link
+                  className="mx-auto mt-5 flex justify-center"
+                  href="tel:555-779-4407"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <button className="rounded-md border-2 border-transparent bg-red-300 px-8 py-2 font-bold text-black transition duration-200 hover:bg-gray-500 hover:text-white active:bg-red-500">
+                    Call Now
+                  </button>
+                </Link> */}
               </div>
             </div>
           </div>

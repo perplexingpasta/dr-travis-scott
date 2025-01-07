@@ -26,7 +26,7 @@ const NavbarPS = () => {
       </div>
 
       {/* Container */}
-      <div className="relative z-10 mx-auto hidden items-center justify-between bg-white px-4 py-5 lg:flex md:px-24">
+      <div className="relative z-10 mx-auto hidden items-center justify-between bg-white px-4 py-5 md:px-24 lg:flex">
         <div>
           <h1 className="text-lg font-bold md:text-2xl">Dr. Travis Scott</h1>
           <p className="text-sm md:text-base">MBBS, DDV</p>
@@ -66,7 +66,7 @@ const NavbarPS = () => {
             <li>
               <Link
                 href="tel:01274222811"
-                className="rounded-xl bg-red-300 p-3 text-lg hover:bg-red-400 hover:text-white"
+                className="rounded-xl bg-red-300 p-3 px-7 text-lg hover:bg-red-400 hover:text-white"
               >
                 Call Now
               </Link>

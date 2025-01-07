@@ -176,8 +176,9 @@ const page = () => {
             </div>
           </div> */}
 
-            <div>
-              <Link
+            <div className="mt-6">
+              {/* OLD DAISYUI BUTTON */}
+              {/* <Link
                 className="btn ml-12 mt-10 bg-red-300"
                 // href="tel:555-779-4407"
                 href="https://maps.google.com/maps/dir//Terun+Pizza+448+California+Ave+Palo+Alto,+CA+94306+United+States/@37.4259205,-122.1454743,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x808fbae5f33774b5:0x6dd7ef2d054587e3"
@@ -185,6 +186,20 @@ const page = () => {
                 rel="noopener"
               >
                 Get Directions
+              </Link> */}
+
+              <Link
+                className="ml-12"
+                href="https://maps.google.com/maps/dir//Terun+Pizza+448+California+Ave+Palo+Alto,+CA+94306+United+States/@37.4259205,-122.1454743,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x808fbae5f33774b5:0x6dd7ef2d054587e3"
+                target="_blank"
+                rel="noopener"
+              >
+                <button className="relative p-[3px]">
+                  <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-red-300 to-red-400" />
+                  <div className="group relative rounded-md bg-transparent px-8 py-2 text-lg text-white transition duration-200 hover:bg-white hover:text-black active:bg-red-400 active:text-white">
+                    Get Directions
+                  </div>
+                </button>
               </Link>
             </div>
           </div>
@@ -267,14 +282,19 @@ const page = () => {
                 </div>
               </div>
 
-              <div>
+              <div className="mt-4">
                 <Link
-                  className="btn ml-12 mt-5 bg-red-300"
+                  className="ml-12"
                   href="https://maps.google.com/maps/dir//Terun+Pizza+448+California+Ave+Palo+Alto,+CA+94306+United+States/@37.4259205,-122.1454743,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x808fbae5f33774b5:0x6dd7ef2d054587e3"
                   target="_blank"
                   rel="noopener"
                 >
-                  Get Directions
+                  <button className="relative p-[3px]">
+                    <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-red-300 to-red-400" />
+                    <div className="group relative rounded-md bg-transparent px-8 py-2 text-lg text-white transition duration-200 hover:bg-white hover:text-black active:bg-red-400 active:text-white">
+                      Get Directions
+                    </div>
+                  </button>
                 </Link>
               </div>
             </div>
@@ -355,14 +375,19 @@ const page = () => {
                 </div>
               </div>
 
-              <div>
+              <div className="mt-4">
                 <Link
-                  className="btn ml-12 mt-5 bg-red-300"
+                  className="ml-12"
                   href="https://maps.google.com/maps/dir//Terun+Pizza+448+California+Ave+Palo+Alto,+CA+94306+United+States/@37.4259205,-122.1454743,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x808fbae5f33774b5:0x6dd7ef2d054587e3"
                   target="_blank"
                   rel="noopener"
                 >
-                  Get Directions
+                  <button className="relative p-[3px]">
+                    <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-red-300 to-red-400" />
+                    <div className="group relative rounded-md bg-transparent px-8 py-2 text-lg text-white transition duration-200 hover:bg-white hover:text-black active:bg-red-400 active:text-white">
+                      Get Directions
+                    </div>
+                  </button>
                 </Link>
               </div>
             </div>
