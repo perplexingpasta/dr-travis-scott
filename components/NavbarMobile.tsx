@@ -54,6 +54,9 @@ export const NavbarMobile = () => {
                         <span className="flex gap-1 text-lg text-white">
                           {navItem.name}
                         </span>
+                        <span>
+                          <navItem.icon className="text-xl text-white" />
+                        </span>
                         {/* <Icon className="text-xl" /> */}
                       </Link>
                     </li>

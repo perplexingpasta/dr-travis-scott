@@ -13,7 +13,7 @@ const page = () => {
       <main>
         {/* WHY CHOOSE US */}
         <section>
-          <div className="mx-auto mb-24 max-w-[90%] font-lexendDeca md:mb-32 md:max-w-[75%] md:text-xl">
+          <div className="mx-auto mb-20 max-w-[90%] md:mb-32 md:max-w-[75%] md:text-lg lg:text-xl">
             <p>
               Located in Rewari, Dr. Priyanka Singla&apos;s Sai Skin Clinic
               offers over 10 years of specialized dermatological expertise. We
@@ -24,7 +24,7 @@ const page = () => {
               allergies, hyperpigmentation, warts and corns, laser procedures
               for aesthetic concerns, etc.
             </p>
-            <div className="mt-6 flex max-w-[85%] flex-row md:ml-5 md:mt-8">
+            <div className="mt-6 flex max-w-[85%] flex-row md:ml-5 md:mt-10">
               <Image
                 src="/images/whyus1.png"
                 width={50}
@@ -32,7 +32,7 @@ const page = () => {
                 alt=""
                 className="h-12"
               />
-              <div className="ml-4 text-sm md:text-base">
+              <div className="ml-4">
                 <p className="font-semibold">
                   Best In Dermatology and Cosmetology
                 </p>
@@ -41,7 +41,7 @@ const page = () => {
                 </p>
               </div>
             </div>
-            <div className="mt-6 flex max-w-[85%] flex-row md:ml-5 md:mt-8">
+            <div className="mt-6 flex max-w-[85%] flex-row md:ml-5 md:mt-10">
               <Image
                 src="/images/whyus2.png"
                 width={50}
@@ -49,12 +49,12 @@ const page = () => {
                 alt=""
                 className="h-12"
               />
-              <div className="ml-4 text-sm md:text-base">
+              <div className="ml-4">
                 <p className="font-semibold">Effective Treatments</p>
                 <p>Evidence based and proven treatments & procedures</p>
               </div>
             </div>
-            <div className="mt-6 flex max-w-[85%] flex-row md:ml-5 md:mt-8">
+            <div className="mt-6 flex max-w-[85%] flex-row md:ml-5 md:mt-10">
               <Image
                 src="/images/whyus3.png"
                 width={50}
@@ -62,7 +62,7 @@ const page = () => {
                 alt=""
                 className="h-12"
               />
-              <div className="ml-4 text-sm md:text-base">
+              <div className="ml-4">
                 <p className="font-semibold">Trained Staff</p>
                 <p>
                   Fully trained & friendly staff to attend to all your needs
@@ -73,14 +73,14 @@ const page = () => {
         </section>
 
         {/* BEFORE & AFTER */}
-        <section>
+        <section className="md:mx-auto md:max-w-[90%]">
           <div className="mt-16 text-center text-2xl font-semibold md:mb-10 md:ml-[5%] md:mt-0 md:text-left md:text-3xl">
-            <p>Before & After</p>
+            <p className="font-lexendDeca md:text-4xl">Before & After</p>
             <p className="mx-auto max-w-[80%] text-base font-light md:max-w-full md:text-xl">
               Incredible skin transformation of patients after our help.
             </p>
           </div>
-          <div className="mx-auto flex max-w-[80%] flex-col justify-between font-lexendDeca lg:flex-row">
+          <div className="mx-auto flex max-w-[90%] flex-col justify-between lg:flex-row">
             <div className="mt-6 lg:mt-0">
               <Compare
                 firstImage="/before-after/1before.png"
@@ -133,9 +133,9 @@ const page = () => {
         </section>
 
         {/* GOOGLE REVIEWS CAROUSEL */}
-        <section className="lg:mt-32">
+        <section className="md:mx-auto md:max-w-[90%] lg:mt-32">
           <div className="mt-16 text-center text-2xl font-semibold md:ml-[5%] md:text-left md:text-3xl lg:-mb-10 lg:mt-0">
-            <p>Google Reviews</p>
+            <p className="font-lexendDeca md:text-4xl">Google Reviews</p>
             <p className="mx-auto max-w-[80%] text-base font-light md:max-w-full md:text-xl">
               Some genuine google reviews.
             </p>
@@ -144,14 +144,14 @@ const page = () => {
         </section>
 
         {/* LONG REVIEW */}
-        <section className="lg:mt-12">
+        <section className="md:max-w-[90% md:mx-auto lg:mt-12">
           <div className="mb-5 mt-8 text-center text-2xl font-semibold md:mb-10 md:ml-[5%] md:mt-0 md:text-left md:text-3xl">
-            <p>Success Stories</p>
+            <p className="font-lexendDeca md:text-4xl">Success Stories</p>
             <p className="mx-auto max-w-[80%] text-base font-light md:max-w-full md:text-xl">
               Case studies of patients in their own words.
             </p>
           </div>
-          <div className="mx-auto mb-24 max-w-[90%] font-lexendDeca lg:grid lg:grid-cols-3 lg:place-items-start lg:gap-x-16">
+          <div className="mx-auto mb-24 max-w-[90%] lg:grid lg:grid-cols-3 lg:place-items-start lg:gap-x-16">
             <div className="mx-auto rounded-3xl bg-red-200 p-10 text-sm md:mt-12 md:text-base">
               <p>
                 We saw Dr. Agarwal for my persistent skin issues, and I am so

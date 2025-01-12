@@ -11,8 +11,8 @@ const GoogleReviewsCarousel = () => {
         <div className="flex justify-center lg:my-auto lg:w-1/6">
           <Image
             src="/images/google-reviews.png"
-            width={750}
-            height={500}
+            width={1500}
+            height={1000}
             className="hidden w-[80%] lg:block lg:w-full"
             alt=""
           />

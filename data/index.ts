@@ -1,10 +1,17 @@
+import {
+  GoBook,
+  GoBriefcase,
+  GoGoal,
+  GoHome,
+  GoLocation,
+} from "react-icons/go";
+
 export const navItems = [
-  { name: "Home", link: "/" },
-  { name: "Services", link: "/services" },
-  { name: "Why Us", link: "/why-us" },
-  { name: "About", link: "/about" },
-  { name: "Visit", link: "/visit" },
-  // { name: "Pricing", link: "/pricing" },
+  { name: "Home", link: "/", icon: GoHome },
+  { name: "Services", link: "/services", icon: GoBriefcase },
+  { name: "Why Us", link: "/why-us", icon: GoGoal },
+  { name: "About", link: "/about", icon: GoBook },
+  { name: "Visit", link: "/visit", icon: GoLocation },
 ];
 
 export const footerItemsCol3 = [
@@ -216,13 +223,15 @@ export const servicesAAT = [
     imgSrc: "/images/chemical-peels.jpg",
     imgAlt: "Chemical Peels",
     title: "Chemical Peels",
-    description: "Skin rejuvenation, acne scar treatment, pigmentation correction.",
+    description:
+      "Skin rejuvenation, acne scar treatment, pigmentation correction.",
   },
   {
     imgSrc: "/images/laser.jpeg",
     imgAlt: "Laser Treatments",
     title: "Laser Treatments",
-    description: "Treating skin pigmentation, fine lines, scars, and hair removal.",
+    description:
+      "Treating skin pigmentation, fine lines, scars, and hair removal.",
   },
   {
     imgSrc: "/images/prp-therapy.jpg",
@@ -242,7 +251,7 @@ export const servicesAAT = [
     title: "Micro-needling",
     description: "Collagen induction, scar treatment, and skin rejuvenation.",
   },
-]; 
+];
 
 export const servicesHRT = [
   {
@@ -256,8 +265,8 @@ export const servicesHRT = [
     imgAlt: "PRP Therapy",
     title: "PRP Therapy",
     description: "Stimulating hair growth in thinning or bald areas.",
-  }
-]; 
+  },
+];
 
 export const servicesSLR = [
   {
@@ -284,7 +293,7 @@ export const servicesSLR = [
     title: "Electrosurgery",
     description: "Removal of benign skin lesions.",
   },
-]; 
+];
 
 export const servicesPST = [
   {
@@ -305,7 +314,7 @@ export const servicesPST = [
     title: "Dermabrasion",
     description: "Treating deeper scars and skin imperfections.",
   },
-]; 
+];
 
 export const servicesSCT = [
   {
@@ -314,7 +323,7 @@ export const servicesSCT = [
     title: "Mohs Micrographic Surgery",
     description: "Removal of skin cancer, preserving healthy tissue.",
   },
-]; 
+];
 
 export const testimonials = [
   {

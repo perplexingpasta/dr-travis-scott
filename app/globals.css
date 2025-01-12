@@ -77,7 +77,10 @@
 
 @layer utilities {
   .heading {
-    @apply text-center text-4xl font-bold md:text-5xl;
+    @apply text-center text-4xl font-extrabold md:text-5xl;
+  }
+  .subheading {
+    @apply font-lexendDeca text-2xl font-semibold md:text-3xl;
   }
 }
 
@@ -98,7 +101,7 @@
   }
 
   #about .image-box:before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     height: 100%;
@@ -110,12 +113,12 @@
   }
 
   #about .image-box:after {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     height: 32.25em;
     width: 28.75em;
-    background: url('/images/content-circles.svg');
+    background: url("/images/content-circles.svg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,14 +141,13 @@
 
 /* Small Desktop */
 @media only screen and (min-width: 1300px) {
-   #about .image-box {
+  #about .image-box {
     margin: 0;
     margin-right: 10.625em;
     width: 31.2056em;
     height: 44em;
   }
 }
-
 
 /* FOR WHATSAPP INTEGRATION */
 /* for desktop */
@@ -358,7 +360,7 @@
   font-weight: 100 900;
   font-style: normal;
 }
-
+/* 
 @font-face {
   font-family: "PoppinsRegular";
   src: url("/fonts/Poppins-Regular.ttf") format("truetype");
@@ -405,7 +407,7 @@
   font-family: "PoppinsThin";
   src: url("/fonts/Poppins-Thin.ttf") format("truetype");
   font-style: normal;
-}
+} */
 
 /* @font-face {
   font-family: "PloniRegular";

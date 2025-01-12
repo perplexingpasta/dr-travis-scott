@@ -19,10 +19,10 @@ const page = () => {
         {/* FOUNDER */}
         <section className="mb-10 flex w-full flex-col-reverse md:mb-20 lg:flex-row">
           <div className="mx-auto max-w-[85vw] lg:mx-20 lg:w-1/2 lg:max-w-[40vw]">
-            <h1 className="mb-3 mt-10 text-2xl font-semibold md:text-3xl lg:mt-0">
+            <h1 className="subheading mt-10 lg:mb-3 lg:mt-0">
               Dr. Varun Agarwal
             </h1>
-            <p className="font-poppinsRegular md:text-lg">
+            <p className="md:text-lg lg:text-xl">
               Dr. Varun Agarwal is a renowned dermatologist in Delhi with over
               12 years of experience in treating a wide range of skin problems.
               Known as one of the best dermatologists in Delhi, he offers
@@ -63,7 +63,7 @@ const page = () => {
         </section>
 
         <section className="relative mt-44 hidden md:block">
-          <h1 className="mb-12 mt-10 text-center text-2xl font-semibold md:text-3xl lg:mt-0">
+          <h1 className="subheading mb-12 mt-10 text-center lg:mt-0 lg:text-4xl">
             Meet Our Staff!
           </h1>
           <EmblaCarousel />

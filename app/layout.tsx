@@ -1,20 +1,27 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
 import "./globals.css";
+import { Poppins } from "next/font/google";
+// import { Montserrat } from "next/font/google";
 
-const montserrat = Montserrat({
+// const montserrat = Montserrat({
+//   subsets: ["latin"],
+//   display: "swap",
+// });
+
+const poppins = Poppins({
   subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   display: "swap",
 });
 
 export const metadata: Metadata = {
   title: "Dr. Travis Scott MD",
   description: "Cactus Jack Dermatology",
-  other: {
-    "twitter:card": "Asclepius 2024",
-    "og:url": "https://asclepius2024.in",
-    "og:type": "website",
-  },
+  // other: {
+  //   "twitter:card": "Asclepius 2024",
+  //   "og:url": "https://asclepius2024.in",
+  //   "og:type": "website",
+  // },
   icons: {
     icon: ["/favicon.ico"],
     apple: ["/apple-touch-icon.png"],
@@ -29,7 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={montserrat.className}>{children}</body>
+      <body className={poppins.className}>{children}</body>
     </html>
   );
 }

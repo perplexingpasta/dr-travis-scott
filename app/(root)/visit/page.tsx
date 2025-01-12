@@ -4,6 +4,8 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { FaArrowRight } from "react-icons/fa";
+// import { FaMapMarkerAlt } from "react-icons/fa";
 
 export const metadata: Metadata = {
   title: "Visit Us - Dr. Travis Scott",
@@ -19,12 +21,10 @@ const page = () => {
     <>
       <header id="visit" className="mt-32 md:mt-44">
         <h1 className="heading relative block">Visit Us</h1>
-        <h2 className="relative mx-auto mb-7 max-w-[70%] items-center justify-center py-2 text-center font-light text-black-100 md:mb-16 md:max-w-full md:py-4 md:text-lg">
-          Feel free to visit or get in touch!
-        </h2>
+        <div className="relative mx-auto mb-7 max-w-[70%] items-center justify-center py-2 text-center font-light text-black-100 md:mb-16 md:max-w-full md:py-4 md:text-lg" />
       </header>
 
-      <main className="font-poppinsMedium">
+      <main>
         {/* CLINIC */}
         <section className="mb-20 flex w-full flex-col lg:flex-row">
           <div className="flex items-center justify-center align-middle lg:w-1/2">
@@ -40,9 +40,9 @@ const page = () => {
             </div>
           </div>
 
-          <div className="mx-auto max-w-[90vw] md:ml-16 lg:ml-0 lg:w-1/2 lg:max-w-[100vw] lg:self-center">
+          <div className="relative mx-auto max-w-[90vw] text-lg tracking-wide md:ml-16 md:text-2xl lg:ml-0 lg:w-1/2 lg:max-w-[100vw] lg:self-center">
             {/* LOCATION */}
-            <div className="relative mb-5 flex items-start text-2xl md:mb-9 md:tracking-wide">
+            <div className="mb-5 flex items-start md:mb-9 md:tracking-wide">
               <Image
                 src="/images/location-black.svg"
                 width={40}
@@ -54,11 +54,9 @@ const page = () => {
                 href="https://maps.app.goo.gl/mtL9tD6hisQqbAGq6"
                 target="_blank"
               >
-                <div className="ml-4 text-lg hover:text-red-400 md:space-y-1 md:text-2xl">
+                <div className="ml-4 hover:text-red-400 md:space-y-1">
                   {/* <p> */}
-                  <span className="font-poppinsBold">
-                    Dr. Agarwal&apos;s Skincare
-                  </span>
+                  <span className="font-bold">Dr. Agarwal&apos;s Skincare</span>
                   , <br /> 36 Old No 9, 5th Avenue, <br /> 11th Main Rd, 4th T
                   Block East, <br /> Chicago, Illinois <br />
                   {/* </p> */}
@@ -67,7 +65,7 @@ const page = () => {
             </div>
 
             {/* CALL */}
-            <div className="relative mb-5 flex items-start text-2xl tracking-wide md:mb-9">
+            <div className="mb-5 flex items-start md:mb-9">
               <Image
                 src="/images/call-black.svg"
                 width={35}
@@ -75,7 +73,7 @@ const page = () => {
                 alt=""
                 className="inline-block w-8 md:w-[35px]"
               />
-              <div className="ml-4 space-y-2 text-lg md:text-2xl">
+              <div className="ml-4 space-y-2">
                 <Link
                   href="tel:+914069044164"
                   target="_blank"
@@ -94,7 +92,7 @@ const page = () => {
             </div>
 
             {/* WHATSAPP */}
-            <div className="relative mb-5 flex items-start text-2xl tracking-wide md:mb-9">
+            <div className="mb-5 flex items-start md:mb-9">
               <Image
                 src="/images/whatsapp-black.svg"
                 width={35}
@@ -102,7 +100,7 @@ const page = () => {
                 alt=""
                 className="inline-block w-8 md:w-[35px]"
               />
-              <div className="ml-4 space-y-2 text-lg md:text-2xl">
+              <div className="ml-4 space-y-2">
                 <Link
                   href="https://wa.me/919603328484"
                   target="_blank"
@@ -114,7 +112,7 @@ const page = () => {
             </div>
 
             {/* EMAIL */}
-            <div className="relative mb-5 flex items-start text-2xl tracking-wide md:mb-9">
+            <div className="mb-5 flex items-start md:mb-9">
               <Image
                 src="/images/email-black.svg"
                 width={35}
@@ -122,7 +120,7 @@ const page = () => {
                 alt=""
                 className="inline-block w-8 md:w-[35px]"
               />
-              <div className="ml-4 space-y-2 text-lg hover:text-red-400 md:text-2xl">
+              <div className="ml-4 space-y-2 hover:text-red-400">
                 <Link href="mailto:sanjay@sassociate.in" target="_blank">
                   travis@cactusjack.com
                 </Link>
@@ -130,7 +128,7 @@ const page = () => {
             </div>
 
             {/* CLINIC HOURS */}
-            <div className="relative flex items-start text-2xl tracking-wide">
+            <div className="flex items-start">
               <Image
                 src="/images/time.svg"
                 width={35}
@@ -138,9 +136,9 @@ const page = () => {
                 alt=""
                 className="inline-block w-8 md:w-[35px]"
               />
-              <div className="ml-4 text-lg md:text-2xl">
+              <div className="ml-4">
                 Clinic Hours
-                <div className="text-lg opacity-75 md:text-2xl">
+                <div className="opacity-75">
                   <p>Monday to Friday: 9:00 AM - 5:00 PM</p>
                   <p>Saturday: 10:00 AM - 2:00 PM</p>
                   <p>Sunday: Closed</p>
@@ -157,7 +155,7 @@ const page = () => {
               alt=""
               className="inline-block  w-7 md:w-[32px]"
             />
-            <div className="ml-4 space-y-2 text-lg md:text-2xl hover:text-red-400">
+            <div className="ml-4 space-y-2 hover:text-red-400">
               <Link href="https://youtube.com/" target="_blank">
                 drtravisscott.com
               </Link>
@@ -173,7 +171,7 @@ const page = () => {
               alt=""
               className="inline-block  w-7 md:w-[35px]"
             />
-            <div className="ml-4 space-y-2 text-lg md:text-2xl">
+            <div className="ml-4 space-y-2">
               GSTIN: 36ADAPA54572A2Z8
             </div>
           </div> */}
@@ -196,11 +194,19 @@ const page = () => {
                 target="_blank"
                 rel="noopener"
               >
-                <button className="relative p-[3px]">
+                {/* OLDER BUTTON W GRADIENT */}
+                {/* <button className="relative p-[3px]">
                   <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-red-300 to-red-400" />
                   <div className="group relative rounded-md bg-transparent px-8 py-2 text-lg text-white transition duration-200 hover:bg-white hover:text-black active:bg-red-400 active:text-white">
                     Get Directions
                   </div>
+                </button> */}
+
+                <button className="rounded-xl bg-red-300 p-3 text-base transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:p-3 md:px-6 md:text-xl">
+                  <span className="flex items-center gap-x-2">
+                    Get Directions
+                    <FaArrowRight className="md:text-2xl" />
+                  </span>
                 </button>
               </Link>
             </div>
@@ -238,7 +244,7 @@ const page = () => {
                   target="_blank"
                 >
                   <div className="ml-4 text-lg hover:text-red-400 md:space-y-1 md:text-xl">
-                    <span className="font-poppinsBold">
+                    <span className="font-bold">
                       Dr. Agarwal&apos;s Skincare
                     </span>
                     , <br /> 36 Old No 9, 5th Avenue, <br /> 11th Main Rd, 4th T
@@ -293,11 +299,11 @@ const page = () => {
                   target="_blank"
                   rel="noopener"
                 >
-                  <button className="relative p-[3px]">
-                    <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-red-300 to-red-400" />
-                    <div className="group relative rounded-md bg-transparent px-8 py-2 text-lg text-white transition duration-200 hover:bg-white hover:text-black active:bg-red-400 active:text-white">
+                  <button className="rounded-xl bg-red-300 p-3 transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:mt-2 md:p-3 md:px-5 md:text-lg">
+                    <span className="flex items-center gap-x-2">
                       Get Directions
-                    </div>
+                      <FaArrowRight className="md:text-xl" />
+                    </span>
                   </button>
                 </Link>
               </div>
@@ -333,7 +339,7 @@ const page = () => {
                   target="_blank"
                 >
                   <div className="ml-4 text-lg hover:text-red-400 md:space-y-1 md:text-xl">
-                    <span className="font-poppinsBold">
+                    <span className="font-bold">
                       Dr. Agarwal&apos;s Skincare
                     </span>
                     , <br /> 36 Old No 9, 5th Avenue, <br /> 11th Main Rd, 4th T
@@ -388,11 +394,11 @@ const page = () => {
                   target="_blank"
                   rel="noopener"
                 >
-                  <button className="relative p-[3px]">
-                    <div className="absolute inset-0 rounded-lg bg-gradient-to-r from-red-300 to-red-400" />
-                    <div className="group relative rounded-md bg-transparent px-8 py-2 text-lg text-white transition duration-200 hover:bg-white hover:text-black active:bg-red-400 active:text-white">
+                  <button className="rounded-xl bg-red-300 p-3 transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:mt-2 md:p-3 md:px-5 md:text-lg">
+                    <span className="flex items-center gap-x-2">
                       Get Directions
-                    </div>
+                      <FaArrowRight className="md:text-xl" />
+                    </span>
                   </button>
                 </Link>
               </div>

@@ -20,7 +20,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   children,
 }) => {
   return (
-    <CardContainer className="-mt-40 font-lexendDeca max-w-[90%] md:max-w-full">
+    <CardContainer className="-mt-40 max-w-[90%] md:max-w-full">
       <CardBody className="group/card relative h-full w-auto rounded-lg border-2 bg-white p-6 shadow-lg md:border-0">
         {/* <CardItem translateZ="100" className="h-[12rem] w-full"> */}
         <CardItem translateZ="100" className="relative mx-auto h-48 w-48">
@@ -36,7 +36,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
             />
           )}
         </CardItem>
-        <CardItem translateZ="50" className="mx-auto mt-4 text-lg md:text-xl">
+        <CardItem translateZ="50" className="mx-auto mt-4 text-lg font-semibold md:text-xl">
           {title}
         </CardItem>
         <CardItem

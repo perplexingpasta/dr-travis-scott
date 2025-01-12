@@ -74,14 +74,13 @@ const Footer = () => {
                       className="mt-3 text-sm leading-normal text-slate-200 md:mt-7 md:text-base"
                       key={block.id}
                     >
-                      <h1 className="text-base uppercase md:text-lg">
+                      <h1 className="text-base font-semibold uppercase md:text-lg">
                         {block.hospital}
                       </h1>
                       <p>{block.timings}</p>
                       {block.text.map((text) => (
-                        <div key={text.title} className="md:mb-2">
-                          <span className="font-bold">{text.title}: </span>
-                          {text.desc}
+                        <div key={text.title} className="md:mb-1">
+                          {text.title}: {text.desc}
                         </div>
                       ))}
                       {block.direction.map((dir) => (

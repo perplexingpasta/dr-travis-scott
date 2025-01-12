@@ -3,6 +3,7 @@
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
+import { TbRosetteDiscountCheckFilled } from "react-icons/tb";
 
 export const InfiniteMovingCards = ({
   items,
@@ -121,7 +122,10 @@ export const InfiniteMovingCards = ({
                   />
                 </div>
                 <span className="flex flex-col gap-1">
-                  <span className="font-semibold md:text-xl">{item.name}</span>
+                  <div className="flex items-center gap-x-1 font-semibold md:text-xl">
+                    {item.name} <TbRosetteDiscountCheckFilled />
+                  </div>
+
                   <span className="text-xs font-normal text-gray-500 md:text-sm">
                     {item.date}
                   </span>
@@ -137,7 +141,12 @@ export const InfiniteMovingCards = ({
                 </div>
               </div>
               <div className="mb-[8px]">
-                <img src="/images/5stars.png" width={100} alt="profile" />
+                <Image
+                  src="/images/5stars.png"
+                  width={100}
+                  height={100}
+                  alt=""
+                />
               </div>
               <span className="relative z-20 text-sm font-normal md:text-lg">
                 {item.quote}
