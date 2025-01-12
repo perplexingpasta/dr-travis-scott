@@ -8,6 +8,7 @@ import {
   servicesSCT,
   servicesPST,
 } from "@/data";
+import WannaKnowMore from "@/components/WannaKnowMore";
 
 type Service = {
   imgSrc: string;
@@ -107,6 +108,10 @@ const page = () => {
               />
             ))}
           </div>
+        </section>
+
+        <section>
+          <WannaKnowMore />
         </section>
 
         {/* OLDER NON-3D SERVICES */}

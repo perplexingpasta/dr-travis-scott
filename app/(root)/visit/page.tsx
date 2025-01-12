@@ -4,8 +4,8 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import WannaKnowMore from "@/components/WannaKnowMore";
 import { FaArrowRight } from "react-icons/fa";
-// import { FaMapMarkerAlt } from "react-icons/fa";
 
 export const metadata: Metadata = {
   title: "Visit Us - Dr. Travis Scott",
@@ -410,6 +410,10 @@ const page = () => {
         {/* <section>
           <DynamicFAQs />
         </section> */}
+
+        <section className="mb-12 md:mb-24">
+          <WannaKnowMore />
+        </section>
       </main>
     </>
   );

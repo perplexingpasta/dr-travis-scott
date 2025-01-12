@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import GoogleReviewsCarousel from "@/components/ui/GoogleReviewsCarousel";
 import { Compare } from "@/components/ui/compare";
+import WannaKnowMore from "@/components/WannaKnowMore";
 
 const page = () => {
   return (
@@ -259,6 +260,10 @@ const page = () => {
               </p>
             </div>
           </div>
+        </section>
+
+        <section className="mb-12 md:mb-24">
+          <WannaKnowMore />
         </section>
       </main>
     </>

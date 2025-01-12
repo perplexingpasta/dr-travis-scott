@@ -2,6 +2,7 @@ import EmblaCarousel from "../../../components/ui/HeroEmbla";
 import { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
+import WannaKnowMore from "@/components/WannaKnowMore";
 
 export const metadata: Metadata = {
   title: "About Us - Dr. Travis Scott",
@@ -67,6 +68,10 @@ const page = () => {
             Meet Our Staff!
           </h1>
           <EmblaCarousel />
+        </section>
+
+        <section className="mb-12 md:mb-24">
+          <WannaKnowMore />
         </section>
       </main>
     </>

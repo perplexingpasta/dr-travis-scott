@@ -1,12 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Poppins } from "next/font/google";
-// import { Montserrat } from "next/font/google";
-
-// const montserrat = Montserrat({
-//   subsets: ["latin"],
-//   display: "swap",
-// });
 
 const poppins = Poppins({
   subsets: ["latin"],
