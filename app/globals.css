@@ -360,11 +360,70 @@
 }
 
 @font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins.ttf") format("truetype");
-  /* font-weight: 100 900; */
+  font-family: "PoppinsRegular";
+  src: url("/fonts/Poppins-Regular.ttf") format("truetype");
   font-style: normal;
 }
+
+@font-face {
+  font-family: "PoppinsBlack";
+  src: url("/fonts/Poppins-Black.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("/fonts/Poppins-Bold.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PoppinsExtraBold";
+  src: url("/fonts/Poppins-ExtraBold.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PoppinsLight";
+  src: url("/fonts/Poppins-Light.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("/fonts/Poppins-Medium.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PoppinsSemiBold";
+  src: url("/fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PoppinsThin";
+  src: url("/fonts/Poppins-Thin.ttf") format("truetype");
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "PloniRegular";
+  src: url("/fonts/PloniRegular.otf") format("opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PloniLight";
+  src: url("/fonts/PloniLight.otf") format("opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PloniMedium";
+  src: url("/fonts/PloniMedium.otf") format("opentype");
+  font-style: normal;
+} */
 
 /* EMBLA CLASSES */
 .embla {

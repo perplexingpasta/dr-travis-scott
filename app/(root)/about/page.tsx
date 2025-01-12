@@ -22,7 +22,7 @@ const page = () => {
             <h1 className="mb-3 mt-10 text-2xl font-semibold md:text-3xl lg:mt-0">
               Dr. Varun Agarwal
             </h1>
-            <p className="font-poppins md:text-lg">
+            <p className="font-poppinsRegular md:text-lg">
               Dr. Varun Agarwal is a renowned dermatologist in Delhi with over
               12 years of experience in treating a wide range of skin problems.
               Known as one of the best dermatologists in Delhi, he offers

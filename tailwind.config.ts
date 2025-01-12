@@ -11,9 +11,29 @@ const config: Config = {
       fontFamily: {
         lexend: ["Lexend", "Helvetica", "Arial", "sans-serif"],
         lexendDeca: ["LexendDeca", "Helvetica", "Arial", "sans-serif"],
-        poppins: ["Poppins", "Helvetica", "Arial", "sans-serif"],
         inter: ["Inter", "Helvetica", "Arial", "sans-serif"],
         opensans: ["OpenSans", "Helvetica", "Arial", "sans-serif"],
+        poppinsRegular: ["PoppinsRegular", "Helvetica", "Arial", "sans-serif"],
+        poppinsBlack: ["PoppinsBlack", "Helvetica", "Arial", "sans-serif"],
+        poppinsBold: ["PoppinsBold", "Helvetica", "Arial", "sans-serif"],
+        poppinsExtraBold: [
+          "PoppinsExtraBold",
+          "Helvetica",
+          "Arial",
+          "sans-serif",
+        ],
+        poppinsSemiBold: [
+          "PoppinsSemiBold",
+          "Helvetica",
+          "Arial",
+          "sans-serif",
+        ],
+        poppinsLight: ["PoppinsLight", "Helvetica", "Arial", "sans-serif"],
+        poppinsMedium: ["PoppinsMedium", "Helvetica", "Arial", "sans-serif"],
+        poppinsThin: ["PoppinsThin", "Helvetica", "Arial", "sans-serif"],
+        // PloniRegular: ["PloniRegular", "Helvetica", "Arial", "sans-serif"],
+        // PloniMedium: ["PloniMedium", "Helvetica", "Arial", "sans-serif"],
+        // PloniLight: ["PloniLight", "Helvetica", "Arial", "sans-serif"],
       },
       fontWeight: {
         thin: "100",
@@ -64,9 +84,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [require("daisyui")],
-  daisyui: {
-    themes: ["light"],
-  },
+  // plugins: [require("daisyui")],
+  // daisyui: {
+  //   themes: ["light"],
+  // },
 };
 export default config;

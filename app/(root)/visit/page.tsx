@@ -24,7 +24,7 @@ const page = () => {
         </h2>
       </header>
 
-      <main className="font-lexendDeca">
+      <main className="font-poppinsMedium">
         {/* CLINIC */}
         <section className="mb-20 flex w-full flex-col lg:flex-row">
           <div className="flex items-center justify-center align-middle lg:w-1/2">
@@ -56,9 +56,11 @@ const page = () => {
               >
                 <div className="ml-4 text-lg hover:text-red-400 md:space-y-1 md:text-2xl">
                   {/* <p> */}
-                  <strong>Dr. Agarwal&apos;s Skincare</strong>, <br /> 36 Old No
-                  9, 5th Avenue, <br /> 11th Main Rd, 4th T Block East, <br />{" "}
-                  Chicago, Illinois <br />
+                  <span className="font-poppinsBold">
+                    Dr. Agarwal&apos;s Skincare
+                  </span>
+                  , <br /> 36 Old No 9, 5th Avenue, <br /> 11th Main Rd, 4th T
+                  Block East, <br /> Chicago, Illinois <br />
                   {/* </p> */}
                 </div>
               </Link>
@@ -236,9 +238,11 @@ const page = () => {
                   target="_blank"
                 >
                   <div className="ml-4 text-lg hover:text-red-400 md:space-y-1 md:text-xl">
-                    <strong>Dr. Agarwal&apos;s Skincare</strong>, <br /> 36 Old
-                    No 9, 5th Avenue, <br /> 11th Main Rd, 4th T Block East,{" "}
-                    <br /> Chicago, Illinois <br />
+                    <span className="font-poppinsBold">
+                      Dr. Agarwal&apos;s Skincare
+                    </span>
+                    , <br /> 36 Old No 9, 5th Avenue, <br /> 11th Main Rd, 4th T
+                    Block East, <br /> Chicago, Illinois <br />
                   </div>
                 </Link>
               </div>
@@ -329,9 +333,11 @@ const page = () => {
                   target="_blank"
                 >
                   <div className="ml-4 text-lg hover:text-red-400 md:space-y-1 md:text-xl">
-                    <strong>Dr. Agarwal&apos;s Skincare</strong>, <br /> 36 Old
-                    No 9, 5th Avenue, <br /> 11th Main Rd, 4th T Block East,{" "}
-                    <br /> Chicago, Illinois <br />
+                    <span className="font-poppinsBold">
+                      Dr. Agarwal&apos;s Skincare
+                    </span>
+                    , <br /> 36 Old No 9, 5th Avenue, <br /> 11th Main Rd, 4th T
+                    Block East, <br /> Chicago, Illinois <br />
                   </div>
                 </Link>
               </div>
