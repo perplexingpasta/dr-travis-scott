@@ -4,17 +4,17 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import WannaKnowMore from "@/components/WannaKnowMore";
 import { FaArrowRight } from "react-icons/fa";
+
+const DynamicWannaKnowMore = dynamic(
+  () => import("@/components/WannaKnowMore"),
+);
+const DynamicFAQs = dynamic(() => import("@/components/PricingFAQ"));
 
 export const metadata: Metadata = {
   title: "Visit Us - Dr. Travis Scott",
   description: "MD Dermatologist based in Chicago, IL",
 };
-
-const DynamicFAQs = dynamic(() => import("@/components/PricingFAQ"), {
-  ssr: false,
-});
 
 const page = () => {
   return (
@@ -412,7 +412,7 @@ const page = () => {
         </section> */}
 
         <section className="mb-12 md:mb-24">
-          <WannaKnowMore />
+          <DynamicWannaKnowMore />
         </section>
       </main>
     </>

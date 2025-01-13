@@ -25,7 +25,7 @@ export const NavbarMobile = () => {
             <p className="text-sm">MBBS, DDV</p>
           </div>
         </Link>
-        <div className="absolute right-0 top-0 pt-4">
+        <div className="absolute right-0 top-0 my-auto pt-4">
           <Hamburger toggled={isOpen} size={20} toggle={setOpen} />
         </div>
         <AnimatePresence>

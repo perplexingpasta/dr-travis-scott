@@ -1,0 +1,67 @@
+import React from "react";
+import { Compare } from "./ui/compare";
+
+const BeforeAfterSection = () => {
+  return (
+    <>
+      <div className="mt-16 text-center text-2xl font-semibold md:mb-10 md:ml-[5%] md:mt-0 md:text-left md:text-3xl">
+        <p className="font-lexendDeca md:text-4xl">Before & After</p>
+        <p className="mx-auto max-w-[80%] text-base font-light md:max-w-full md:text-xl">
+          Incredible skin transformation of patients after our help.
+        </p>
+      </div>
+      <div className="mx-auto flex max-w-[90%] flex-col justify-between lg:flex-row">
+        <div className="mt-6 lg:mt-0">
+          <Compare
+            firstImage="/before-after/1before.png"
+            secondImage="/before-after/1after.png"
+            firstImageClassName="object-cover object-left-top"
+            secondImageClassname="object-cover object-left-top"
+            className="mx-auto h-[250px] w-[250px] md:h-[400px] md:w-[400px] lg:h-[450px] lg:w-[450px]"
+            slideMode="hover"
+          />
+          <p className="mt-1 text-center text-sm font-semibold md:mt-4 md:text-lg">
+            Cellow Park Jung
+          </p>
+          <p className="text-center text-sm md:text-lg">
+            Severe acne treated in 2 months
+          </p>
+        </div>
+        <div className="mt-6 lg:mt-0">
+          <Compare
+            firstImage="/before-after/2before.png"
+            secondImage="/before-after/2after.png"
+            firstImageClassName="object-cover object-left-top"
+            secondImageClassname="object-cover object-left-top"
+            className="mx-auto h-[250px] w-[250px] md:h-[400px] md:w-[400px] lg:h-[450px] lg:w-[450px]"
+            slideMode="hover"
+          />
+          <p className="mt-1 text-center text-sm font-semibold md:mt-4 md:text-lg">
+            Shea McFayden
+          </p>
+          <p className="text-center text-sm md:text-lg">
+            Old age wrinkles treated in 3 months
+          </p>
+        </div>
+        <div className="mt-6 lg:mt-0">
+          <Compare
+            firstImage="/before-after/3before.png"
+            secondImage="/before-after/3after.png"
+            firstImageClassName="object-cover object-left-top"
+            secondImageClassname="object-cover object-left-top"
+            className="mx-auto h-[250px] w-[250px] md:h-[400px] md:w-[400px] lg:h-[450px] lg:w-[450px]"
+            slideMode="hover"
+          />
+          <p className="mt-1 text-center text-sm font-semibold md:mt-4 md:text-lg">
+            Olivia Jane
+          </p>
+          <p className="text-center text-sm md:text-lg">
+            Extreme Face Pigmentation treated in 2 months
+          </p>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default BeforeAfterSection;

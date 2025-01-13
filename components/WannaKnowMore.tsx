@@ -20,9 +20,9 @@ const WannKnowMore = () => {
       <div className="mx-auto border-b-2 border-t-2 md:max-w-[80vw] md:rounded-3xl md:border-2 md:border-black-100 lg:max-w-[60%]">
         <div className="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-16">
           <div className="grid gap-6 md:grid-cols-2 md:gap-8">
-            <div className="max-w-md text-xl lg:text-2xl">
+            <div className="max-w-md text-lg md:text-xl lg:text-2xl">
               <p className="font-medium">Got some questions? 🤔</p>
-              <p className="text-lg opacity-75 md:mt-1 lg:mt-2 lg:text-xl">
+              <p className="text-base opacity-75 md:mt-1 md:text-lg lg:mt-2 lg:text-xl">
                 Just click here to give us a call and a representative from our
                 clinic will assist you and answer all your queries!
               </p>

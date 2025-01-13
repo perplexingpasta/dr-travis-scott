@@ -1,8 +1,12 @@
-import EmblaCarousel from "../../../components/ui/HeroEmbla";
+import React from "react";
 import { Metadata } from "next";
 import Image from "next/image";
-import React from "react";
-import WannaKnowMore from "@/components/WannaKnowMore";
+import EmblaCarousel from "../../../components/ui/AboutEmbla";
+import dynamic from "next/dynamic";
+
+const DynamicWannaKnowMore = dynamic(
+  () => import("@/components/WannaKnowMore"),
+);
 
 export const metadata: Metadata = {
   title: "About Us - Dr. Travis Scott",
@@ -20,10 +24,10 @@ const page = () => {
         {/* FOUNDER */}
         <section className="mb-10 flex w-full flex-col-reverse md:mb-20 lg:flex-row">
           <div className="mx-auto max-w-[85vw] lg:mx-20 lg:w-1/2 lg:max-w-[40vw]">
-            <h1 className="subheading mt-10 lg:mb-3 lg:mt-0">
+            <h1 className="subheading mt-10 mb-1 lg:mb-3 lg:mt-0">
               Dr. Varun Agarwal
             </h1>
-            <p className="md:text-lg lg:text-xl">
+            <p className="md:text-lg lg:text-xl opacity-80">
               Dr. Varun Agarwal is a renowned dermatologist in Delhi with over
               12 years of experience in treating a wide range of skin problems.
               Known as one of the best dermatologists in Delhi, he offers
@@ -71,7 +75,7 @@ const page = () => {
         </section>
 
         <section className="mb-12 md:mb-24">
-          <WannaKnowMore />
+          <DynamicWannaKnowMore />
         </section>
       </main>
     </>

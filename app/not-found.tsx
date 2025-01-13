@@ -45,7 +45,7 @@ const PageNotFound = () => {
               <ArrowRightIcon className="-ml-8 mr-7 mt-4 lg:mt-0" />
             </div> */}
 
-            <Link href="/">
+            <Link href="/visit">
               <button className="relative p-[3px] transition-all duration-300 hover:scale-110">
                 <div className="absolute inset-0 rounded-full bg-transparent" />
                 <div className="group relative flex items-center gap-x-2 rounded-full bg-slate-200 px-8 py-2 text-lg text-black transition-all duration-300 hover:bg-blue-300 hover:text-white active:bg-blue-500 active:text-white">

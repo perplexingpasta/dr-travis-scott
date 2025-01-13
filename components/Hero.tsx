@@ -1,5 +1,5 @@
 import React from "react";
-import EmblaCarousel from "./ui/HeroEmbla";
+import EmblaCarousel from "./ui/AboutEmbla";
 
 export default function Hero() {
   return (

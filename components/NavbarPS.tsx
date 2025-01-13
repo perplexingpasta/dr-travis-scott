@@ -15,15 +15,21 @@ const NavbarPS = () => {
     <div className="fixed top-0 z-50 w-full tracking-wide">
       {/* Header */}
       <div className="flex justify-end bg-red-300">
-        <Image
+        {/* <Image
           src="/images/call-black.svg"
           className="mr-1 md:mr-2"
           width={20}
           height={20}
           alt=""
-        />
-        <p className="mr-5 md:mr-20">+91 98138-44164</p>
-        {/* <p className="left-[90%]">+91 98138-44164</p> */}
+        /> */}
+        {/* <p className="mr-5 md:mr-20">+91 98138-44164</p> */}
+        <Link
+          href="tel:01274222811"
+          className="mr-5 flex items-center gap-x-1 md:mr-20"
+        >
+          <BiSolidPhoneCall />
+          +91 98138-44164
+        </Link>
       </div>
 
       {/* Container */}

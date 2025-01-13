@@ -1,5 +1,4 @@
 import React from "react";
-import ServiceCard from "../../../components/ui/ServiceCard";
 import Service3dCard from "../../../components/ui/Service3dCard";
 import {
   servicesAAT,
@@ -8,7 +7,10 @@ import {
   servicesSCT,
   servicesPST,
 } from "@/data";
-import WannaKnowMore from "@/components/WannaKnowMore";
+import dynamic from "next/dynamic";
+const DynamicWannaKnowMore = dynamic(
+  () => import("@/components/WannaKnowMore"),
+);
 
 type Service = {
   imgSrc: string;
@@ -111,7 +113,7 @@ const page = () => {
         </section>
 
         <section>
-          <WannaKnowMore />
+          <DynamicWannaKnowMore />
         </section>
 
         {/* OLDER NON-3D SERVICES */}

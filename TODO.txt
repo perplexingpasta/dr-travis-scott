@@ -25,10 +25,13 @@ not found fixed ✅
 insane mobile navbar ✅
 call CTA at the end of each page ✅
 
+top header phone callable ✅
+404 report issue broken link ✅
+embla carousel for homepage hero ✅
+dynamic imports for below the fold elements ✅
+
 home page
-embla carousel for homepage hero
-semantic html in travis; decrease visit us text size in homepage
-dynamic imports for below the fold elements
+semantic html in travis
 faq in visit us page
 write much more content for the dermats website w keywords and make it thorough
 make it indian

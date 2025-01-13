@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section id="about" className="items-center py-12 md:py-16 lg:py-60">
+    <div id="about" className="items-center py-12 md:py-16 lg:py-60">
       <div className="flex max-w-screen-xl flex-col items-center md:flex-row md:items-start md:justify-between">
         <div className="h-auto md:w-1/2">
           <picture className="image-box ml-3 mr-0">
@@ -21,11 +21,11 @@ const About = () => {
           </picture>
         </div>
         <div className="mt-10 h-auto w-full max-w-[90%] md:w-1/2">
-          <h1 className="text-xl font-bold md:text-3xl">Dr. Travis Scott</h1>
+          <h1 className="subheading">Dr. Travis Scott</h1>
           <h1 className="mb-4 text-lg text-slate-700 md:text-xl">
             MBBS, MD, FCP
           </h1>
-          <div className="font-lexendDeca opacity-75 md:text-lg">
+          <div className="opacity-80 md:text-lg">
             <p>
               Dr. Travis Scott is a renowned dermatologist in Rewari, Haryana,
               with over 9 years of experience. She earned his medical degree
@@ -34,9 +34,9 @@ const About = () => {
             </p>
             <br />
             <p>
-              Dr. Scott specializes in treating a wide range of skin
-              conditions, including acne, eczema, psoriasis, and skin cancer,
-              using a personalized approach to patient care.
+              Dr. Scott specializes in treating a wide range of skin conditions,
+              including acne, eczema, psoriasis, and skin cancer, using a
+              personalized approach to patient care.
             </p>
             <br />
             <p>
@@ -49,7 +49,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

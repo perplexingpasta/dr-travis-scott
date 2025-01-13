@@ -42,7 +42,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         <CardItem
           as="p"
           translateZ="60"
-          className="mt-2 text-center text-gray-600"
+          className="mt-2 text-center opacity-70"
         >
           {description}
         </CardItem>
