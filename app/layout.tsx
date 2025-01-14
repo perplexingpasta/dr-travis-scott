@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Dr. Travis Scott MD",
+  title: "Dr. Varun Agarwal MD",
   description: "Cactus Jack Dermatology",
   // other: {
   //   "twitter:card": "Asclepius 2024",
