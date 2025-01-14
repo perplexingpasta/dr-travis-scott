@@ -1,17 +1,59 @@
-import React from "react";
+"use client";
+import React, { useRef, useEffect } from "react";
+import { gsap } from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 import { Compare } from "./ui/compare";
 
+gsap.registerPlugin(ScrollTrigger);
+
 const BeforeAfterSection = () => {
+  useEffect(() => {
+    gsap.fromTo(
+      ".title-gsap",
+      { opacity: 0 },
+      {
+        opacity: 1,
+        duration: 2,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".title-gsap",
+          start: "top 80%",
+          toggleActions: "play none none reset",
+        },
+      },
+    );
+  }, []);
+
+  useEffect(() => {
+    gsap.fromTo(
+      ".stagger-element-gsap",
+      { x: -30, opacity: 0 },
+      {
+        x: 0,
+        opacity: 1,
+        stagger: 0.75,
+        delay: 0.5,
+        duration: 2,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".title-gsap",
+          start: "top 80%",
+          toggleActions: "play none none reset",
+        },
+      },
+    );
+  }, []);
+
   return (
     <>
-      <div className="mt-16 text-center text-2xl font-semibold md:mb-10 md:ml-[5%] md:mt-0 md:text-left md:text-3xl">
+      <div className="title-gsap text-center text-2xl font-semibold opacity-0 md:mb-10 md:ml-[5%] md:mt-0 md:text-left md:text-3xl">
         <p className="font-lexendDeca md:text-4xl">Before & After</p>
         <p className="mx-auto max-w-[80%] text-base font-light md:max-w-full md:text-xl">
           Incredible skin transformation of patients after our help.
         </p>
       </div>
       <div className="mx-auto flex max-w-[90%] flex-col justify-between lg:flex-row">
-        <div className="mt-6 lg:mt-0">
+        <div className="stagger-element-gsap mt-6 opacity-0 lg:mt-0">
           <Compare
             firstImage="/before-after/1before.png"
             secondImage="/before-after/1after.png"
@@ -27,7 +69,7 @@ const BeforeAfterSection = () => {
             Severe acne treated in 2 months
           </p>
         </div>
-        <div className="mt-6 lg:mt-0">
+        <div className="stagger-element-gsap mt-6 opacity-0 lg:mt-0">
           <Compare
             firstImage="/before-after/2before.png"
             secondImage="/before-after/2after.png"
@@ -43,7 +85,7 @@ const BeforeAfterSection = () => {
             Old age wrinkles treated in 3 months
           </p>
         </div>
-        <div className="mt-6 lg:mt-0">
+        <div className="stagger-element-gsap mt-6 opacity-0 lg:mt-0">
           <Compare
             firstImage="/before-after/3before.png"
             secondImage="/before-after/3after.png"

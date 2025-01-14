@@ -22,16 +22,16 @@ type Service = {
 const page = () => {
   return (
     <>
-      <header id="services" className="mt-32 md:mt-44">
-        <h1 className="heading relative block">Our Services</h1>
+      <header id="treatments" className="mt-32 md:mt-44">
+        <h1 className="heading relative block">Our Treatments</h1>
         <div className="relative mx-auto mb-7 max-w-[70%] items-center justify-center py-2 text-center font-light text-black-100 md:mb-16 md:max-w-full md:py-4 md:text-lg" />
       </header>
-      <main className="mb-12">
-        <section className="container mx-auto px-4 py-7 md:py-3">
-          <h1 className="subheading mb-24 text-center md:-mt-16 md:text-left lg:mb-28 lg:mt-0">
+      <main className="mx-auto mb-12 max-w-[90%] md:-mt-10">
+        <section className="container mx-auto mb-10 rounded-3xl bg-red-500 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
+          <h1 className="subheading mb-24 text-center md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
             Aesthetic & Anti-Aging Treatments
           </h1>
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 md:gap-10 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 md:gap-10 lg:grid-cols-4">
             {servicesAAT.map((service, index) => (
               <Service3dCard
                 key={index}
@@ -44,11 +44,11 @@ const page = () => {
           </div>
         </section>
 
-        <section className="container mx-auto px-4 py-7 md:py-3">
-          <h1 className="subheading -mt-16 mb-24 text-center md:text-left lg:mb-28 lg:mt-0">
+        <section className="container mx-auto mb-10 rounded-3xl bg-red-500 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
+          <h1 className="subheading mb-24 text-center md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
             Hair Restoration & Treatment
           </h1>
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 md:gap-10 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 md:gap-10 lg:grid-cols-4">
             {servicesHRT.map((service, index) => (
               <Service3dCard
                 key={index}
@@ -61,11 +61,11 @@ const page = () => {
           </div>
         </section>
 
-        <section className="container mx-auto px-4 py-7 md:py-3">
-          <h1 className="subheading -mt-16 mb-24 text-center md:text-left lg:mb-28 lg:mt-0">
+        <section className="container mx-auto mb-10 rounded-3xl bg-red-500 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
+          <h1 className="subheading mb-24 text-center md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
             Skin Lesion Removal
           </h1>
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 md:gap-10 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 md:gap-10 lg:grid-cols-4">
             {servicesSLR.map((service, index) => (
               <Service3dCard
                 key={index}
@@ -78,11 +78,11 @@ const page = () => {
           </div>
         </section>
 
-        <section className="container mx-auto px-4 py-7 md:py-3">
-          <h1 className="subheading -mt-16 mb-24 text-center md:text-left lg:mb-28 lg:mt-0">
+        <section className="container mx-auto mb-10 rounded-3xl bg-red-500 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
+          <h1 className="subheading mb-24 text-center md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
             Pigmentation & Scar Treatment
           </h1>
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 md:gap-10 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 md:gap-10 lg:grid-cols-4">
             {servicesPST.map((service, index) => (
               <Service3dCard
                 key={index}
@@ -95,11 +95,11 @@ const page = () => {
           </div>
         </section>
 
-        <section className="container mx-auto px-4 py-7 md:py-3">
-          <h1 className="subheading -mt-16 mb-24 text-center md:text-left lg:mb-28 lg:mt-0">
+        <section className="container mx-auto mb-10 rounded-3xl bg-red-500 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
+          <h1 className="subheading mb-24 text-center md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
             Skin Cancer Treatment
           </h1>
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 md:gap-10 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 md:gap-10 lg:grid-cols-4">
             {servicesSCT.map((service, index) => (
               <Service3dCard
                 key={index}

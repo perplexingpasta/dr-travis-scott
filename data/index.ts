@@ -8,7 +8,7 @@ import {
 
 export const navItems = [
   { name: "Home", link: "/", icon: GoHome },
-  { name: "Services", link: "/services", icon: GoBriefcase },
+  { name: "Treatments", link: "/treatments", icon: GoBriefcase },
   { name: "Why Us", link: "/why-us", icon: GoGoal },
   { name: "About", link: "/about", icon: GoBook },
   { name: "Visit", link: "/visit", icon: GoLocation },
@@ -224,7 +224,7 @@ export const servicesAAT = [
     imgAlt: "Chemical Peels",
     title: "Chemical Peels",
     description:
-      "Skin rejuvenation, acne scar treatment, pigmentation correction.",
+      "Skin rejuvenation, acne scar treatment, pigmentation .",
   },
   {
     imgSrc: "/images/laser.jpeg",

@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <main className="fixed z-[100] p-1 w-full bg-red-400">
+    <main className="fixed z-[100] w-full bg-red-400 p-1">
       <div className="relative mx-auto flex max-w-7xl flex-1 justify-end space-x-10 overflow-clip px-5 text-black-100 sm:px-10">
         <div className="flex flex-1 justify-end space-x-2">
           <svg

@@ -16,13 +16,13 @@ const HomeEmblaCarousel = () => {
   const HeroEmblaCard = ({ src }) => {
     return (
       <>
-        <div className="embla__slide">
+        <div className="embla__slide lg:max-h-[60vh]">
           <Image
             width={2160}
             height={2160}
             src={src}
             alt=""
-            className="mx-auto aspect-square object-cover brightness-50 filter"
+            className="mx-auto aspect-square object-cover brightness-50 filter md:aspect-video"
           />
         </div>
         {/* <div

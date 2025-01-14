@@ -15,7 +15,7 @@ const WhyChooseUsCards = () => {
         <div className="ml-4 text-sm md:text-base">
           <p className="font-semibold">Best In Dermatology and Cosmetology</p>
           <p className="opacity-80">
-            Leading dermatologist in Rewari with 10+ years of experience{" "}
+            Leading dermatologist in Delhi with 20+ years of experience{" "}
           </p>
         </div>
       </div>

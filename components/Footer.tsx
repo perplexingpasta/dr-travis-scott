@@ -18,7 +18,7 @@ const Footer = () => {
       },
       {
         img: "/images/email-white.svg",
-        label: "travis@cactusjack.com",
+        label: "drvarunagarwal@gmail.com",
         href: "mailto:travis@cactusjack.com",
       },
     ],
@@ -32,10 +32,10 @@ const Footer = () => {
           {/* LEFT SECTION */}
           <div className="mt-16 md:mr-40 lg:mt-40">
             <h1 className="text-xl font-bold md:text-3xl lg:max-w-[45vw]">
-              Dr. Travis Scott
+              Dr. Varun Agarwal
             </h1>
             <p className="text-white-200 mt-1 text-sm md:mt-3">
-              MD Dermatologist based in Chicago, IL
+              MD Dermatologist based in Delhi
             </p>
 
             <div className="pb-12 pt-5 md:pt-12">
@@ -120,7 +120,7 @@ const Footer = () => {
         {/* COPYRIGHT, HANDCODED & SOCIAL ICONS */}
         <div className="relative z-50 mt-16 flex flex-col items-center justify-between lg:flex-row">
           <p className="text-sm font-light md:text-base md:font-normal">
-            Copyright © 2024 Dr. Travis Scott
+            Copyright © 2024 Dr. Varun Agarwal
           </p>
 
           <p className="mt-2 text-sm font-light md:text-base md:font-normal lg:mt-0">

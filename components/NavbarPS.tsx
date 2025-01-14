@@ -35,7 +35,7 @@ const NavbarPS = () => {
       {/* Container */}
       <div className="relative z-10 mx-auto hidden items-center justify-between bg-white px-4 py-5 md:px-24 lg:flex">
         <div className="font-lexendDeca">
-          <h1 className="text-lg font-bold md:text-2xl">Dr. Travis Scott</h1>
+          <h1 className="text-lg font-bold md:text-2xl">Dr. Varun Agarwal</h1>
           <p className="text-sm md:text-base">MBBS, DDV</p>
         </div>
 
@@ -48,52 +48,52 @@ const NavbarPS = () => {
             <li>
               <Link
                 href="/"
-                className="duration-400 group relative inline-block transition-all hover:text-xl hover:font-semibold"
+                className="duration-500 group relative inline-block transition-all hover:text-xl hover:font-semibold"
               >
                 Home
-                <span className="duration-400 absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all group-hover:w-full group-hover:opacity-100"></span>
+                <span className="duration-500 absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all group-hover:w-full group-hover:opacity-100"></span>
               </Link>
             </li>
             <li>
               <Link
-                href="/services"
-                className="duration-400 group relative inline-block transition-all hover:text-xl hover:font-semibold"
+                href="/treatments"
+                className="duration-500 group relative inline-block transition-all hover:text-xl hover:font-semibold"
               >
-                Services
-                <span className="duration-400 absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all group-hover:w-full group-hover:opacity-100"></span>
+                Treatments
+                <span className="duration-500 absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all group-hover:w-full group-hover:opacity-100"></span>
               </Link>
             </li>
             <li>
               <Link
                 href="/why-us"
-                className="duration-400 group relative inline-block transition-all hover:text-xl hover:font-semibold"
+                className="duration-500 group relative inline-block transition-all hover:text-xl hover:font-semibold"
               >
                 Why Us
-                <span className="duration-400 absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all group-hover:w-full group-hover:opacity-100"></span>
+                <span className="duration-500 absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all group-hover:w-full group-hover:opacity-100"></span>
               </Link>
             </li>
             <li>
               <Link
                 href="/about"
-                className="duration-400 group relative inline-block transition-all hover:text-xl hover:font-semibold"
+                className="duration-500 group relative inline-block transition-all hover:text-xl hover:font-semibold"
               >
                 About
-                <span className="duration-400 absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all group-hover:w-full group-hover:opacity-100"></span>
+                <span className="duration-500 absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all group-hover:w-full group-hover:opacity-100"></span>
               </Link>
             </li>
             <li>
               <Link
                 href="/visit"
-                className="duration-400 group relative inline-block transition-all hover:text-xl hover:font-semibold"
+                className="duration-500 group relative inline-block transition-all hover:text-xl hover:font-semibold"
               >
                 Visit
-                <span className="duration-400 absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all group-hover:w-full group-hover:opacity-100"></span>
+                <span className="duration-500 absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all group-hover:w-full group-hover:opacity-100"></span>
               </Link>
             </li>
             <li>
               <Link
                 href="tel:01274222811"
-                className="duration-400 flex items-center gap-x-2 rounded-xl bg-red-300 p-2 px-4 transition-all hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-500 active:text-white"
+                className="duration-500 flex items-center gap-x-2 rounded-xl bg-red-300 p-2 px-4 transition-all hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-500 active:text-white"
               >
                 Call Now
                 <BiSolidPhoneCall />

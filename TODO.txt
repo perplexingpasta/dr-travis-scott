@@ -30,17 +30,25 @@ top header phone callable ✅
 embla carousel for homepage hero ✅
 dynamic imports for below the fold elements ✅
 
-home page
-semantic html in travis
-faq in visit us page
-write much more content for the dermats website w keywords and make it thorough
-make it indian
+remove why us in homepage from md view ✅
+years of experience, procedures done, happy patients in sub-hero ✅
+associations & memberships in about us ✅
+rounded cornered bg to indicate sections ✅
+change ssr status in use client pages ✅
+deleted sparkles.tsx ✅
+faq in visit us page ✅
+make it Indian ✅
+hopepage ✅
+all maps rounded ✅
 
+use react icons everywhere and not svg
 gsap
+remove all actual phone numbers and emails in hrefs
 website metadata & favicon
+write much more content for the dermats website w keywords and make it thorough
 performance optimization
+semantic html in travis
 travis violet & michelle red-300 & sofia for muslims?
-
 
 
 CMS Keywords:
@@ -57,3 +65,10 @@ more than 25000 satisfied patients
 celebrity dermatologist
 skin problems
 acne, hair loss, hair fall, wrinkles
+
+
+T3 WEBSITE UPGRADES
+refer to kanayaa and skintimacy
+a video carousel slider somewhere
+blog section and 3 blogs at the end of each blog
+a rounded img based clinic carousel slider

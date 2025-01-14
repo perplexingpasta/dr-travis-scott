@@ -21,7 +21,7 @@ export const NavbarMobile = () => {
       <div ref={ref} className="relative z-[1000] bg-white">
         <Link href={"/"}>
           <div className="px-4 pt-3">
-            <h1 className="text-lg font-bold">Dr. Travis Scott</h1>
+            <h1 className="text-lg font-bold">Dr. Varun Agarwal</h1>
             <p className="text-sm">MBBS, DDV</p>
           </div>
         </Link>

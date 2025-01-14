@@ -1,29 +1,26 @@
-import { Metadata } from "next";
 import React from "react";
 import dynamic from "next/dynamic";
 import HomeEmblaCarousel from "../../../components/ui/HomeEmbla";
+// import { Metadata } from "next";
 
 const DynamicAbout = dynamic(() => import("@/components/About"));
 const DynamicWhy = dynamic(() => import("@/components/ui/WhyChooseUsCards"));
 const DynamicGoogleReviews = dynamic(
   () => import("@/components/ui/GoogleReviewsCarousel"),
 );
-const DynamicContact = dynamic(
-  () => import("@/components/HomepageContact"),
-  {
-    ssr: false,
-  },
-);
+const DynamicContact = dynamic(() => import("@/components/HomepageContact"), {
+  ssr: false,
+});
 
-export const metadata: Metadata = {
-  title: "Home - Dr. Travis Scott",
-  description: "MD Dermatologist based in Chicago, IL",
-};
+// export const metadata: Metadata = {
+//   title: "Home - Dr. Travis Scott",
+//   description: "MD Dermatologist based in Chicago, IL",
+// };
 
 const page = () => {
   return (
     <>
-      <main className="relative mx-auto mt-24 flex flex-col items-center justify-center overflow-clip bg-white">
+      <main className="relative mt-24 flex flex-col items-center justify-center overflow-clip">
         {/* HERO */}
         <section className="relative">
           {/* <Image
@@ -34,28 +31,42 @@ const page = () => {
             className="brightness-75 filter"
           /> */}
           <HomeEmblaCarousel />
-          <div className="hero-overlay absolute inset-0 flex flex-col items-start justify-end p-3 pb-6 text-white">
-            <p className="mb-1 text-lg font-semibold md:text-2xl">
+          <div className="hero-overlay lg:h-[60vh] absolute inset-0 flex flex-col items-start justify-end p-3 pb-6 md:p-4 lg:ml-10 lg:justify-center">
+            <p className="mb-1 text-lg font-semibold md:text-2xl lg:text-3xl">
               Your Beautiful Self
             </p>
-            <p className="md:text-lg">
-              Visit Dr. Travis Scott today to start your healthy skin journey!
+            <p className="md:text-xl lg:text-2xl">
+              Visit Dr. Varun Agarwal today to start your healthy skin journey!
             </p>
           </div>
         </section>
 
         {/* STATS */}
         <section>
-          <div className="mx-auto w-full bg-red-300">d</div>
+          <div className="mx-auto my-5 grid max-w-[90%] md:max-w-[85%] grid-cols-3 gap-x-3 rounded-3xl border-4 px-3 py-5 md:my-16 md:gap-x-16">
+            <div className="flex flex-col items-center text-center">
+              <p className="text-xl font-semibold md:text-3xl">20+</p>
+              <h3 className="md:text-2xl">Years of Experience</h3>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <p className="text-xl font-semibold md:text-3xl">1,200+</p>
+              <h3 className="md:text-2xl">Procedures Done</h3>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <p className="text-xl font-semibold md:text-3xl">3,000+</p>
+              <h3 className="md:text-2xl">Happy Patients</h3>
+            </div>
+          </div>
         </section>
 
         {/* ABOUT THE DOCTOR */}
-        <section>
+        <section className="mx-auto max-w-[90%] md:mb-12 md:max-w-[85%] rounded-3xl lg:w-full
+         bg-red-500">
           <DynamicAbout />
         </section>
 
         {/* WHY CHOOSE US */}
-        <section className="mb-12 ml-4">
+        <section className="mx-auto mb-12 mt-7 block max-w-[90%] rounded-3xl bg-red-500 py-6 pl-4 md:hidden">
           <h1 className="text-2xl font-semibold md:text-3xl">Why Choose Us</h1>
           <DynamicWhy />
         </section>
@@ -66,7 +77,7 @@ const page = () => {
         </section>
 
         {/* CONTACT US */}
-        <section>
+        <section className="w-full max-w-[90%] md:max-w-[85%] lg:mt-10">
           <DynamicContact />
         </section>
       </main>
