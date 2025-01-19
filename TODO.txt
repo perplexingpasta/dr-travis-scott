@@ -38,8 +38,9 @@ change ssr status in use client pages ✅
 deleted sparkles.tsx ✅
 faq in visit us page ✅
 make it Indian ✅
-hopepage ✅
+homepage ✅
 all maps rounded ✅
+
 
 use react icons everywhere and not svg
 gsap

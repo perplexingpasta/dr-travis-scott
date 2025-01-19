@@ -100,7 +100,8 @@ const WhyUs = () => {
         </section>
 
         {/* BEFORE & AFTER */}
-        <section className="mx-auto max-w-[90%] rounded-3xl bg-red-500 py-7 md:py-12">
+        {/* <section className="mx-auto max-w-[90%] rounded-3xl bg-red-500 py-7 md:py-12"> */}
+        <section className="mx-auto max-w-[90%]">
           <DynamicBeforeAfter />
         </section>
 

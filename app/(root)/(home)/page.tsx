@@ -31,7 +31,7 @@ const page = () => {
             className="brightness-75 filter"
           /> */}
           <HomeEmblaCarousel />
-          <div className="hero-overlay lg:h-[60vh] absolute inset-0 flex flex-col items-start justify-end p-3 pb-6 md:p-4 lg:ml-10 lg:justify-center">
+          <div className="hero-overlay text-white lg:h-[60vh] absolute inset-0 flex flex-col items-start justify-end p-3 pb-6 md:p-4 lg:ml-10 lg:justify-center">
             <p className="mb-1 text-lg font-semibold md:text-2xl lg:text-3xl">
               Your Beautiful Self
             </p>
@@ -61,7 +61,7 @@ const page = () => {
 
         {/* ABOUT THE DOCTOR */}
         <section className="mx-auto max-w-[90%] md:mb-12 md:max-w-[85%] rounded-3xl lg:w-full
-         bg-red-500">
+         bg-gray-200">
           <DynamicAbout />
         </section>
 

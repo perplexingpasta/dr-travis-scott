@@ -132,7 +132,7 @@ const About = () => {
         </section>
 
         {/* ASSOCIATIONS & MEMBERSHIPS */}
-        <section className="mx-auto mb-12 rounded-3xl bg-red-500 p-4 md:mb-0 md:max-w-[85%] md:p-8">
+        <section className="mx-auto mb-12 rounded-3xl bg-gray-200 p-4 md:mb-0 md:max-w-[85%] md:p-8">
           <h1 className="subheading mb-4 text-center md:mb-0">
             Associations & Memberships
           </h1>

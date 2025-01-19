@@ -27,7 +27,7 @@ const page = () => {
         <div className="relative mx-auto mb-7 max-w-[70%] items-center justify-center py-2 text-center font-light text-black-100 md:mb-16 md:max-w-full md:py-4 md:text-lg" />
       </header>
       <main className="mx-auto mb-12 max-w-[90%] md:-mt-10">
-        <section className="container mx-auto mb-10 rounded-3xl bg-red-500 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
+        <section className="container mx-auto mb-10 rounded-3xl bg-gray-200 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
           <h1 className="subheading mb-24 text-center md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
             Aesthetic & Anti-Aging Treatments
           </h1>
@@ -44,7 +44,7 @@ const page = () => {
           </div>
         </section>
 
-        <section className="container mx-auto mb-10 rounded-3xl bg-red-500 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
+        <section className="container mx-auto mb-10 rounded-3xl bg-gray-200 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
           <h1 className="subheading mb-24 text-center md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
             Hair Restoration & Treatment
           </h1>
@@ -61,7 +61,7 @@ const page = () => {
           </div>
         </section>
 
-        <section className="container mx-auto mb-10 rounded-3xl bg-red-500 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
+        <section className="container mx-auto mb-10 rounded-3xl bg-gray-200 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
           <h1 className="subheading mb-24 text-center md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
             Skin Lesion Removal
           </h1>
@@ -78,7 +78,7 @@ const page = () => {
           </div>
         </section>
 
-        <section className="container mx-auto mb-10 rounded-3xl bg-red-500 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
+        <section className="container mx-auto mb-10 rounded-3xl bg-gray-200 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
           <h1 className="subheading mb-24 text-center md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
             Pigmentation & Scar Treatment
           </h1>
@@ -95,7 +95,7 @@ const page = () => {
           </div>
         </section>
 
-        <section className="container mx-auto mb-10 rounded-3xl bg-red-500 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
+        <section className="container mx-auto mb-10 rounded-3xl bg-gray-200 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
           <h1 className="subheading mb-24 text-center md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
             Skin Cancer Treatment
           </h1>

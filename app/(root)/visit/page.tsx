@@ -553,7 +553,7 @@ const Visit = () => {
         <div className="relative mx-auto mb-7 max-w-[70%] items-center justify-center py-2 text-center font-light text-black-100 md:mb-16 md:max-w-full md:py-4 md:text-lg" />
       </header>
 
-      <main>
+      <main className="max-w-[90%] md:max-w-full mx-auto">
         {/* CLINIC */}
         <section
           ref={clinicRef}
@@ -566,7 +566,7 @@ const Visit = () => {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22582.143987612282!2d-122.1565248820646!3d37.42647615735572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbae5f33774b5%3A0x6dd7ef2d054587e3!2sTerun%20Pizza!5e0!3m2!1sen!2sin!4v1735704949104!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
-                className="border-0 rounded-3xl"
+                className="rounded-3xl border-0"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
@@ -758,7 +758,7 @@ const Visit = () => {
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22582.143987612282!2d-122.1565248820646!3d37.42647615735572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbae5f33774b5%3A0x6dd7ef2d054587e3!2sTerun%20Pizza!5e0!3m2!1sen!2sin!4v1735704949104!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
-                  className="border-0 rounded-3xl"
+                  className="rounded-3xl border-0"
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
@@ -851,7 +851,7 @@ const Visit = () => {
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22582.143987612282!2d-122.1565248820646!3d37.42647615735572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbae5f33774b5%3A0x6dd7ef2d054587e3!2sTerun%20Pizza!5e0!3m2!1sen!2sin!4v1735704949104!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
-                  className="border-0 rounded-3xl"
+                  className="rounded-3xl border-0"
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
@@ -938,7 +938,7 @@ const Visit = () => {
         </section>
 
         {/* FAQs */}
-        <section className="mx-auto mb-16 max-w-[90%] rounded-3xl bg-gray-700 p-4 lg:my-16 lg:mb-20 lg:max-w-[70%] lg:p-10">
+        <section className="mx-auto mb-16 max-w-[90%] rounded-3xl bg-gray-300 p-4 lg:my-16 lg:mb-20 lg:max-w-[70%] lg:p-10">
           <h1 className="subheading mb-4 py-1 text-center lg:pb-3">
             Frequently Asked Questions
           </h1>
