@@ -33,12 +33,12 @@ const WhyUs = () => {
       })
         .fromTo(
           ".top-div-gsap",
-          { x: "20%", opacity: 0 },
+          { x: "10%", opacity: 0 },
           { x: "0%", opacity: 1, duration: 2, ease: "power3.out" },
         )
         .fromTo(
           ".points-div-gsap",
-          { x: "-10%", opacity: 0 },
+          { x: "-5%", opacity: 0 },
           { x: "0%", opacity: 1, duration: 1.5, ease: "power3.out" },
           "-=0.5", // Overlaps
         );

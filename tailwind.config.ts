@@ -11,8 +11,8 @@ const config: Config = {
       fontFamily: {
         lexend: ["Lexend", "Helvetica", "Arial", "sans-serif"],
         lexendDeca: ["LexendDeca", "Helvetica", "Arial", "sans-serif"],
-        inter: ["Inter", "Helvetica", "Arial", "sans-serif"],
-        opensans: ["OpenSans", "Helvetica", "Arial", "sans-serif"],
+        // inter: ["Inter", "Helvetica", "Arial", "sans-serif"],
+        // opensans: ["OpenSans", "Helvetica", "Arial", "sans-serif"],
         // poppinsRegular: ["PoppinsRegular", "Helvetica", "Arial", "sans-serif"],
         // poppinsBlack: ["PoppinsBlack", "Helvetica", "Arial", "sans-serif"],
         // poppinsBold: ["PoppinsBold", "Helvetica", "Arial", "sans-serif"],

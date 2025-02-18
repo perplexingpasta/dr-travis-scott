@@ -346,7 +346,7 @@
   font-weight: 100 900;
   font-style: normal;
 }
-
+/* 
 @font-face {
   font-family: "Inter";
   src: url("/fonts/Inter-Variable.ttf") format("truetype");
@@ -359,7 +359,7 @@
   src: url("/fonts/OpenSans-Variable.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal;
-}
+} */
 /* 
 @font-face {
   font-family: "PoppinsRegular";

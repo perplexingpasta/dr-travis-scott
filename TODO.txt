@@ -41,14 +41,18 @@ make it Indian ✅
 homepage ✅
 all maps rounded ✅
 
+use react icons everywhere and not svg ❌
+replaced DDV with MD ✅
+replaced favicon ✅
+replace car brands ✅
+replaced hero carousel images ✅
+semantic html in travis ✅
 
-use react icons everywhere and not svg
 gsap
 remove all actual phone numbers and emails in hrefs
 website metadata & favicon
 write much more content for the dermats website w keywords and make it thorough
 performance optimization
-semantic html in travis
 travis violet & michelle red-300 & sofia for muslims?
 
 

@@ -190,26 +190,25 @@ export const socialMedia = [
   },
 ];
 export const emblaImages = [
-  {
-    id: 1,
-    img: "/staff/staff1.jpg",
-  },
-  {
-    id: 2,
-    img: "/staff/staff2.jpg",
-  },
-  {
-    id: 3,
-    img: "/staff/staff3.jpg",
-  },
-  {
-    id: 4,
-    img: "/staff/staff4.jpg",
-  },
-  {
-    id: 5,
-    img: "/staff/staff5.jpg",
-  },
+  { id: 1, img: "/hero-carousel-images/img1.jpg" },
+  { id: 2, img: "/hero-carousel-images/img2.jpg" },
+  // { id: 3, img: "/hero-carousel-images/img3.jpg" },
+  { id: 4, img: "/hero-carousel-images/img4.jpg" },
+  // { id: 5, img: "/hero-carousel-images/img5.jpg" },
+  { id: 7, img: "/hero-carousel-images/img7.jpg" },
+  { id: 8, img: "/hero-carousel-images/img8.jpg" },
+  { id: 9, img: "/hero-carousel-images/img9.jpg" },
+  { id: 6, img: "/hero-carousel-images/img6.jpg" },
+  { id: 10, img: "/hero-carousel-images/img10.jpg" },
+  { id: 11, img: "/hero-carousel-images/img11.jpg" },
+  { id: 12, img: "/hero-carousel-images/img12.jpg" },
+];
+export const aboutEmblaImages = [
+  { id: 1, img: "/staff/staff1.jpg" },
+  { id: 2, img: "/staff/staff2.jpg" },
+  { id: 3, img: "/staff/staff3.jpg" },
+  { id: 4, img: "/staff/staff4.jpg" },
+  { id: 5, img: "/staff/staff5.jpg" },
 ];
 
 export const servicesAAT = [
@@ -223,8 +222,7 @@ export const servicesAAT = [
     imgSrc: "/images/chemical-peels.jpg",
     imgAlt: "Chemical Peels",
     title: "Chemical Peels",
-    description:
-      "Skin rejuvenation, acne scar treatment, pigmentation .",
+    description: "Skin rejuvenation, acne scar treatment, pigmentation .",
   },
   {
     imgSrc: "/images/laser.jpeg",

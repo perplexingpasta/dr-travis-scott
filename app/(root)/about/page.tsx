@@ -133,36 +133,43 @@ const About = () => {
 
         {/* ASSOCIATIONS & MEMBERSHIPS */}
         <section className="mx-auto mb-12 rounded-3xl bg-gray-200 p-4 md:mb-0 md:max-w-[85%] md:p-8">
-          <h1 className="subheading mb-4 text-center md:mb-0">
+          <h1 className="subheading mb-4 text-center md:mb-8">
             Associations & Memberships
           </h1>
           <div className="flex flex-col items-center justify-center md:flex-row md:gap-x-7 lg:gap-x-32">
             <Image
-              src="/association-brand/kia.svg"
+              src="/association-brand/IMA.png"
               width={1080}
               height={1080}
               className="w-1/3 md:w-1/5 lg:max-w-44"
               alt=""
             />
             <Image
-              src="/association-brand/jaguar.svg"
+              src="/association-brand/AAD.png"
+              width={1080}
+              height={1080}
+              className="w-1/3 md:w-1/5 lg:max-w-36"
+              alt=""
+            />
+            <Image
+              src="/association-brand/IADVL.png"
+              width={1080}
+              height={1080}
+              className="w-1/3 md:w-1/5 lg:max-w-40"
+              alt=""
+            />
+            <Image
+              src="/association-brand/AIIMS.png"
               width={1080}
               height={1080}
               className="w-1/3 md:w-1/5 lg:max-w-44"
               alt=""
             />
             <Image
-              src="/association-brand/ford.svg"
+              src="/association-brand/EADV.png"
               width={1080}
               height={1080}
-              className="w-1/3 md:w-1/5 lg:max-w-44"
-              alt=""
-            />
-            <Image
-              src="/association-brand/hummer.svg"
-              width={1080}
-              height={1080}
-              className="w-1/3 md:w-1/5 lg:max-w-44"
+              className="w-1/3 md:w-1/5 lg:max-w-52"
               alt=""
             />
           </div>

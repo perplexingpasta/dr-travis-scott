@@ -1,26 +1,65 @@
-import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import { BiSolidPhoneCall } from "react-icons/bi";
+import { gsap } from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+import Image from "next/image";
+gsap.registerPlugin(ScrollTrigger);
 
 const HomepageContact = () => {
+  useEffect(() => {
+    gsap.fromTo(
+      ".map-gsap",
+      { x: -50, opacity: 0 },
+      {
+        x: 0,
+        opacity: 1,
+        duration: 1.5,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".map-gsap",
+          start: "top 80%",
+          toggleActions: "play none none reset",
+        },
+      },
+    );
+  }, []);
+
+  useEffect(() => {
+    gsap.fromTo(
+      ".description-gsap",
+      { x: 50, opacity: 0 },
+      {
+        x: 0,
+        opacity: 1,
+        duration: 1.5,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: ".map-gsap",
+          start: "top 80%",
+          toggleActions: "play none none reset",
+        },
+      },
+    );
+  }, []);
+
   return (
     <>
       {/* <h1 className="mb-4 text-2xl font-semibold md:text-3xl">Contact Us</h1> */}
       <div className="mb-12 flex w-full flex-col md:mb-20 lg:flex-row">
-        <div className="flex items-center justify-center align-middle lg:w-1/2">
+        <div className="map-gsap flex items-center justify-center align-middle lg:w-1/2">
           <div className="h-[50vh] w-full pb-10 lg:h-[60vh]">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22582.143987612282!2d-122.1565248820646!3d37.42647615735572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbae5f33774b5%3A0x6dd7ef2d054587e3!2sTerun%20Pizza!5e0!3m2!1sen!2sin!4v1735704949104!5m2!1sen!2sin"
               width="100%"
               height="100%"
-              className="border-0 rounded-3xl"
+              className="rounded-3xl border-0"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>
 
-        <div className="mx-auto max-w-[90vw] lg:ml-10 lg:w-1/2 lg:max-w-[100vw] lg:self-center">
+        <div className="description-gsap mx-auto max-w-[90vw] lg:ml-10 lg:w-1/2 lg:max-w-[100vw] lg:self-center">
           {/* LOCATION */}
           <div className="relative mb-5 flex items-start text-2xl md:mb-9 md:tracking-wide">
             <Image
@@ -91,7 +130,7 @@ const HomepageContact = () => {
           </Link> */}
 
           <Link
-            className="mt-6 flex items-center justify-center md:mt-12 lg:justify-normal lg:ml-12"
+            className="mt-6 flex items-center justify-center md:mt-12 lg:ml-12 lg:justify-normal"
             href="tel:01274222811"
             // target="_blank"
           >

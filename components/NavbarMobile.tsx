@@ -22,7 +22,7 @@ export const NavbarMobile = () => {
         <Link href={"/"}>
           <div className="px-4 pt-3">
             <h1 className="text-lg font-bold">Dr. Varun Agarwal</h1>
-            <p className="text-sm">MBBS, DDV</p>
+            <p className="text-sm">MBBS, MD</p>
           </div>
         </Link>
         <div className="absolute right-0 top-0 my-auto pt-4">

@@ -9,6 +9,7 @@ interface ServiceCardProps {
   imgAlt: string;
   title: string;
   description: string;
+  className?: string; // Optional className prop
   children?: React.ReactNode;
 }
 
@@ -18,9 +19,11 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   title,
   description,
   children,
+  className = '', // Default to an empty string if no className is passed
 }) => {
   return (
-    <CardContainer className="-mt-40 max-w-[90%] md:max-w-full">
+    <CardContainer className={`-mt-40 max-w-[90%] md:max-w-full ${className}`}>
+    {/* <CardContainer className="-mt-40 max-w-[90%] md:max-w-full"> */}
       <CardBody className="group/card relative h-full w-auto rounded-lg border-2 bg-white p-6 shadow-lg md:border-0">
         {/* <CardItem translateZ="100" className="h-[12rem] w-full"> */}
         <CardItem translateZ="100" className="relative mx-auto h-48 w-48">

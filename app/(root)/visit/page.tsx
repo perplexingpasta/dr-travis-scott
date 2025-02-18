@@ -462,7 +462,7 @@ const Visit = () => {
           ".clinic-right-div-gsap",
           { x: "10%", opacity: 0 },
           { x: "0%", opacity: 1, duration: 1, ease: "power3.out" },
-          "-=0.5", // Overlaps with 1s from the end of the previous animation
+          "-=0.5", // Overlaps
         )
         .fromTo(
           ".cta-btn-gsap",

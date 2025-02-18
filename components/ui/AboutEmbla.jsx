@@ -2,7 +2,7 @@
 
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import { emblaImages } from "@/data";
+import { aboutEmblaImages } from "@/data";
 import Image from "next/image";
 
 const EmblaCarousel = () => {
@@ -33,7 +33,7 @@ const EmblaCarousel = () => {
     <>
       <div className="embla" ref={emblaRef}>
         <div className="embla__container">
-          {emblaImages.map((embla) => (
+          {aboutEmblaImages.map((embla) => (
             <HeroEmblaCard src={embla.img} key={embla.id} />
           ))}
         </div>
