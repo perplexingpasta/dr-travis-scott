@@ -563,7 +563,8 @@ const Visit = () => {
             {/* <div className="h-[500px] pb-10 md:h-[650px] lg:h-[600px]"> */}
             <div className="h-[50vh] w-full pb-10 md:h-[65vh] md:w-10/12 lg:h-[60vh]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22582.143987612282!2d-122.1565248820646!3d37.42647615735572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbae5f33774b5%3A0x6dd7ef2d054587e3!2sTerun%20Pizza!5e0!3m2!1sen!2sin!4v1735704949104!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110064.79472718644!2d-121.50756434325555!3d38.57697908980686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ae7f918dc015b%3A0xa4dfb8793904b2ea!2sPacific%20Skin%20Institute!5e0!3m2!1sen!2sin!4v1740104697775!5m2!1sen!2sin"
+                // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22582.143987612282!2d-122.1565248820646!3d37.42647615735572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbae5f33774b5%3A0x6dd7ef2d054587e3!2sTerun%20Pizza!5e0!3m2!1sen!2sin!4v1735704949104!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 className="rounded-3xl border-0"
@@ -755,7 +756,8 @@ const Visit = () => {
             <div className="left-div flex items-center justify-center align-middle lg:w-1/2">
               <div className="h-[50vh] w-full pb-10 md:h-[65vh] md:w-10/12 lg:h-[50vh]">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22582.143987612282!2d-122.1565248820646!3d37.42647615735572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbae5f33774b5%3A0x6dd7ef2d054587e3!2sTerun%20Pizza!5e0!3m2!1sen!2sin!4v1735704949104!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110064.79472718644!2d-121.50756434325555!3d38.57697908980686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ae7f918dc015b%3A0xa4dfb8793904b2ea!2sPacific%20Skin%20Institute!5e0!3m2!1sen!2sin!4v1740104697775!5m2!1sen!2sin"
+                  // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22582.143987612282!2d-122.1565248820646!3d37.42647615735572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbae5f33774b5%3A0x6dd7ef2d054587e3!2sTerun%20Pizza!5e0!3m2!1sen!2sin!4v1735704949104!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   className="rounded-3xl border-0"
@@ -848,7 +850,8 @@ const Visit = () => {
             <div className="left-div flex items-center justify-center align-middle lg:w-1/2">
               <div className="h-[50vh] w-full pb-10 md:h-[65vh] md:w-10/12 lg:h-[50vh]">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22582.143987612282!2d-122.1565248820646!3d37.42647615735572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbae5f33774b5%3A0x6dd7ef2d054587e3!2sTerun%20Pizza!5e0!3m2!1sen!2sin!4v1735704949104!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110064.79472718644!2d-121.50756434325555!3d38.57697908980686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ae7f918dc015b%3A0xa4dfb8793904b2ea!2sPacific%20Skin%20Institute!5e0!3m2!1sen!2sin!4v1740104697775!5m2!1sen!2sin"
+                  // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22582.143987612282!2d-122.1565248820646!3d37.42647615735572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbae5f33774b5%3A0x6dd7ef2d054587e3!2sTerun%20Pizza!5e0!3m2!1sen!2sin!4v1735704949104!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   className="rounded-3xl border-0"

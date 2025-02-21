@@ -93,7 +93,8 @@ const Contact = () => {
       <div className="flex max-w-screen-xl flex-col items-center space-x-36 md:flex-row md:items-start md:justify-between">
         <div className="h-auto md:w-1/2">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10237.585034093197!2d76.60972043789774!3d28.192352306398316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d50733667f049%3A0x7084b768842f7002!2sSai%20Skin%20Clinic!5e0!3m2!1sen!2sin!4v1723364926443!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110064.79472718644!2d-121.50756434325555!3d38.57697908980686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ae7f918dc015b%3A0xa4dfb8793904b2ea!2sPacific%20Skin%20Institute!5e0!3m2!1sen!2sin!4v1740104697775!5m2!1sen!2sin"
+            // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10237.585034093197!2d76.60972043789774!3d28.192352306398316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d50733667f049%3A0x7084b768842f7002!2sSai%20Skin%20Clinic!5e0!3m2!1sen!2sin!4v1723364926443!5m2!1sen!2sin"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"

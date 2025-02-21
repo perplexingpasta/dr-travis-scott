@@ -49,6 +49,8 @@ replaced hero carousel images ✅
 semantic html in travis ✅
 
 gsap
+hero carousel images in low res
+speed up the website
 remove all actual phone numbers and emails in hrefs
 website metadata & favicon
 write much more content for the dermats website w keywords and make it thorough
