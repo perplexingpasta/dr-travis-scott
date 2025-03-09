@@ -941,7 +941,7 @@ const Visit = () => {
         </section>
 
         {/* FAQs */}
-        <section className="mx-auto mb-16 max-w-[90%] rounded-3xl bg-gray-300 p-4 lg:my-16 lg:mb-20 lg:max-w-[70%] lg:p-10">
+        <section className="mx-auto mb-16 max-w-[90%] rounded-3xl bg-red-200 p-4 lg:my-16 lg:mb-20 lg:max-w-[70%] lg:p-10">
           <h1 className="subheading mb-4 py-1 text-center lg:pb-3">
             Frequently Asked Questions
           </h1>

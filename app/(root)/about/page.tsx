@@ -132,11 +132,11 @@ const About = () => {
         </section>
 
         {/* ASSOCIATIONS & MEMBERSHIPS */}
-        <section className="mx-auto mb-12 rounded-3xl bg-gray-200 p-4 md:mb-0 md:max-w-[85%] md:p-8">
+        <section className="mx-auto mb-12 rounded-3xl bg-red-200 p-4 md:mb-0 md:max-w-[85%] md:p-8">
           <h1 className="subheading mb-4 text-center md:mb-8">
             Associations & Memberships
           </h1>
-          <div className="flex flex-col items-center justify-center md:flex-row md:gap-x-7 lg:gap-x-32">
+          <div className="flex flex-col gap-y-8 items-center justify-center md:flex-row md:gap-x-7 lg:gap-x-32">
             <Image
               src="/association-brand/IMA.png"
               width={1080}

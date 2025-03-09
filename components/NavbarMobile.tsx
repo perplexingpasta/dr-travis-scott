@@ -6,8 +6,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Squash as Hamburger } from "hamburger-react";
 import { navItems } from "@/data/index";
 import Link from "next/link";
-// import { ModeToggle } from "./ui/ModeToggle";
 import { usePathname } from "next/navigation";
+// import { ModeToggle } from "./ui/ModeToggle";
 
 export const NavbarMobile = () => {
   const [isOpen, setOpen] = useState(false);
@@ -57,7 +57,6 @@ export const NavbarMobile = () => {
                         <span>
                           <navItem.icon className="text-xl text-white" />
                         </span>
-                        {/* <Icon className="text-xl" /> */}
                       </Link>
                     </li>
                   );
