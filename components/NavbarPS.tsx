@@ -3,6 +3,7 @@ import Image from "next/image";
 import { NavbarMobile } from "./NavbarMobile";
 import Link from "next/link";
 import { BiSolidPhoneCall } from "react-icons/bi";
+import { FaLocationDot } from "react-icons/fa6";
 
 const NavbarPS = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,20 +24,34 @@ const NavbarPS = () => {
           alt=""
         /> */}
         {/* <p className="mr-5 md:mr-20">+91 98138-44164</p> */}
-        <Link
+        <p className="mr-4 hidden lg:block">Have any questions?</p>
+        <a
           href="tel:01274222811"
-          className="mr-5 flex items-center gap-x-1 md:mr-20"
+          className="mr-5 flex items-center gap-x-1 md:mr-20 lg:mr-8"
         >
-          <BiSolidPhoneCall />
+          <BiSolidPhoneCall className="lg:text-lg" />
           +91 98138-44164
-        </Link>
+        </a>
+        <div className="mr-12 hidden items-center lg:flex">
+          <FaLocationDot className="mr-1" />
+          36, 11th Main Road, Janakpuri, Delhi
+        </div>
       </div>
 
       {/* Container */}
-      <div className="relative z-10 mx-auto hidden items-center justify-between bg-white px-4 py-5 md:px-24 lg:flex">
-        <Link href="/" className="font-lexendDeca">
-          <h1 className="text-lg font-bold md:text-2xl">Dr. Varun Agarwal</h1>
-          <p className="text-sm md:text-base">MBBS, MD</p>
+      <div className="relative z-10 mx-auto hidden items-center justify-between bg-white px-4 py-3 shadow-xl md:px-24 lg:flex lg:px-72">
+        <Link href="/" className="flex flex-row items-center">
+          <Image
+            src="/images/dermat-logo.png"
+            width={100}
+            height={100}
+            alt=""
+            className="w-20"
+          />
+          <div>
+            <h1 className="text-2xl font-bold">Dr. Varun Agarwal</h1>
+            <p className="text-xl opacity-75">MBBS, MD</p>
+          </div>
         </Link>
 
         {/* Main Navbar Menu */}
@@ -91,13 +106,13 @@ const NavbarPS = () => {
               </Link>
             </li>
             <li>
-              <Link
+              <a
                 href="tel:01274222811"
                 className="flex items-center gap-x-2 rounded-xl bg-red-300 p-2 px-4 transition-all duration-500 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-500 active:text-white"
               >
                 Call Now
                 <BiSolidPhoneCall />
-              </Link>
+              </a>
             </li>
           </ul>
         </nav>

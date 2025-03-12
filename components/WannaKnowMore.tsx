@@ -1,16 +1,3 @@
-// import React from 'react'
-
-// const WannaKnowMore = () => {
-//   return (
-//     <div className='text-xl flex flex-col text-center mx-auto md:flex-row md:max-w-[75%]'>
-//         <div className='w-1/2'>hiiiiiii</div>
-//         <div className='w-1/2'>hiiiiiii</div>
-//     </div>
-//   )
-// }
-
-// export default WannaKnowMore
-
 import Link from "next/link";
 import { BiSolidPhoneCall } from "react-icons/bi";
 

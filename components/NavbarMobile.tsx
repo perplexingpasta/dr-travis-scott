@@ -7,6 +7,7 @@ import { Squash as Hamburger } from "hamburger-react";
 import { navItems } from "@/data/index";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 // import { ModeToggle } from "./ui/ModeToggle";
 
 export const NavbarMobile = () => {
@@ -18,11 +19,21 @@ export const NavbarMobile = () => {
 
   return (
     <>
-      <div ref={ref} className="relative z-[1000] bg-white">
-        <Link href={"/"}>
-          <div className="px-4 pt-3">
-            <h1 className="text-lg font-bold">Dr. Varun Agarwal</h1>
-            <p className="text-sm">MBBS, MD</p>
+      <div
+        ref={ref}
+        className="relative z-[1000] bg-white pb-2 shadow-lg md:shadow-xl"
+      >
+        <Link href={"/"} className="flex flex-row items-center pt-3">
+          <Image
+            src="/images/dermat-logo.png"
+            width={50}
+            height={50}
+            alt=""
+            className="h-12 w-12 md:h-20 md:w-20"
+          />
+          <div>
+            <h1 className="text-lg font-bold md:text-2xl">Dr. Varun Agarwal</h1>
+            <p className="text-sm opacity-75 md:text-xl">MBBS, MD</p>
           </div>
         </Link>
         <div className="absolute right-0 top-0 my-auto pt-4">

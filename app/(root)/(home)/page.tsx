@@ -4,6 +4,10 @@ import dynamic from "next/dynamic";
 import HomeEmblaCarousel from "../../../components/ui/HomeEmbla";
 import { gsap } from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import Script from "next/script";
+import { MdAccessTimeFilled } from "react-icons/md";
+import { GiHealthNormal } from "react-icons/gi";
+import { BiSolidHappyHeartEyes } from "react-icons/bi";
 
 const DynamicAbout = dynamic(() => import("@/components/About"));
 const DynamicWhy = dynamic(() => import("@/components/ui/WhyChooseUsCards"));
@@ -73,17 +77,38 @@ const Home = () => {
         {/* STATS */}
         <section ref={statsRef}>
           <div className="mx-auto my-5 grid max-w-[90%] grid-cols-3 gap-x-3 rounded-3xl border-4 border-red-200 px-3 py-5 md:my-16 md:max-w-[85%] md:gap-x-16">
-            <div className="first-stat-gsap flex flex-col items-center text-center opacity-0">
-              <p className="text-xl font-semibold md:text-3xl">20+</p>
-              <h3 className="md:text-2xl">Years of Experience</h3>
+            <div className="first-stat-gsap flex flex-row items-center text-center opacity-0">
+              <MdAccessTimeFilled className="-mr-2 hidden text-7xl opacity-75 md:block lg:-mr-6" />
+              <div className="flex flex-col">
+                <p className="text-2xl font-semibold opacity-75 md:text-4xl">
+                  22+
+                </p>
+                <h3 className="text-sm opacity-50 md:text-xl md:font-semibold">
+                  Years of Experience
+                </h3>
+              </div>
             </div>
-            <div className="second-stat-gsap flex flex-col items-center text-center opacity-0">
-              <p className="text-xl font-semibold md:text-3xl">1,200+</p>
-              <h3 className="md:text-2xl">Procedures Done</h3>
+            <div className="second-stat-gsap flex flex-row items-center text-center opacity-0">
+              <GiHealthNormal className="mr-2 hidden text-7xl opacity-75 md:block lg:mr-0" />
+              <div className="flex flex-col">
+                <p className="text-2xl font-semibold opacity-75 md:text-4xl">
+                  1200+
+                </p>
+                <h3 className="text-sm opacity-50 md:text-xl md:font-semibold">
+                  Procedures Done
+                </h3>
+              </div>
             </div>
-            <div className="third-stat-gsap flex flex-col items-center text-center opacity-0">
-              <p className="text-xl font-semibold md:text-3xl">3,000+</p>
-              <h3 className="md:text-2xl">Happy Patients</h3>
+            <div className="third-stat-gsap flex flex-row items-center text-center opacity-0">
+              <BiSolidHappyHeartEyes className="hidden text-7xl opacity-75 md:block lg:-mr-2" />
+              <div className="flex flex-col">
+                <p className="text-2xl font-semibold opacity-75 md:text-4xl">
+                  3000+
+                </p>
+                <h3 className="text-sm opacity-50 md:text-xl md:font-semibold">
+                  Happy Patients
+                </h3>
+              </div>
             </div>
           </div>
         </section>
@@ -109,6 +134,14 @@ const Home = () => {
           <DynamicContact />
         </section>
       </main>
+      {/* GHL CHATBOX */}
+      {/* <aside>
+        <Script
+          src="https://widgets.leadconnectorhq.com/loader.js"
+          data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+          data-widget-id="67cef3d5f601a64e2508759f"
+        ></Script>
+      </aside> */}
     </>
   );
 };

@@ -48,15 +48,34 @@ replace car brands ✅
 replaced hero carousel images ✅
 semantic html in travis ✅
 
+- the navbar is way too wide; decrease max-w; add a dropshadow below it ✅
+- add a logo on the left of name in navbar ✅
+- add address in header in just lg view; also add a line "Have any questions:" ✅
+- in hero stats
+    - make the numbers much bigger and the text small w op75 ✅
+    - add an appropriate logo on the left of each stat in lg ✅
+
+- copy hero section from [here](https://drdishabaxi.com/) and a CTA as well
+- add a gallery page; w masonry grid maybe; but you should be able to scroll through the pictures like a carousel
+- hero carousel images are low res
+- improve the faq section in visit us
+- homepage
+	- book an appt cta in know doc section
+	- know doc right side disappears when scroll bottom to top
+	- make the know-doc section a bit more like [this](https://drdishabaxi.com/) 
+	- copy "why our patients choose us" section from drdivyasharma.com
+	- add a faq section from hoadelhi.in/ beside "why patients choose use" section
+	- copy the quick glowing skin tips section from hoadelhi
+	- add a title to the reviews section like [here](https://drdishabaxi.com/) 
+	- add a "get appt" section at the end of the page like [here](https://drdishabaxi.com/) 
+
+
 gsap
-hero carousel images in low res
 speed up the website
 remove all actual phone numbers and emails in hrefs
 website metadata & favicon
 write much more content for the dermats website w keywords and make it thorough
 performance optimization
-travis violet & michelle red-300 & sofia for muslims?
-
 
 CMS Keywords:
 dermatologist
@@ -72,10 +91,3 @@ more than 25000 satisfied patients
 celebrity dermatologist
 skin problems
 acne, hair loss, hair fall, wrinkles
-
-
-T3 WEBSITE UPGRADES
-refer to kanayaa and skintimacy
-a video carousel slider somewhere
-blog section and 3 blogs at the end of each blog
-a rounded img based clinic carousel slider
