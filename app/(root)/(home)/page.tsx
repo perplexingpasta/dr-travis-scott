@@ -1,13 +1,14 @@
 "use client";
 import React, { useRef, useEffect } from "react";
 import dynamic from "next/dynamic";
-import HomeEmblaCarousel from "../../../components/ui/HomeEmbla";
 import { gsap } from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import Script from "next/script";
+// import HomeEmblaCarousel from "../../../components/ui/HomeEmbla";
+// import Script from "next/script";
 import { MdAccessTimeFilled } from "react-icons/md";
 import { GiHealthNormal } from "react-icons/gi";
 import { BiSolidHappyHeartEyes } from "react-icons/bi";
+import Herov3 from "@/components/Herov3";
 
 const DynamicAbout = dynamic(() => import("@/components/About"));
 const DynamicWhy = dynamic(() => import("@/components/ui/WhyChooseUsCards"));
@@ -62,7 +63,7 @@ const Home = () => {
     <>
       <main className="relative mt-24 flex flex-col items-center justify-center overflow-clip">
         {/* HERO */}
-        <section className="relative">
+        {/* <section className="relative">
           <HomeEmblaCarousel />
           <div className="hero-overlay absolute inset-0 flex flex-col items-start justify-end p-3 pb-6 text-white md:p-4 lg:ml-10 lg:h-[60vh] lg:justify-center">
             <p className="mb-1 text-lg font-semibold md:text-2xl lg:text-3xl">
@@ -72,10 +73,14 @@ const Home = () => {
               Visit Dr. Varun Agarwal today to start your healthy skin journey!
             </p>
           </div>
+        </section> */}
+
+        <section className="relative h-[12rem] bg-red-400 bg-opacity-75 lg:h-[40rem] lg:w-full">
+          <Herov3 />
         </section>
 
         {/* STATS */}
-        <section ref={statsRef}>
+        <section ref={statsRef} className="mt-6 md:mt-60 lg:mt-0">
           <div className="mx-auto my-5 grid max-w-[90%] grid-cols-3 gap-x-3 rounded-3xl border-4 border-red-200 px-3 py-5 md:my-16 md:max-w-[85%] md:gap-x-16">
             <div className="first-stat-gsap flex flex-row items-center text-center opacity-0">
               <MdAccessTimeFilled className="-mr-2 hidden text-7xl opacity-75 md:block lg:-mr-6" />

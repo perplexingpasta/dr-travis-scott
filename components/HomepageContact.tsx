@@ -124,24 +124,24 @@ const HomepageContact = () => {
 
           {/* <Link
             href="tel:01274222811"
-            className="mx-auto -mb-3 mt-12 flex max-w-[40%] items-center justify-center gap-x-2 rounded-xl bg-red-300 p-2 px-3 transition-all duration-300 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-500 active:text-white"
+            className="mx-auto -mb-3 mt-12 flex max-w-[40%] items-center justify-center gap-x-2 rounded-lg bg-red-300 p-2 px-3 transition-all duration-300 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-500 active:text-white"
           >
             Call Now
             <BiSolidPhoneCall />
           </Link> */}
 
-          <Link
+          <a
             className="mt-6 flex items-center justify-center md:mt-12 lg:ml-12 lg:justify-normal"
             href="tel:01274222811"
             // target="_blank"
           >
-            <button className="rounded-xl bg-red-300 p-3 text-base transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:p-3 md:px-6 md:text-xl">
+            <button className="rounded-lg bg-red-300 p-3 text-base transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:p-3 md:px-6 md:text-xl">
               <span className="flex items-center gap-x-2">
                 Call Now
                 <BiSolidPhoneCall className="md:text-2xl" />
               </span>
             </button>
-          </Link>
+          </a>
         </div>
       </div>
     </>

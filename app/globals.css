@@ -188,10 +188,11 @@
 /* MY OWN CLASSES */
 /* THIS CONTROLS TEXT HIGHLIGHTING */
 *::selection {
-  /* background: #f5f5f5;
-  color: #000; */
-  background: #818cf8;
-  color: #fff;
+  /* background: #f5f5f5;*/
+  /* color: #000;  */
+  /* background: #818cf8; */
+  background: #ffa2a2;
+  /* color: #fff; */
 }
 
 .gradient-text {

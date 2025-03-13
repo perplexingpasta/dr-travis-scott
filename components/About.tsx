@@ -145,6 +145,18 @@ const About = () => {
               overall wellness.{" "}
             </p>
           </div>
+          <a
+            className="relative flex items-center justify-center mt-4 lg:justify-start lg:-mb-4 lg:mt-8 lg:w-full"
+            href="tel:01274222811"
+            // target="_blank"
+          >
+            <button className="rounded-lg bg-red-300 p-3 text-base transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:p-3 md:px-6 md:text-xl">
+              <span className="flex items-center gap-x-2">
+                Book An Appointment
+                {/* <BiSolidPhoneCall className="md:text-2xl" /> */}
+              </span>
+            </button>
+          </a>
         </div>
       </div>
     </div>

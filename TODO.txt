@@ -55,12 +55,15 @@ semantic html in travis ✅
     - make the numbers much bigger and the text small w op75 ✅
     - add an appropriate logo on the left of each stat in lg ✅
 
-- copy hero section from [here](https://drdishabaxi.com/) and a CTA as well
-- add a gallery page; w masonry grid maybe; but you should be able to scroll through the pictures like a carousel
-- hero carousel images are low res
-- improve the faq section in visit us
+- darker accent colors in buttons and everywhere else ✅
+- make duration-300 in all animations (including navbarps) ✅
+- copy hero section from [here](https://drdishabaxi.com/) and a CTA as well ✅
+- hero carousel images are low res ✅
+- improve the faq section in visit us ✅
+
 - homepage
-	- book an appt cta in know doc section
+	- book an appt cta in know doc section ✅
+	- add parallax effect to scroll hero bg
 	- know doc right side disappears when scroll bottom to top
 	- make the know-doc section a bit more like [this](https://drdishabaxi.com/) 
 	- copy "why our patients choose us" section from drdivyasharma.com

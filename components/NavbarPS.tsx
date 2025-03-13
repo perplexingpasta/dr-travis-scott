@@ -63,52 +63,52 @@ const NavbarPS = () => {
             <li>
               <Link
                 href="/"
-                className="group relative inline-block transition-all duration-500 hover:text-xl hover:font-semibold"
+                className="group relative inline-block transition-all duration-300 hover:text-xl hover:font-semibold"
               >
                 Home
-                <span className="absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all duration-500 group-hover:w-full group-hover:opacity-100"></span>
+                <span className="absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all duration-300 group-hover:w-full group-hover:opacity-100"></span>
               </Link>
             </li>
             <li>
               <Link
                 href="/treatments"
-                className="group relative inline-block transition-all duration-500 hover:text-xl hover:font-semibold"
+                className="group relative inline-block transition-all duration-300 hover:text-xl hover:font-semibold"
               >
                 Treatments
-                <span className="absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all duration-500 group-hover:w-full group-hover:opacity-100"></span>
+                <span className="absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all duration-300 group-hover:w-full group-hover:opacity-100"></span>
               </Link>
             </li>
             <li>
               <Link
                 href="/why-us"
-                className="group relative inline-block transition-all duration-500 hover:text-xl hover:font-semibold"
+                className="group relative inline-block transition-all duration-300 hover:text-xl hover:font-semibold"
               >
                 Why Us
-                <span className="absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all duration-500 group-hover:w-full group-hover:opacity-100"></span>
+                <span className="absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all duration-300 group-hover:w-full group-hover:opacity-100"></span>
               </Link>
             </li>
             <li>
               <Link
                 href="/about"
-                className="group relative inline-block transition-all duration-500 hover:text-xl hover:font-semibold"
+                className="group relative inline-block transition-all duration-300 hover:text-xl hover:font-semibold"
               >
                 About
-                <span className="absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all duration-500 group-hover:w-full group-hover:opacity-100"></span>
+                <span className="absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all duration-300 group-hover:w-full group-hover:opacity-100"></span>
               </Link>
             </li>
             <li>
               <Link
                 href="/visit"
-                className="group relative inline-block transition-all duration-500 hover:text-xl hover:font-semibold"
+                className="group relative inline-block transition-all duration-300 hover:text-xl hover:font-semibold"
               >
                 Visit
-                <span className="absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all duration-500 group-hover:w-full group-hover:opacity-100"></span>
+                <span className="absolute -bottom-1 left-1/2 h-[2px] w-0 -translate-x-1/2 transform bg-red-400 opacity-0 transition-all duration-300 group-hover:w-full group-hover:opacity-100"></span>
               </Link>
             </li>
             <li>
               <a
                 href="tel:01274222811"
-                className="flex items-center gap-x-2 rounded-xl bg-red-300 p-2 px-4 transition-all duration-500 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-500 active:text-white"
+                className="flex items-center gap-x-2 rounded-lg bg-red-500 bg-opacity-75 p-2 px-4 text-white transition-all duration-300 hover:bg-red-700 hover:drop-shadow-xl active:bg-red-900"
               >
                 Call Now
                 <BiSolidPhoneCall />

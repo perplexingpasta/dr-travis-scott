@@ -202,7 +202,7 @@
 //                   </div>
 //                 </button> */}
 
-//                 <button className="rounded-xl bg-red-300 p-3 text-base transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:p-3 md:px-6 md:text-xl">
+//                 <button className="rounded-lg bg-red-300 p-3 text-base transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:p-3 md:px-6 md:text-xl">
 //                   <span className="flex items-center gap-x-2">
 //                     Get Directions
 //                     <FaArrowRight className="md:text-2xl" />
@@ -299,7 +299,7 @@
 //                   target="_blank"
 //                   rel="noopener"
 //                 >
-//                   <button className="rounded-xl bg-red-300 p-3 transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:mt-2 md:p-3 md:px-5 md:text-lg">
+//                   <button className="rounded-lg bg-red-300 p-3 transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:mt-2 md:p-3 md:px-5 md:text-lg">
 //                     <span className="flex items-center gap-x-2">
 //                       Get Directions
 //                       <FaArrowRight className="md:text-xl" />
@@ -394,7 +394,7 @@
 //                   target="_blank"
 //                   rel="noopener"
 //                 >
-//                   <button className="rounded-xl bg-red-300 p-3 transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:mt-2 md:p-3 md:px-5 md:text-lg">
+//                   <button className="rounded-lg bg-red-300 p-3 transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:mt-2 md:p-3 md:px-5 md:text-lg">
 //                     <span className="flex items-center gap-x-2">
 //                       Get Directions
 //                       <FaArrowRight className="md:text-xl" />
@@ -740,7 +740,7 @@ const Visit = () => {
                   </div>
                 </button> */}
 
-                <button className="rounded-xl bg-red-300 p-3 text-base transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:p-3 md:px-6 md:text-xl">
+                <button className="rounded-lg bg-red-300 p-3 text-base transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:p-3 md:px-6 md:text-xl">
                   <span className="flex items-center gap-x-2">
                     Get Directions
                     <FaArrowRight className="md:text-2xl" />
@@ -839,7 +839,7 @@ const Visit = () => {
                   target="_blank"
                   rel="noopener"
                 >
-                  <button className="rounded-xl bg-red-300 p-3 transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:mt-2 md:p-3 md:px-5 md:text-lg">
+                  <button className="rounded-lg bg-red-300 p-3 transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:mt-2 md:p-3 md:px-5 md:text-lg">
                     <span className="flex items-center gap-x-2">
                       Get Directions
                       <FaArrowRight className="md:text-xl" />
@@ -933,7 +933,7 @@ const Visit = () => {
                   target="_blank"
                   rel="noopener"
                 >
-                  <button className="rounded-xl bg-red-300 p-3 transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:mt-2 md:p-3 md:px-5 md:text-lg">
+                  <button className="rounded-lg bg-red-300 p-3 transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:mt-2 md:p-3 md:px-5 md:text-lg">
                     <span className="flex items-center gap-x-2">
                       Get Directions
                       <FaArrowRight className="md:text-xl" />

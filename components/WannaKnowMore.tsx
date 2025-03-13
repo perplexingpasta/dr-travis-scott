@@ -16,7 +16,7 @@ const WannKnowMore = () => {
             </div>
             <div className="text-center md:my-auto md:mr-10 md:text-right">
               <Link href="tel:01274222811">
-                <button className="rounded-xl bg-red-300 p-3 transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:mt-2 md:p-3 md:px-5 md:text-lg lg:p-4 lg:px-7 lg:text-2xl">
+                <button className="rounded-lg bg-red-300 p-3 transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:mt-2 md:p-3 md:px-5 md:text-lg lg:p-4 lg:px-7 lg:text-2xl">
                   <span className="flex items-center gap-x-2 lg:gap-x-3">
                     Call Now
                     <BiSolidPhoneCall />

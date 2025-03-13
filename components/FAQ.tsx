@@ -13,7 +13,10 @@ const FAQ = () => {
           How much is the consultation fee?
         </AccordionTrigger>
         <AccordionContent className="opacity-75 md:text-lg lg:text-xl">
-          1000 bucks for real
+          {/* 1000 bucks for real */}
+          Our walk-in consultation is ₹750 only. <br /> This consultation will
+          be valid for the next 90 days from the day of your consultation. Visit
+          us now!
         </AccordionContent>
       </AccordionItem>
 
@@ -22,8 +25,11 @@ const FAQ = () => {
           At what time is the doctor available?
         </AccordionTrigger>
         <AccordionContent className="opacity-75 md:text-lg lg:text-xl">
-          On weekdays, from 10am and till 5pm in the evening. <br />
-          Who knows about the weekends lol
+          {/* On weekdays, from 10am and till 5pm in the evening. <br />
+          Who knows about the weekends lol */}
+          On weekdays i.e. from Monday to Friday, Dr. Varun is available for
+          consultation from 10am in the morning to 5pm in the evening. <br />
+          The consultation time is 11am to 1pm on Saturdays & Sundays.
         </AccordionContent>
       </AccordionItem>
 
@@ -32,7 +38,12 @@ const FAQ = () => {
           Are the treatments safe?
         </AccordionTrigger>
         <AccordionContent className="opacity-75 md:text-lg lg:text-xl">
-          fosho
+          {/* fosho */}
+          Absolutely!
+          <br />
+          All our procedures & treatments are 100% safe. They are done with the
+          utmost care by our team of experienced doctors and skilled staff,
+          ensuring that you are satisfied with the experience!
         </AccordionContent>
       </AccordionItem>
 
