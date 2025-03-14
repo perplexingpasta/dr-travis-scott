@@ -18,7 +18,8 @@ const BeforeAfterSection = () => {
         scrollTrigger: {
           trigger: ".title-gsap",
           start: "top 80%",
-          toggleActions: "play none none reset",
+          toggleActions: "play none none none",
+          once: true,
         },
       },
     );
@@ -38,7 +39,8 @@ const BeforeAfterSection = () => {
         scrollTrigger: {
           trigger: ".title-gsap",
           start: "top 80%",
-          toggleActions: "play none none reset",
+          toggleActions: "play none none none",
+          once: true,
         },
       },
     );

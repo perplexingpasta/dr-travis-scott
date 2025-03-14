@@ -65,7 +65,8 @@ const WhyUs = () => {
           scrollTrigger: {
             trigger: wannaKnowMoreRef.current,
             start: "top 70%",
-            toggleActions: "play none none reset",
+            toggleActions: "play none none none",
+            once: true,
           },
         },
       );
@@ -108,7 +109,7 @@ const WhyUs = () => {
         {/* GOOGLE REVIEWS CAROUSEL */}
         <section className="md:mx-auto md:max-w-[90%] lg:mt-32">
           <div className="mt-16 text-center text-2xl font-semibold md:ml-[5%] md:text-left md:text-3xl lg:-mb-10 lg:mt-0">
-            <p className="font-lexendDeca md:text-4xl">Google Reviews</p>
+            <p className="md:text-4xl">Google Reviews</p>
             <p className="mx-auto max-w-[80%] text-base font-light md:max-w-full md:text-xl">
               Some genuine google reviews.
             </p>
@@ -119,10 +120,14 @@ const WhyUs = () => {
         {/* LONG REVIEW */}
         <section className="md:mx-auto md:max-w-[90%] lg:mt-12">
           <div className="mb-5 mt-8 text-center text-2xl font-semibold md:mb-10 md:ml-[5%] md:mt-0 md:text-left md:text-3xl">
-            <p className="font-lexendDeca md:text-4xl">Success Stories</p>
-            <p className="mx-auto max-w-[80%] text-base font-light md:max-w-full md:text-xl">
-              Case studies of patients in their own words.
-            </p>
+            <p className="md:text-4xl">Happy Stories</p>
+            <div className="mx-auto max-w-[80%] text-base font-light md:max-w-full md:text-xl lg:mt-2">
+              {/* Case studies of patients in their own words. */}
+              Trusted care, radiant results.
+              <br />
+              Explore the stories of skin transformations that made a
+              difference!
+            </div>
           </div>
           <div className="mx-auto mb-24 max-w-[90%] lg:grid lg:grid-cols-3 lg:place-items-start lg:gap-x-16">
             <div className="mx-auto rounded-3xl bg-red-200 p-10 text-sm md:mt-12 md:text-base">

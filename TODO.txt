@@ -63,14 +63,13 @@ semantic html in travis ✅
 
 - homepage
 	- book an appt cta in know doc section ✅
-	- add parallax effect to scroll hero bg
-	- know doc right side disappears when scroll bottom to top
-	- make the know-doc section a bit more like [this](https://drdishabaxi.com/) 
-	- copy "why our patients choose us" section from drdivyasharma.com
-	- add a faq section from hoadelhi.in/ beside "why patients choose use" section
+	- make the know-doc section a bit more like [this](https://drdishabaxi.com/) ✅
+	- know doc right side disappears when scroll bottom to top ✅
+	- copy "why our patients choose us" section from drdivyasharma.com ✅
+	- add a faq section from hoadelhi.in/ ✅
+	- add a title to the reviews section like [here](https://drdishabaxi.com/) ✅
+	- add a "get appt" section at the end of the page like [here](https://drdishabaxi.com/)  ✅
 	- copy the quick glowing skin tips section from hoadelhi
-	- add a title to the reviews section like [here](https://drdishabaxi.com/) 
-	- add a "get appt" section at the end of the page like [here](https://drdishabaxi.com/) 
 
 
 gsap

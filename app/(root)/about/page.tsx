@@ -66,7 +66,8 @@ const About = () => {
           scrollTrigger: {
             trigger: wannaKnowMoreRef.current,
             start: "top 70%",
-            toggleActions: "play none none reset",
+            toggleActions: "play none none none",
+            once: true,
           },
         },
       );
@@ -125,7 +126,7 @@ const About = () => {
               src="/images/doctor.jpg"
               width={1000}
               height={1000}
-              className="w-4/5 aspect-square object-cover rounded-2xl"
+              className="aspect-square w-4/5 rounded-2xl object-cover"
               alt=""
             />
           </div>
@@ -136,7 +137,7 @@ const About = () => {
           <h1 className="subheading mb-4 text-center md:mb-8">
             Associations & Memberships
           </h1>
-          <div className="flex flex-col gap-y-8 items-center justify-center md:flex-row md:gap-x-7 lg:gap-x-32">
+          <div className="flex flex-col items-center justify-center gap-y-8 md:flex-row md:gap-x-7 lg:gap-x-32">
             <Image
               src="/association-brand/IMA.png"
               width={1080}

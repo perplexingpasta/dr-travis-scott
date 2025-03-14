@@ -9,15 +9,17 @@ import { MdAccessTimeFilled } from "react-icons/md";
 import { GiHealthNormal } from "react-icons/gi";
 import { BiSolidHappyHeartEyes } from "react-icons/bi";
 import Herov3 from "@/components/Herov3";
+import GetApptCTA from "@/components/GetApptCTA";
 
 const DynamicAbout = dynamic(() => import("@/components/About"));
 const DynamicWhy = dynamic(() => import("@/components/ui/WhyChooseUsCards"));
+const DynamicWhyMd = dynamic(() => import("@/components/WhyChooseUsMd"));
+const DynamicCTA = dynamic(() => import("@/components/GetApptCTA"));
+const DynamicFAQ = dynamic(() => import("@/components/HomeFAQ"));
 const DynamicGoogleReviews = dynamic(
   () => import("@/components/ui/GoogleReviewsCarousel"),
 );
-const DynamicContact = dynamic(() => import("@/components/HomepageContact"), {
-  ssr: false,
-});
+const DynamicContact = dynamic(() => import("@/components/HomepageContact"));
 
 // export const metadata: Metadata = {
 //   title: "Home - Dr. Travis Scott",
@@ -63,18 +65,6 @@ const Home = () => {
     <>
       <main className="relative mt-24 flex flex-col items-center justify-center overflow-clip">
         {/* HERO */}
-        {/* <section className="relative">
-          <HomeEmblaCarousel />
-          <div className="hero-overlay absolute inset-0 flex flex-col items-start justify-end p-3 pb-6 text-white md:p-4 lg:ml-10 lg:h-[60vh] lg:justify-center">
-            <p className="mb-1 text-lg font-semibold md:text-2xl lg:text-3xl">
-              Your Beautiful Self
-            </p>
-            <p className="md:text-xl lg:text-2xl">
-              Visit Dr. Varun Agarwal today to start your healthy skin journey!
-            </p>
-          </div>
-        </section> */}
-
         <section className="relative h-[12rem] bg-red-400 bg-opacity-75 lg:h-[40rem] lg:w-full">
           <Herov3 />
         </section>
@@ -119,14 +109,18 @@ const Home = () => {
         </section>
 
         {/* ABOUT THE DOCTOR */}
-        <section className="mx-auto max-w-[90%] rounded-3xl bg-gray-200 md:mb-12 md:max-w-[85%] lg:w-full">
+        <section className="mx-auto max-w-[90%] rounded-3xl bg-gray-200 bg-opacity-50 md:mb-12 md:max-w-[85%] lg:w-full">
           <DynamicAbout />
         </section>
 
         {/* WHY CHOOSE US */}
         <section className="mx-auto mb-12 mt-7 block max-w-[90%] rounded-3xl bg-red-200 py-6 pl-4 md:hidden">
-          <h1 className="text-2xl font-semibold md:text-3xl">Why Choose Us</h1>
+          <h1 className="text-2xl font-semibold md:text-3xl">Why Choose Us?</h1>
           <DynamicWhy />
+        </section>
+
+        <section className="mx-auto mb-16 mt-8 hidden w-full max-w-[90%] md:block md:max-w-[75%] lg:mb-20 lg:mt-12 lg:max-w-[60%]">
+          <DynamicWhyMd />
         </section>
 
         {/* GOOGLE TESTIMONIALS */}
@@ -137,6 +131,18 @@ const Home = () => {
         {/* CONTACT US */}
         <section className="w-full max-w-[90%] md:max-w-[85%] lg:mt-10">
           <DynamicContact />
+        </section>
+
+        {/* FREQUENTLY ASKED QUESTIONS */}
+        <section className="mx-auto mb-12 max-w-[90%] rounded-3xl bg-red-200 p-4 md:w-[85%] md:p-6 lg:mb-16 lg:w-[70%] lg:p-10">
+          <h1 className="subheading mb-4 py-1 text-center lg:pb-3">
+            Frequently Asked Questions
+          </h1>
+          <DynamicFAQ />
+        </section>
+
+        <section className="mx-auto mb-12 lg:mb-20 lg:w-[60%] lg:px-10">
+          <GetApptCTA />
         </section>
       </main>
       {/* GHL CHATBOX */}

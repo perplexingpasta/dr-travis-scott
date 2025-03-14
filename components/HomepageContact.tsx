@@ -19,7 +19,8 @@ const HomepageContact = () => {
         scrollTrigger: {
           trigger: ".map-gsap",
           start: "top 80%",
-          toggleActions: "play none none reset",
+          toggleActions: "play none none none",
+          once: true,
         },
       },
     );
@@ -27,7 +28,7 @@ const HomepageContact = () => {
 
   useEffect(() => {
     gsap.fromTo(
-      ".description-gsap",
+      ".map-description-gsap",
       { x: 50, opacity: 0 },
       {
         x: 0,
@@ -37,7 +38,8 @@ const HomepageContact = () => {
         scrollTrigger: {
           trigger: ".map-gsap",
           start: "top 80%",
-          toggleActions: "play none none reset",
+          toggleActions: "play none none none",
+          once: true,
         },
       },
     );
@@ -60,7 +62,7 @@ const HomepageContact = () => {
           </div>
         </div>
 
-        <div className="description-gsap mx-auto max-w-[90vw] lg:ml-10 lg:w-1/2 lg:max-w-[100vw] lg:self-center">
+        <div className="map-description-gsap mx-auto max-w-[90vw] lg:ml-10 lg:w-1/2 lg:max-w-[100vw] lg:self-center">
           {/* LOCATION */}
           <div className="relative mb-5 flex items-start text-2xl md:mb-9 md:tracking-wide">
             <Image

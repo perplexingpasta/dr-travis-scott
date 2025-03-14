@@ -80,7 +80,7 @@
     @apply text-center text-4xl font-extrabold md:text-5xl;
   }
   .subheading {
-    @apply font-lexendDeca text-2xl font-semibold md:text-3xl;
+    @apply text-2xl font-semibold md:text-3xl;
   }
 }
 
