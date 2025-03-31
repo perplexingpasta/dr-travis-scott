@@ -19,7 +19,7 @@ export const footerItemsCol3 = [
     title: "Quick Links",
     links: [
       { label: "Home", href: "/" },
-      { label: "Services", href: "/services" },
+      { label: "Treatments", href: "/treatments" },
       { label: "Why Us", href: "/why-us" },
       { label: "About", href: "/about" },
       { label: "Visit", href: "/visit" },

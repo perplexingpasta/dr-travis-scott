@@ -351,9 +351,9 @@ const Treatments = () => {
       </header>
       <main className="mx-auto mb-12 max-w-[90%] md:-mt-10">
         <section className="container mx-auto mb-10 rounded-3xl bg-gray-200 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
-          <h1 className="subheading title1-gsap mb-24 text-center opacity-0 md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
+          <h2 className="subheading title1-gsap mb-24 text-center opacity-0 md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
             Aesthetic & Anti-Aging Treatments
-          </h1>
+          </h2>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 md:gap-10 lg:grid-cols-4">
             {servicesAAT.map((service, index) => (
               <Service3dCard
@@ -369,9 +369,9 @@ const Treatments = () => {
         </section>
 
         <section className="container mx-auto mb-10 rounded-3xl bg-gray-200 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
-          <h1 className="subheading title2-gsap mb-24 text-center opacity-0 md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
+          <h2 className="subheading title2-gsap mb-24 text-center opacity-0 md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
             Hair Restoration & Treatment
-          </h1>
+          </h2>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 md:gap-10 lg:grid-cols-4">
             {servicesHRT.map((service, index) => (
               <Service3dCard
@@ -387,9 +387,9 @@ const Treatments = () => {
         </section>
 
         <section className="container mx-auto mb-10 rounded-3xl bg-gray-200 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
-          <h1 className="subheading title3-gsap mb-24 text-center opacity-0 md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
+          <h2 className="subheading title3-gsap mb-24 text-center opacity-0 md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
             Skin Lesion Removal
-          </h1>
+          </h2>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 md:gap-10 lg:grid-cols-4">
             {servicesSLR.map((service, index) => (
               <Service3dCard
@@ -405,9 +405,9 @@ const Treatments = () => {
         </section>
 
         <section className="container mx-auto mb-10 rounded-3xl bg-gray-200 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
-          <h1 className="subheading title4-gsap mb-24 text-center opacity-0 md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
+          <h2 className="subheading title4-gsap mb-24 text-center opacity-0 md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
             Pigmentation & Scar Treatment
-          </h1>
+          </h2>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 md:gap-10 lg:grid-cols-4">
             {servicesPST.map((service, index) => (
               <Service3dCard
@@ -423,9 +423,9 @@ const Treatments = () => {
         </section>
 
         <section className="container mx-auto mb-10 rounded-3xl bg-gray-200 px-4 pt-10 md:px-8 md:pt-7 lg:px-12">
-          <h1 className="subheading title5-gsap mb-24 text-center opacity-0 md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
+          <h2 className="subheading title5-gsap mb-24 text-center opacity-0 md:py-3 lg:mb-28 lg:mt-0 lg:text-left">
             Skin Cancer Treatment
-          </h1>
+          </h2>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 md:gap-10 lg:grid-cols-4">
             {servicesSCT.map((service, index) => (
               <Service3dCard

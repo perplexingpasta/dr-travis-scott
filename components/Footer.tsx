@@ -31,9 +31,9 @@ const Footer = () => {
         <div className="flex flex-col md:flex-1 lg:flex-row">
           {/* LEFT SECTION */}
           <div className="mt-16 md:mr-40 lg:mt-40">
-            <h1 className="text-xl font-bold md:text-3xl lg:max-w-[45vw]">
+            <h2 className="text-xl font-bold md:text-3xl lg:max-w-[45vw]">
               Dr. Varun Agarwal
-            </h1>
+            </h2>
             <p className="text-white-200 mt-1 text-sm md:mt-3">
               MD Dermatologist based in Delhi
             </p>
@@ -65,18 +65,18 @@ const Footer = () => {
           <div className="flex flex-1 flex-wrap justify-start gap-10 md:justify-around">
             {footerItemsCol2.map((section) => (
               <div key={section.bigTitle} className="max-w-md">
-                <h1 className="mb-2 text-xl font-medium leading-normal md:text-2xl">
+                <h2 className="mb-2 text-xl font-medium leading-normal md:text-2xl">
                   {section.bigTitle}
-                </h1>
+                </h2>
                 <ul>
                   {section.block.map((block) => (
                     <li
                       className="mt-3 text-sm leading-normal text-slate-200 md:mt-7 md:text-base"
                       key={block.id}
                     >
-                      <h1 className="text-base font-semibold uppercase md:text-lg">
+                      <h2 className="text-base font-semibold uppercase md:text-lg">
                         {block.hospital}
-                      </h1>
+                      </h2>
                       <p>{block.timings}</p>
                       {block.text.map((text) => (
                         <div key={text.title} className="md:mb-1">
@@ -99,9 +99,9 @@ const Footer = () => {
 
             {footerItemsCol3.map((section) => (
               <div key={section.title} className="hidden md:block">
-                <h1 className="mb-3 text-xl font-medium leading-normal md:mb-6 md:text-2xl">
+                <h2 className="mb-3 text-xl font-medium leading-normal md:mb-6 md:text-2xl">
                   {section.title}
-                </h1>
+                </h2>
                 <ul>
                   {section.links.map((item) => (
                     <li

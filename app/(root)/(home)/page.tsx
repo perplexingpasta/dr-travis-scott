@@ -115,7 +115,7 @@ const Home = () => {
 
         {/* WHY CHOOSE US */}
         <section className="mx-auto mb-12 mt-7 block max-w-[90%] rounded-3xl bg-red-200 py-6 pl-4 md:hidden">
-          <h1 className="text-2xl font-semibold md:text-3xl">Why Choose Us?</h1>
+          <h2 className="text-2xl font-semibold md:text-3xl">Why Choose Us?</h2>
           <DynamicWhy />
         </section>
 
@@ -135,9 +135,9 @@ const Home = () => {
 
         {/* FREQUENTLY ASKED QUESTIONS */}
         <section className="mx-auto mb-12 max-w-[90%] rounded-3xl bg-red-200 p-4 md:w-[85%] md:p-6 lg:mb-16 lg:w-[70%] lg:p-10">
-          <h1 className="subheading mb-4 py-1 text-center lg:pb-3">
+          <h2 className="subheading mb-4 py-1 text-center lg:pb-3">
             Frequently Asked Questions
-          </h1>
+          </h2>
           <DynamicFAQ />
         </section>
 

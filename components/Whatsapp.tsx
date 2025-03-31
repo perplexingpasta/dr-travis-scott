@@ -13,8 +13,8 @@ const Whatsapp = () => {
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          transform="rotate(0)"
-          className="mx-auto w-4/6 pl-[0.1rem] pt-[0.4rem] md:pl-[0.2rem] md:pt-[0.65rem]"
+          // transform="rotate(0)"
+          className="mx-auto w-4/6 rotate-0 transform pl-[0.1rem] pt-[0.4rem] md:pl-[0.2rem] md:pt-[0.65rem]"
         >
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
           <g

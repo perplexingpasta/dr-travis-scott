@@ -65,12 +65,12 @@ const About = () => {
           </picture>
         </div>
         <div className="description-gsap mt-10 h-auto w-full max-w-[90%] md:mt-16 lg:w-1/2">
-          <h1 className="text-2xl font-semibold md:text-3xl lg:text-4xl">
+          <h2 className="text-2xl font-semibold md:text-3xl lg:text-4xl">
             Dr. Varun Agarwal
-          </h1>
-          <h1 className="mb-4 text-lg text-slate-700 md:text-xl lg:text-2xl">
+          </h2>
+          <h2 className="mb-4 text-lg text-slate-700 md:text-xl lg:text-2xl">
             MBBS, MD, FCP
-          </h1>
+          </h2>
           <div className="max-w-[60%] border-b border-black opacity-25 md:max-w-xs lg:max-w-sm" />
           <br />
           {/* <div className="opacity-80 md:text-xl">
@@ -128,12 +128,12 @@ const About = () => {
             href="tel:01274222811"
             // target="_blank"
           >
-            <button className="rounded-lg bg-red-300 p-3 text-base transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:p-3 md:px-6 md:text-xl">
+            <div className="max-w-[75%] rounded-lg bg-red-300 p-3 text-base transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:p-3 md:px-6 md:text-xl lg:max-w-[50%]">
               <span className="flex items-center gap-x-2">
                 Book An Appointment
                 {/* <BiSolidPhoneCall className="md:text-2xl" /> */}
               </span>
-            </button>
+            </div>
           </a>
         </div>
       </div>

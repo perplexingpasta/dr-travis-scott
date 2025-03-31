@@ -54,9 +54,9 @@ const HomepageContact = () => {
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110064.79472718644!2d-121.50756434325555!3d38.57697908980686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ae7f918dc015b%3A0xa4dfb8793904b2ea!2sPacific%20Skin%20Institute!5e0!3m2!1sen!2sin!4v1740104697775!5m2!1sen!2sin"
               // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22582.143987612282!2d-122.1565248820646!3d37.42647615735572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbae5f33774b5%3A0x6dd7ef2d054587e3!2sTerun%20Pizza!5e0!3m2!1sen!2sin!4v1735704949104!5m2!1sen!2sin"
-              width="100%"
-              height="100%"
-              className="rounded-3xl border-0"
+              // width="100%"
+              // height="100%"
+              className="h-full w-full rounded-3xl border-0"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
@@ -137,12 +137,12 @@ const HomepageContact = () => {
             href="tel:01274222811"
             // target="_blank"
           >
-            <button className="rounded-lg bg-red-300 p-3 text-base transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:p-3 md:px-6 md:text-xl">
+            <div className="rounded-lg bg-red-300 p-3 text-base transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:p-3 md:px-6 md:text-xl">
               <span className="flex items-center gap-x-2">
                 Call Now
                 <BiSolidPhoneCall className="md:text-2xl" />
               </span>
-            </button>
+            </div>
           </a>
         </div>
       </div>

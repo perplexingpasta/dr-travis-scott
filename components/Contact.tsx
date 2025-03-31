@@ -104,7 +104,7 @@ const Contact = () => {
           />
         </div>
         <div className="h-auto w-full md:w-1/2">
-          <h1 className="text-2xl font-bold md:text-4xl mb-4">Contact Us</h1>
+          <h2 className="text-2xl font-bold md:text-4xl mb-4">Contact Us</h2>
           <div className="inline-flex items-center">
             <Image
               src="/images/location.svg"

@@ -147,9 +147,9 @@ const Visit = () => {
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110064.79472718644!2d-121.50756434325555!3d38.57697908980686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ae7f918dc015b%3A0xa4dfb8793904b2ea!2sPacific%20Skin%20Institute!5e0!3m2!1sen!2sin!4v1740104697775!5m2!1sen!2sin"
                 // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22582.143987612282!2d-122.1565248820646!3d37.42647615735572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbae5f33774b5%3A0x6dd7ef2d054587e3!2sTerun%20Pizza!5e0!3m2!1sen!2sin!4v1735704949104!5m2!1sen!2sin"
-                width="100%"
-                height="100%"
-                className="rounded-3xl border-0"
+                // width="100%"
+                // height="100%"
+                className="rounded-3xl border-0 w-full h-full"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
@@ -303,7 +303,7 @@ const Visit = () => {
                 Get Directions
               </Link> */}
 
-              <Link
+              <a
                 className="ml-12"
                 href="https://maps.google.com/maps/dir//Terun+Pizza+448+California+Ave+Palo+Alto,+CA+94306+United+States/@37.4259205,-122.1454743,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x808fbae5f33774b5:0x6dd7ef2d054587e3"
                 target="_blank"
@@ -317,13 +317,13 @@ const Visit = () => {
                   </div>
                 </button> */}
 
-                <button className="rounded-lg bg-red-300 p-3 text-base transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:p-3 md:px-6 md:text-xl">
+                <div className="ml-12 max-w-[50%] rounded-lg bg-red-300 p-3 text-base transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:p-3 md:px-6 md:text-xl lg:max-w-[25%]">
                   <span className="flex items-center gap-x-2">
                     Get Directions
                     <FaArrowRight className="md:text-2xl" />
                   </span>
-                </button>
-              </Link>
+                </div>
+              </a>
             </div>
           </div>
         </section>
@@ -340,9 +340,9 @@ const Visit = () => {
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110064.79472718644!2d-121.50756434325555!3d38.57697908980686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ae7f918dc015b%3A0xa4dfb8793904b2ea!2sPacific%20Skin%20Institute!5e0!3m2!1sen!2sin!4v1740104697775!5m2!1sen!2sin"
                   // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22582.143987612282!2d-122.1565248820646!3d37.42647615735572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbae5f33774b5%3A0x6dd7ef2d054587e3!2sTerun%20Pizza!5e0!3m2!1sen!2sin!4v1735704949104!5m2!1sen!2sin"
-                  width="100%"
-                  height="100%"
-                  className="rounded-3xl border-0"
+                  // width="100%"
+                  // height="100%"
+                  className="rounded-3xl border-0 w-full h-full"
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
@@ -434,9 +434,9 @@ const Visit = () => {
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110064.79472718644!2d-121.50756434325555!3d38.57697908980686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ae7f918dc015b%3A0xa4dfb8793904b2ea!2sPacific%20Skin%20Institute!5e0!3m2!1sen!2sin!4v1740104697775!5m2!1sen!2sin"
                   // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22582.143987612282!2d-122.1565248820646!3d37.42647615735572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbae5f33774b5%3A0x6dd7ef2d054587e3!2sTerun%20Pizza!5e0!3m2!1sen!2sin!4v1735704949104!5m2!1sen!2sin"
-                  width="100%"
-                  height="100%"
-                  className="rounded-3xl border-0"
+                  // width="100%"
+                  // height="100%"
+                  className="rounded-3xl border-0 w-full h-full"
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
@@ -524,9 +524,9 @@ const Visit = () => {
 
         {/* FAQs */}
         <section className="mx-auto mb-16 max-w-[90%] rounded-3xl bg-red-200 p-4 lg:my-16 lg:mb-20 lg:max-w-[70%] lg:p-10">
-          <h1 className="subheading mb-4 py-1 text-center lg:pb-3">
+          <h2 className="subheading mb-4 py-1 text-center lg:pb-3">
             Frequently Asked Questions
-          </h1>
+          </h2>
           <DynamicFAQs />
         </section>
 

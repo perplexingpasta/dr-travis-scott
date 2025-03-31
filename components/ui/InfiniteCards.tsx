@@ -28,7 +28,7 @@ export const InfiniteMovingCards = ({
 
   useEffect(() => {
     addAnimation();
-  }, []);
+  });
   const [start, setStart] = useState(false);
   function addAnimation() {
     if (containerRef.current && scrollerRef.current) {
@@ -122,9 +122,9 @@ export const InfiniteMovingCards = ({
                   />
                 </div>
                 <span className="flex flex-col gap-1">
-                  <div className="flex items-center gap-x-1 font-semibold md:text-xl">
+                  <span className="flex items-center gap-x-1 font-semibold md:text-xl">
                     {item.name} <TbRosetteDiscountCheckFilled />
-                  </div>
+                  </span>
 
                   <span className="text-xs font-normal text-gray-500 md:text-sm">
                     {item.date}

@@ -89,9 +89,9 @@ const About = () => {
           className="mb-10 flex w-full flex-col-reverse md:mb-16 lg:flex-row"
         >
           <div className="left-div-gsap mx-auto max-w-[90%] opacity-0 lg:mx-20 lg:w-1/2 lg:max-w-[40vw]">
-            <h1 className="subheading mb-1 mt-10 lg:mb-3 lg:mt-0">
+            <h2 className="subheading mb-1 mt-10 lg:mb-3 lg:mt-0">
               Dr. Varun Agarwal
-            </h1>
+            </h2>
             <p className="opacity-80 md:text-lg lg:text-xl">
               Dr. Varun Agarwal is a renowned dermatologist in Delhi with over
               12 years of experience in treating a wide range of skin problems.
@@ -134,9 +134,9 @@ const About = () => {
 
         {/* ASSOCIATIONS & MEMBERSHIPS */}
         <section className="mx-auto mb-12 rounded-3xl bg-red-200 p-4 md:mb-0 md:max-w-[85%] md:p-8">
-          <h1 className="subheading mb-4 text-center md:mb-8">
+          <h2 className="subheading mb-4 text-center md:mb-8">
             Associations & Memberships
-          </h1>
+          </h2>
           <div className="flex flex-col items-center justify-center gap-y-8 md:flex-row md:gap-x-7 lg:gap-x-32">
             <Image
               src="/association-brand/IMA.png"
@@ -178,9 +178,9 @@ const About = () => {
 
         {/* MEET OUR STAFF */}
         <section className="relative mt-24 hidden md:block">
-          <h1 className="subheading mb-12 mt-10 text-center lg:mt-0 lg:text-4xl">
+          <h2 className="subheading mb-12 mt-10 text-center lg:mt-0 lg:text-4xl">
             Meet Our Staff!
-          </h1>
+          </h2>
           <EmblaCarousel />
         </section>
 

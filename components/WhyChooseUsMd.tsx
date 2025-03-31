@@ -8,9 +8,9 @@ const WhyChooseUsMd = () => {
       </h1>
       <div className="lg:ml-8 lg:max-w-[75%]">
         <div>
-          <h1 className="mt-4 text-xl font-bold text-red-700 opacity-75 lg:mb-2 lg:mt-8 lg:text-2xl">
+          <h2 className="mt-4 text-xl font-bold text-red-700 opacity-75 lg:mb-2 lg:mt-8 lg:text-2xl">
             ✦ Consult with The Best
-          </h1>
+          </h2>
           <p className="ml-4 text-lg leading-relaxed lg:ml-8">
             Dr. Varun&apos;s Le Dermique is headed by Dr. varun Agarwal who is
             an MBBS and MD (Gold medalist) and is an acclaimed dermatologist and
@@ -21,9 +21,9 @@ const WhyChooseUsMd = () => {
         </div>
 
         <div>
-          <h1 className="mt-4 text-xl font-bold text-red-700 opacity-75 lg:mb-2 lg:mt-8 lg:text-2xl">
+          <h2 className="mt-4 text-xl font-bold text-red-700 opacity-75 lg:mb-2 lg:mt-8 lg:text-2xl">
             ✦ Patient-First Approach
-          </h1>
+          </h2>
           <p className="ml-4 text-lg leading-relaxed lg:ml-8">
             We maintain the transparency of the patient-doctor relationship. At
             Dr. Varun&apos;s Le Dermique we believe in empowerment and make
@@ -35,9 +35,9 @@ const WhyChooseUsMd = () => {
         </div>
 
         <div>
-          <h1 className="mt-4 text-xl font-bold text-red-700 opacity-75 lg:mb-2 lg:mt-8 lg:text-2xl">
+          <h2 className="mt-4 text-xl font-bold text-red-700 opacity-75 lg:mb-2 lg:mt-8 lg:text-2xl">
             ✦ Shared Values
-          </h1>
+          </h2>
           <p className="ml-4 text-lg leading-relaxed lg:ml-8">
             Genuine and ethical practice is our hallmark. We are driven by the
             importance of prevention, early diagnosis, and treatment.
@@ -45,9 +45,9 @@ const WhyChooseUsMd = () => {
         </div>
 
         <div>
-          <h1 className="mt-4 text-xl font-bold text-red-700 opacity-75 lg:mb-2 lg:mt-8 lg:text-2xl">
+          <h2 className="mt-4 text-xl font-bold text-red-700 opacity-75 lg:mb-2 lg:mt-8 lg:text-2xl">
             ✦ Latest & Advanced Technology
-          </h1>
+          </h2>
           <p className="ml-4 text-lg leading-relaxed lg:ml-8">
             Due to rising awareness, today&apos;s patients are global and need
             the most advanced choices. All our technology & equipment is US-FDA

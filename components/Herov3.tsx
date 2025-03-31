@@ -39,11 +39,11 @@ const Herov3 = () => {
               className="relative flex items-center justify-start md:mt-8 lg:-mb-4 lg:mt-12 lg:w-full"
               href="tel:01274222811"
             >
-              <button className="rounded-lg bg-red-300 p-3 text-base transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:p-3 lg:p-4 lg:px-4 lg:text-lg">
+              <div className="rounded-lg bg-red-300 p-3 text-base transition-all duration-300 hover:scale-110 hover:bg-red-400 hover:text-white hover:drop-shadow-xl active:bg-red-600 active:text-white md:p-3 lg:p-4 lg:px-4 lg:text-lg">
                 <span className="flex items-center gap-x-2">
                   Book An Appointment
                 </span>
-              </button>
+              </div>
             </a>
           </div>
         </div>

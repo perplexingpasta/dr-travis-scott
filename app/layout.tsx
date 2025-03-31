@@ -10,7 +10,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Dr. Varun Agarwal MD",
-  description: "Cactus Jack Dermatology",
+  description: "The official website of Dr. Varun Agarwal MD. Based in Delhi.",
   // other: {
   //   "twitter:card": "Asclepius 2024",
   //   "og:url": "https://asclepius2024.in",
@@ -18,8 +18,6 @@ export const metadata: Metadata = {
   // },
   icons: {
     icon: ["/favicon.ico"],
-    apple: ["/apple-touch-icon.png"],
-    shortcut: ["/apple-touch-icon.png"],
   },
 };
 

@@ -9,12 +9,12 @@ const PageNotFound = () => {
     <>
       <section id="error" className="pt-40">
         <div className="content relative">
-          <h1 className="header font-lexendDeca text-[9rem] font-bold md:text-[13rem] lg:text-[16rem] 2xl:text-[12vw]">
+          <h2 className="header font-lexendDeca text-[9rem] font-bold md:text-[13rem] lg:text-[16rem] 2xl:text-[12vw]">
             404
-          </h1>
-          <h1 id="pagenotfound" className="subheading pt-4">
+          </h2>
+          <h2 id="pagenotfound" className="subheading pt-4">
             Page not found
-          </h1>
+          </h2>
           <br />
           <p className="mx-auto max-w-[85%] md:max-w-full md:text-lg md:leading-8">
             Oops! It seems like the page you&apos;re trying to access
